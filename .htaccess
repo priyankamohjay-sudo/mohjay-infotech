@@ -1,0 +1,23 @@
+RewriteEngine On
+Options -Indexes
+
+# -------------------------
+# COURSE ROUTES
+# /course/web-development -> pages/course/web-development.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^course/([a-zA-Z0-9-_]+)/?$ pages/courses/$1.php [L,QSA]
+
+# -------------------------
+# NORMAL PAGES
+# /about-us -> pages/about-us.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z0-9-_]+)/?$ pages/$1.php [L,QSA]
+
+# -------------------------
+# CUSTOM 404
+# -------------------------
+ErrorDocument 404 /mi-skillls-website/pages/404.php
