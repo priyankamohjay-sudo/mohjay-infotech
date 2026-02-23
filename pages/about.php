@@ -35,40 +35,38 @@ include '../includes/header.php'; ?>
             <div class="feature-3-area-inner section-spacing">
               <div class="feature-3-thumb-wrapper fade-anim" data-direction="left">
                 <div class="feature-3-thumb-1 img-reveal-anim">
-                  <img src="assets/imgs/gallery/gallery-27.html" alt="image">
+                  <img src="assets/imgs/gallery/gallery-27.webp" alt="image">
                 </div>
                 <div class="feature-3-thumb-2" data-speed="0.9">
-                  <img src="assets/imgs/gallery/gallery-28.html" alt="image">
+                  <img src="assets/imgs/gallery/gallery-28.webp" alt="image">
                 </div>
               </div>
               <div class="feature-3-content fade-anim" data-direction="right">
                 <div class="section-title-wrapper">
                   <div class="subtitle-wrapper">
-                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">IT Infrastructure
-                        Modernization</span><span class="end-shape"></span></span>
+                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">ABOUT MOHJAY INFOTECH</span><span class="end-shape"></span></span>
                   </div>
                   <div class="title-wrapper">
-                    <h2 class="section-title">Make Sure Your Objectives
-                      Improves Profit Drivers</h2>
+                    <h2 class="section-title">Driving Innovation. Providing Digital Excellence.</h2>
                   </div>
                 </div>
                 <div class="text-wrapper">
-                  <p class="text">Available, but the majority have suffered alteration in some form, by injected humor,
-                    or randomized words which don't look even slightly believable. If you are going to use passage of
-                    Lorem Ipsum, you need to be sure there isn't anything</p>
+                  <p class="text">Mohjay Infotech is driven to support companies grow by means of intelligent technology solutions. We convert ideas into powerful digital experiences that generate actual commercial value with a team of qualified developers, designers, and digital strategists.</p>
+                  <p class="text">We think technology ought to help streamline processes, boost brand visibility, and drive expansion. We therefore emphasize creating scalable websites, strong applications, and results-oriented digital marketing plans suited to the particular objectives of every client.</p>
+
                 </div>
                 <div class="feature-list">
                   <ul>
-                    <li><i class="fa-solid fa-octagon-check"></i>24/7 System Monitoring & Support</li>
-                    <li><i class="fa-solid fa-octagon-check"></i>Data Backup & Disaster Recovery</li>
-                    <li><i class="fa-solid fa-octagon-check"></i>Cloud Integration & Scalability</li>
+                    <li><i class="fa-solid fa-octagon-check"></i>Customer-Centric Approach & Open Communication</li>
+                    <li><i class="fa-solid fa-octagon-check"></i>Creative, adaptable, and future-ready solutions</li>
+                    <li><i class="fa-solid fa-octagon-check"></i>Committed Support & Long-Run Alliances</li>
                   </ul>
                   <div class="cta-box">
                     <div class="icon rr-bg-white">
-                      <img src="assets/imgs/icon/icon-25.html" alt="image">
+                      <img src="assets/imgs/icon/icon-25.webp" alt="image">
                     </div>
                     <div class="cta-text">
-                      <div class="number"><a href="tel:+1(800)123-4567">+1 (800) 123-4567</a></div>
+                      <div class="number"><a href="tel:7349369477">7349369477</a></div>
                       <p class="text">Have any question?</p>
                     </div>
                   </div>
@@ -112,18 +110,17 @@ include '../includes/header.php'; ?>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                   </div>
-                  <p class="text">2960+ Client Reviews</p>
+                  <p class="text">500+ Client Reviews</p>
                 </div>
               </div>
               <div class="cta-content">
                 <div class="section-title-wrapper">
                   <div class="title-wrapper">
-                    <h2 class="section-title">Book An Appointment Now</h2>
+                    <h2 class="section-title">Start Your Tech Journey Today</h2>
                   </div>
                 </div>
                 <div class="text-wrapper">
-                  <p class="text">We are dedicated to building long-term partnerships with our clients, ensuring their
-                    success through every phase of their business journey.</p>
+                  <p class="text">We help students, freshers, and aspiring professionals build real-world skills through practical training and live projects. Learn, build, and grow with industry-focused programs designed to make you job-ready.</p>
                 </div>
                 <div class="btn-wrapper">
                   <a href="contact.html" class="rr-btn">
@@ -134,10 +131,13 @@ include '../includes/header.php'; ?>
                   </a>
                 </div>
               </div>
-              <div class="cta-down-option">
-                <span class="number">56923215+</span>
-                <p class="text">active Happy Impression</p>
-              </div>
+             <div class="cta-down-option">
+              <p class="text">Email Us</p>
+              <span class="number">
+                  <a href="mailto:info@mohjayinfotech.com">info@mohjayinfotech.com</a>
+              </span>
+             
+          </div>
             </div>
           </div>
         </div>
@@ -179,6 +179,128 @@ include '../includes/header.php'; ?>
         </section>
         <!-- story-2 area end  -->
 
+         <!-- testimonial area start -->
+        <section class="testimonial-area">
+          <div class="testimonial-area-bg">
+            <img src="assets/imgs/shape/shape-4.webp" alt="image">
+          </div>
+          <div class="container rr-container-1410">
+            <div class="testimonial-area-inner section-spacing-top">
+              <div class="testimonial-header fade-anim">
+                <div class="section-title-wrapper">
+                  <div class="subtitle-wrapper">
+                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Customer
+                        Feedbacks</span><span class="end-shape"></span></span>
+                  </div>
+                  <div class="title-wrapper">
+                    <h2 class="section-title">Hear From Our Happy Users</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-wrapper-box section-spacing-bottom fade-anim">
+            <div class="testimonial-wrapper">
+              <div class="swiper testimonial-active">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/client-1.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Ankit Jain</h3>
+                            <!-- <span class="post">Owner, Mitchell Design Studio</span> -->
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“The team at Mohjay Infotech completely transformed our website and app. They didn’t just make small updates — they improved performance, speed, and overall reliability in a big way. Everything now runs smoothly and efficiently, which has had a positive impact on our daily operations and overall growth. Their team is highly professional, skilled, and very easy to work with. We’re extremely happy with the results and would confidently recommend them to anyone looking for quality software solutions.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/client-2.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Kavita Nair</h3>
+                            <!-- <span class="post">Owner, Mitchell Design Studio</span> -->
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“Working with Mohjay Infotech was an excellent experience. They upgraded our website and app with significant improvements in speed, design, and functionality. The platforms are now more stable, user-friendly, and efficient, helping us operate better and grow faster. Their team showed great professionalism, technical expertise, and clear communication throughout the project. We truly appreciate their dedication and would highly recommend them to anyone seeking reliable IT and development services.” </p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/client-3.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Aditi Rao</h3>
+                            <!-- <span class="post">Owner, Mitchell Design Studio</span> -->
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                         <p class="text">“Mohjay Infotech delivered outstanding results for our website and app development. They enhanced performance, optimized features, and ensured everything works seamlessly across platforms. The improvements have strengthened our workflow and supported our business growth. Their team is knowledgeable, responsive, and committed to delivering high-quality work on time. We are very satisfied with their service and would gladly recommend them to businesses looking for dependable and professional technology partners.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- testimonial area end -->
+
         <!-- counter-2 area start  -->
         <div class="counter-2-area fade-anim">
           <div class="counter-2-bg">
@@ -190,38 +312,38 @@ include '../includes/header.php'; ?>
                 <div class="counter-2-wrapper">
                   <div class="counter-2-box fade-anim">
                     <div class="icon">
-                      <img src="assets/imgs/icon/icon-27.html" alt="image">
+                      <img src="assets/imgs/icon/icon-27.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title"><span class="number odometer" data-count="400">0</span>+</h3>
-                      <p class="text">Years Of Experience</p>
+                      <h3 class="title"><span class="number odometer" data-count="10">0</span>+</h3>
+                      <p class="text"> Years of Industry Experience</p>
                     </div>
                   </div>
                   <div class="counter-2-box fade-anim">
                     <div class="icon">
-                      <img src="assets/imgs/icon/icon-28.html" alt="image">
+                      <img src="assets/imgs/icon/icon-28.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title"><span class="number odometer" data-count="200">0</span>+</h3>
-                      <p class="text">Project’s Complete</p>
+                      <h3 class="title"><span class="number odometer" data-count="250">0</span>+</h3>
+                      <p class="text"> Projects Successfully Delivered</p>
                     </div>
                   </div>
                   <div class="counter-2-box fade-anim">
                     <div class="icon">
-                      <img src="assets/imgs/icon/icon-29.html" alt="image">
+                      <img src="assets/imgs/icon/icon-29.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title"><span class="number odometer" data-count="68">0</span>+</h3>
-                      <p class="text">Team Members</p>
+                      <h3 class="title"><span class="number odometer" data-count="35">0</span>+</h3>
+                      <p class="text">Skilled IT Professionals</p>
                     </div>
                   </div>
                   <div class="counter-2-box fade-anim">
                     <div class="icon">
-                      <img src="assets/imgs/icon/icon-30.html" alt="image">
+                      <img src="assets/imgs/icon/icon-30.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title"><span class="number odometer" data-count="99">0</span>+</h3>
-                      <p class="text">Total Award Wins</p>
+                      <h3 class="title"><span class="number odometer" data-count="150">0</span>+</h3>
+                      <p class="text"> Happy Clients Worldwide</p>
                     </div>
                   </div>
                 </div>
@@ -238,24 +360,21 @@ include '../includes/header.php'; ?>
               <div class="feature-1-content fade-anim">
                 <div class="section-title-wrapper">
                   <div class="subtitle-wrapper">
-                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Why Choose
-                        Us</span><span class="end-shape"></span></span>
+                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">WHY SELECT US</span><span class="end-shape"></span></span>
                   </div>
                   <div class="title-wrapper">
-                    <h2 class="section-title">Why People Loved <br>
-                      Our Services</h2>
+                    <h2 class="section-title">Why Companies Rely On Mohjay Infotech Pvt. Ltd.</h2>
                   </div>
                 </div>
                 <div class="text-wrapper">
-                  <p class="text">Our clients are at the heart of everything we do. We prioritize their needs, listen to
-                    their concerns, and work collaboratively to deliver customized solutions that exceed expectations.
+                  <p class="text">Mohjay Infotech's top priority is always our customers. We not only provide solutions but also develop relationships. Understanding your objectives and difficulties enables us to develop tailored digital solutions that foster quantifiable expansion and sustained success.
                   </p>
                 </div>
                 <div class="btn-wrapper">
                   <a href="contact.html" class="rr-btn">
                     <span class="btn-wrap">
-                      <span class="text-one">Get a Quote</span>
-                      <span class="text-two">Get a Quote</span>
+                      <span class="text-one">Obtain An Estimate</span>
+                      <span class="text-two">Obtain An Estimate</span>
                     </span>
                   </a>
                 </div>
@@ -267,8 +386,8 @@ include '../includes/header.php'; ?>
                       <img src="assets/imgs/icon/icon-15.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title">Realtime Conversation</h3>
-                      <p class="text">Seize magnetic before visa alignment network wireless whereas frictionless</p>
+                      <h3 class="title">Strategic & Open Communication</h3>
+                      <p class="text">Clear, real-time communication is maintained across all projects to guarantee you are always informed, engaged, and confident in the procedure.</p>
                     </div>
                   </div>
                   <div class="feature-1-box fade-anim">
@@ -276,8 +395,8 @@ include '../includes/header.php'; ?>
                       <img src="assets/imgs/icon/icon-16.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title">Personalized Chat Visual</h3>
-                      <p class="text">Seize magnetic before visa alignment network wireless whereas frictionless</p>
+                      <h3 class="title">Customized and adaptable solutions</h3>
+                      <p class="text">Every company is different. We create individualized plans and adaptable digital solutions that exactly match your goals and future development ideas.</p>
                     </div>
                   </div>
                   <div class="feature-1-box fade-anim">
@@ -285,8 +404,8 @@ include '../includes/header.php'; ?>
                       <img src="assets/imgs/icon/icon-17.webp" alt="image">
                     </div>
                     <div class="content">
-                      <h3 class="title">Higher Response Rate</h3>
-                      <p class="text">Seize magnetic before visa alignment network wireless whereas frictionless</p>
+                      <h3 class="title">Dependable Assistance & Quicker Execution</h3>
+                      <p class="text">To keep your company operating effectively, our committed team guarantees rapid response times, seamless project completion, and constant technical help.</p>
                     </div>
                   </div>
                 </div>
@@ -296,184 +415,8 @@ include '../includes/header.php'; ?>
         </section>
         <!-- feature-1 area end  -->
 
-        <!-- brand-3 area start  -->
-        <div class="brand-3-area fade-anim">
-          <div class="brand-3-bg">
-            <img src="assets/imgs/gallery/gallery-31.html" alt="image">
-          </div>
-          <div class="container rr-container-1410">
-            <div class="brand-3-area-inner">
-              <div class="brand-3-wrapper-box">
-                <div class="brand-3-wrapper">
-                  <div class="swiper brand-3-slider-active">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-9.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-10.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-11.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-12.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-13.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-9.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-10.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-11.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-12.html" alt="image">
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="brand-3-box">
-                          <img src="assets/imgs/brand/brand-13.html" alt="image">
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- brand-3 area end  -->
 
-        <!-- team area start -->
-        <section class="team-area">
-          <div class="container rr-container-1410">
-            <div class="team-area-inner section-spacing">
-              <div class="team-header fade-anim">
-                <div class="section-title-wrapper">
-                  <div class="subtitle-wrapper">
-                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Meet Our
-                        Team</span><span class="end-shape"></span></span>
-                  </div>
-                  <div class="title-wrapper">
-                    <h2 class="section-title">Modernize Your IT, Maximize Your <br>
-                      Business Potential</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="team-wrapper-box">
-                <div class="team-wrapper">
-                  <div class="team-box rr-bg-white fade-anim">
-                    <div class="thumb">
-                      <div class="social">
-                        <div class="social-link">
-                          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                          <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="https://discord.com/"><i class="fa-brands fa-discord"></i></a>
-                          <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                        <div class="bg-shape"></div>
-                        <span class="share-icon"><i class="fa-regular fa-share-nodes"></i></span>
-                      </div>
-                      <a href="team-details.html">
-                        <img src="assets/imgs/team/team-1.webp" alt="image">
-                      </a>
-                    </div>
-                    <div class="content">
-                      <h3 class="name"><a href="team-details.html">James Anderson</a></h3>
-                      <span class="post">Marketing Head</span>
-                    </div>
-                  </div>
-                  <div class="team-box rr-bg-white fade-anim">
-                    <div class="thumb">
-                      <div class="social">
-                        <div class="social-link">
-                          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                          <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="https://discord.com/"><i class="fa-brands fa-discord"></i></a>
-                          <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                        <div class="bg-shape"></div>
-                        <span class="share-icon"><i class="fa-regular fa-share-nodes"></i></span>
-                      </div>
-                      <a href="team-details.html">
-                        <img src="assets/imgs/team/team-2.webp" alt="image">
-                      </a>
-                    </div>
-                    <div class="content">
-                      <h3 class="name"><a href="team-details.html">Amelia Fairchild</a></h3>
-                      <span class="post">Marketing Head</span>
-                    </div>
-                  </div>
-                  <div class="team-box rr-bg-white fade-anim">
-                    <div class="thumb">
-                      <div class="social">
-                        <div class="social-link">
-                          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                          <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="https://discord.com/"><i class="fa-brands fa-discord"></i></a>
-                          <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                        <div class="bg-shape"></div>
-                        <span class="share-icon"><i class="fa-regular fa-share-nodes"></i></span>
-                      </div>
-                      <a href="team-details.html">
-                        <img src="assets/imgs/team/team-3.webp" alt="image">
-                      </a>
-                    </div>
-                    <div class="content">
-                      <h3 class="name"><a href="team-details.html">Thomas Ellington</a></h3>
-                      <span class="post">Marketing Head</span>
-                    </div>
-                  </div>
-                  <div class="team-box rr-bg-white fade-anim">
-                    <div class="thumb">
-                      <div class="social">
-                        <div class="social-link">
-                          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                          <a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
-                          <a href="https://discord.com/"><i class="fa-brands fa-discord"></i></a>
-                          <a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a>
-                        </div>
-                        <div class="bg-shape"></div>
-                        <span class="share-icon"><i class="fa-regular fa-share-nodes"></i></span>
-                      </div>
-                      <a href="team-details.html">
-                        <img src="assets/imgs/team/team-4.webp" alt="image">
-                      </a>
-                    </div>
-                    <div class="content">
-                      <h3 class="name"><a href="team-details.html">Olivia Westwood</a></h3>
-                      <span class="post">Marketing Head</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- team area end -->
+       
 
       </main>
 

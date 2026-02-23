@@ -171,7 +171,7 @@
                     <li><a href="<?= BASE_URL ?>">Home</a> </li>
                    <li><a href="<?= BASE_URL ?>about">About Us</a></li>
                     <li class="menu-item-has-children">
-                      <a href="#">Services</a>
+                      <a href="<?= BASE_URL ?>service">Services</a>
                       <ul class="dp-menu">
                         <li><a href="<?= BASE_URL ?>web-development">Web Development</a></li>
                         <li><a href="<?= BASE_URL ?>digital-marketing">Digital Marketing</a></li>

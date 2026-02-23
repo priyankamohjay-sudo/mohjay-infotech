@@ -37,18 +37,6 @@ include '../includes/header.php'; ?>
                 <div class="contact-box fade-anim">
                   <div class="thumb">
                     <div class="icon">
-                      <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <img src="assets/imgs/gallery/gallery-45.webp" alt="image">
-                  </div>
-                  <div class="contact-text">
-                    <div class="link">Our Address:</div>
-                    <p class="text">Anand Arcade, 305, Canal Rd, near Rajpur Road, Kishanpur, Dehradun, Uttarakhand 248009</p>
-                  </div>
-                </div>
-                <div class="contact-box fade-anim">
-                  <div class="thumb">
-                    <div class="icon">
                       <i class="fa-solid fa-envelope"></i>
                     </div>
                     <img src="assets/imgs/gallery/gallery-46.webp" alt="image">
@@ -58,6 +46,19 @@ include '../includes/header.php'; ?>
                     <a href="mailto:support@mohjayinfotech.com">support@mohjayinfotech.com</a>
                   </div>
                 </div>
+                <div class="contact-box fade-anim">
+                  <div class="thumb">
+                    <div class="icon">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <img src="assets/imgs/gallery/gallery-45.webp" alt="image">
+                  </div>
+                  <div class="contact-text">
+                    <div class="link">Our Address:</div>
+                    <p class="text"><a href="https://maps.app.goo.gl/2PoLEUeXbkj6hvtj7">Anand Arcade, 305, Canal Rd, near Rajpur Road, Kishanpur, Dehradun, Uttarakhand 248009</a></p>
+                  </div>
+                </div>
+                
                 <div class="contact-box fade-anim">
                   <div class="thumb">
                     <div class="icon">
@@ -72,127 +73,187 @@ include '../includes/header.php'; ?>
                 </div>
               </div>
               
-               <div class="contact-map">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35795.11384638031!2d-99.17159308242708!3d19.434090077412847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8d31cc643c1%3A0xf196290face78843!2sColonia%20Tabacalera%2C%2006030%20Mexico%20City%2C%20CDMX%2C%20Mexico!5e0!3m2!1sen!2sbd!4v1753283924211!5m2!1sen!2sbd"
-                      style="border:0;" allowfullscreen="" loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"></iframe>
+               <div class="contact-map pt-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d220302.77922937262!2d77.77956969453126!3d30.3727999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d7c4524a78db%3A0x8a7f8b12f197e45e!2sMohjay%20Infotech%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1771616864796!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
 
-              <div class="contact-form-wrapper-box fade-anim">
-                <div class="contact-form-wrapper">
-                  <div class="contact-form-content">
-                    <div class="section-title-wrapper">
-                      <div class="subtitle-wrapper">
-                        <span class="section-subtitle"><span class="start-shape"></span><span class="text">Get in
-                            touch</span><span class="end-shape"></span></span>
-                      </div>
-                      <div class="title-wrapper">
-                        <h2 class="section-title">Hi, how you doing today? <br>
-                          Let's talk now.</h2>
-                      </div>
+            
+
+            </div>
+          </div>
+        </div>
+        <!-- contact area end  -->
+
+             <div class="about-process-group">
+            <div class="about-process-group-bg">
+              <div class="area-shape-1" data-speed="0.7">
+                <img src="assets/imgs/shape/shape-12.webp" alt="image" />
+              </div>
+              <div class="area-shape-2" data-speed="0.8">
+                <img src="assets/imgs/shape/shape-13.webp" alt="image" />
+              </div>
+              <img src="assets/imgs/shape/shape-11.webp" alt="image" />
+            </div>
+         
+          <section class="appointment-2-area">
+            <div class="container rr-container-1410">
+              <div class="appointment-2-area-inner section-spacing">
+
+                <!-- ================= LEFT SIDE FAQ ================= -->
+                <div class="appointment-2-content fade-anim" data-direction="left">
+
+                  <div class="section-title-wrapper">
+                    <div class="subtitle-wrapper">
+                      <span class="section-subtitle">
+                        <span class="start-shape"></span>
+                        <span class="text">Frequently Asked Questions</span>
+                        <span class="end-shape"></span>
+                      </span>
                     </div>
-                    <div class="main-contact-wrap">
-                      <form action="#">
-                        <div class="contact-formwrap">
-                          <div class="contact-formfield">
-                            <input type="text" name="Name" id="Name" placeholder="Your Name">
-                            <i class="fa-regular fa-user"></i>
-                          </div>
-                          <div class="contact-formfield">
-                            <input type="text" name="Email" id="Email" placeholder="Your Email">
-                            <i class="fa-regular fa-envelope"></i>
-                          </div>
-                          <div class="contact-formfield">
-                            <input type="text" name="Phone" id="Phone" placeholder="Your Phone">
-                            <i class="fa-regular fa-phone"></i>
-                          </div>
-                          <div class="contact-formfield">
-                            <select name="category" id="category">
-                              <option value="Reason for enquiry" selected disabled>Reason for enquiry</option>
-                              <option value="IT Service">IT Service</option>
-                              <option value="Cloud Service">Cloud Service</option>
-                              <option value="Cybersecurity">Cybersecurity</option>
-                              <option value="Business">Business</option>
-                              <option value="Marketing">Marketing</option>
-                            </select>
-                            <i class="fa-solid fa-angle-down"></i>
-                          </div>
-                          <div class="contact-formfield span-2">
-                            <textarea name="message" id="message"
-                              placeholder="Tell us about your project..."></textarea>
-                            <i class="fa-regular fa-pen"></i>
-                          </div>
-                        </div>
-                        <div class="submit-btn">
-                          <button type="submit" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">Send Message <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">Send Message <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </button>
-                        </div>
-                      </form>
+                    <div class="title-wrapper">
+                      <h2 class="section-title">
+                        Extensive Frequently Asked Questions
+                      </h2>
                     </div>
                   </div>
-                   <div class="appointment-2-contact-wrap fade-anim" data-direction="right">
+
+                  <div class="faq-accordion mt-40">
+                    <div class="accordion" id="appointmentFaq">
+
+                      <!-- FAQ 1 -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingOne">
+                          <button class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseOne"
+                            aria-expanded="true"
+                            aria-controls="faqCollapseOne">
+                            1. What services mohjay infotech offer?
+                          </button>
+                        </h2>
+                        <div id="faqCollapseOne"
+                          class="accordion-collapse collapse show"
+                          data-bs-parent="#appointmentFaq">
+                          <div class="accordion-body">
+                           To enable companies to expand digitally and get quantifiable results, we provide custom software solutions as well as website development, app development, digital marketing, SEO, graphic design, and custom software.
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- FAQ 2 -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingTwo">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseTwo">
+                             2. Do You Provide Startups and Businesses Custom Solutions?
+                          </button>
+                        </h2>
+                        <div id="faqCollapseTwo"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#appointmentFaq">
+                          <div class="accordion-body">
+                           Indeed. We provide scalable and customized digital solutions suited for your company objectives and future growth plans whether you are a new venture or an existing one.
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- FAQ 3 -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingThree">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseThree">
+                            3. After project completion, do you provide continual assistance?
+                          </button>
+                        </h2>
+                        <div id="faqCollapseThree"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#appointmentFaq">
+                          <div class="accordion-body">
+                           Yes, to guarantee steady performance and long-term dependability, we give technical assistance, updates, security monitoring, and ongoing maintenance.
+                          </div>
+                        </div>
+                      </div>
+
+                       <!-- FAQ 4 -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingFour">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseFour">
+                           4. How long does one have to create an app or website?
+                          </button>
+                        </h2>
+                        <div id="faqCollapseFour"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#appointmentFaq">
+                          <div class="accordion-body">
+                           Project deadlines depend on complexity, features, and requirements. A typical website may take 2–4 weeks custom applications could call for more time for development and testing.
+                          </div>
+                        </div>
+                      </div>
+                       <!-- FAQ 5 -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="faqHeadingFive">
+                          <button class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faqCollapseFive">
+                           5. Will my website be search engine optimization-friendly and mobile-friendly?
+                          </button>
+                        </h2>
+                        <div id="faqCollapseFive"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#appointmentFaq">
+                          <div class="accordion-body">
+                           Of course. To guarantee improved search visibility and flawless performance across all devices, we design responsive, mobile-first websites with SEO-friendly architectures.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- ================= RIGHT SIDE FORM (UNCHANGED) ================= -->
+                <div class="appointment-2-contact-wrap fade-anim" data-direction="right">
                   <h3 class="contact-title">Book Your Service Here</h3>
                   <form action="#">
                     <div class="form-bg">
-                      <img
-                        src="assets/imgs/gallery/gallery-15.webp"
-                        alt="image"
-                      />
+                      <img src="assets/imgs/gallery/gallery-15.webp" alt="image" />
                     </div>
+
                     <div class="appointment-2-formwrap">
                       <div class="appointment-2-formfield">
-                        <input
-                          type="text"
-                          name="Name"
-                          id="Name"
-                          placeholder="First Name*"
-                        />
+                        <input type="text" name="Name" id="Name" placeholder="First Name*" />
                       </div>
+
                       <div class="appointment-2-formfield">
-                        <input
-                          type="text"
-                          name="L_Name"
-                          id="L_Name"
-                          placeholder="Last Name*"
-                        />
+                        <input type="text" name="L_Name" id="L_Name" placeholder="Last Name*" />
                       </div>
+
                       <div class="appointment-2-formfield">
-                        <input
-                          type="text"
-                          name="Email"
-                          id="Email"
-                          placeholder="Your Email*"
-                        />
+                        <input type="text" name="Email" id="Email" placeholder="Your Email*" />
                       </div>
+
                       <div class="appointment-2-formfield">
-                        <input
-                          type="text"
-                          name="Phone"
-                          id="Phone"
-                          placeholder="Phone Number*"
-                        />
+                        <input type="text" name="Phone" id="Phone" placeholder="Phone Number*" />
                       </div>
+
                       <div class="appointment-2-formfield span-2">
-                        <input
-                          type="url"
-                          name="Url"
-                          id="Url"
-                          placeholder="Your Website Url*"
-                        />
+                        <input type="url" name="Url" id="Url" placeholder="Your Website Url*" />
                       </div>
+
                       <div class="appointment-2-formfield span-2 message">
-                        <textarea
-                          name="Message"
-                          id="Message"
-                          placeholder="Write Your Message Here*"
-                        ></textarea>
+                        <textarea name="Message" id="Message" placeholder="Write Your Message Here*"></textarea>
                       </div>
                     </div>
+
                     <div class="submit-btn">
                       <button type="submit" class="rr-btn">
                         <span class="btn-wrap">
@@ -201,16 +262,15 @@ include '../includes/header.php'; ?>
                         </span>
                       </button>
                     </div>
+
                   </form>
                 </div>
-                </div>
+
               </div>
-
             </div>
+          </section>
+            
           </div>
-        </div>
-        <!-- contact area end  -->
-
 
       </main>
 
