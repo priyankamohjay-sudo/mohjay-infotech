@@ -1,0 +1,287 @@
+﻿{
+  "web-development": {
+    "meta_title": "Web Development Services | Mohjay Infotech",
+    "meta_description": "High-performance, secure, and scalable websites designed to convert and grow your business.",
+    "meta_tags": "web development, website design, ecommerce, ui ux, seo",
+    "breadcrumb_title": "Web Development",
+    "subtitle": "Web Development",
+    "headline": "Build Powerful Websites That Drive Real Business Growth",
+    "highlight": "At Mohjay Infotech website development company, we build websites that are fast, eye-catching and designed to convert visitors into customers based on your business objectives.",
+    "body": "Website development is more than design. It is about creating a seamless digital experience that converts visitors into customers. We build responsive, fast-loading, and SEO-optimized websites using modern technologies for performance, security, and scalability. From corporate websites and ecommerce platforms to custom web applications, our solutions are designed to optimize user experience, strengthen brand credibility, and improve online visibility. Clean UI/UX, mobile responsiveness, loading speed optimization, and reliable backend systems help your business stand out. Whether you are launching a new brand or rebuilding an existing platform, our websites are secure, scalable, and built for long-term success.",
+    "cta_text": "Talk to an Expert",
+    "cta_link": "contact",
+    "hero_image": "assets/imgs/gallery/gallery-32.webp",
+    "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
+    "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
+    "key_services_title": "Key Website Development Services We Provide",
+    "key_services": [
+      "Custom Website Design and Development",
+      "Responsive and Mobile-First Development",
+      "Ecommerce Website Development",
+      "UI/UX Design and Prototyping",
+      "CMS Development (WordPress and Custom)",
+      "Website Redesign and Revamp",
+      "SEO-Friendly Website Architecture",
+      "Website Maintenance and Technical Support"
+    ],
+    "process_title": "Ways to Grow Your Company With Smart Websites",
+    "process_steps": [
+      {
+        "number": "01",
+        "title": "Define",
+        "text": "We clarify your goals, audience, and requirements, then create a clear roadmap that aligns design with your brand and business objectives."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "text": "We craft a clean, responsive interface that keeps users engaged and delivers a consistent experience across devices."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "text": "We develop a secure, scalable website with SEO-friendly structure, optimized performance, and modern standards."
+      },
+      {
+        "number": "04",
+        "title": "Test and Launch",
+        "text": "We test for speed, security, and cross-browser compatibility, then launch and support you for long-term success."
+      }
+    ]
+  },
+  "app-development": {
+    "meta_title": "App Development Services | Mohjay Infotech",
+    "meta_description": "Custom iOS and Android apps built for performance, security, and great user experience.",
+    "meta_tags": "app development, ios, android, mobile apps, ui ux",
+    "breadcrumb_title": "App Development",
+    "subtitle": "App Development",
+    "headline": "Create High-Impact Mobile Apps That Users Love",
+    "highlight": "We design and develop powerful, user-friendly mobile applications that help businesses connect, engage, and grow.",
+    "body": "From concept to deployment, our apps are built for performance, security, and seamless user experience. We deliver cross-platform and native solutions with scalable architecture, clean UI/UX, and reliable integrations that support long-term growth.",
+    "cta_text": "Talk to an Expert",
+    "cta_link": "contact",
+    "hero_image": "assets/imgs/service/service-9.webp",
+    "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
+    "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
+    "key_services_title": "Key App Development Services We Provide",
+    "key_services": [
+      "iOS and Android App Development",
+      "Cross-Platform App Development",
+      "UI/UX Design for Mobile",
+      "API and Third-Party Integrations",
+      "App Store Deployment",
+      "Maintenance and Performance Monitoring"
+    ],
+    "process_title": "Ways to Grow Your Company With Smart Apps",
+    "process_steps": [
+      {
+        "number": "01",
+        "title": "Discovery",
+        "text": "We align business goals, users, and requirements to define a clear product strategy."
+      },
+      {
+        "number": "02",
+        "title": "Design",
+        "text": "We design user flows and UI that maximize engagement and retention."
+      },
+      {
+        "number": "03",
+        "title": "Development",
+        "text": "We build secure, scalable apps using proven frameworks and best practices."
+      },
+      {
+        "number": "04",
+        "title": "Launch and Support",
+        "text": "We test across devices, deploy to stores, and provide ongoing support."
+      }
+    ]
+  },
+  "digital-marketing": {
+    "meta_title": "Digital Marketing Services | Mohjay Infotech",
+    "meta_description": "ROI-driven digital marketing campaigns to grow visibility, traffic, and leads.",
+    "meta_tags": "digital marketing, seo, ads, social media, performance marketing",
+    "breadcrumb_title": "Digital Marketing",
+    "subtitle": "Digital Marketing",
+    "headline": "Grow Visibility, Traffic, and Leads With Performance Marketing",
+    "highlight": "We help businesses grow with measurable and performance-focused campaigns.",
+    "body": "Our digital marketing combines SEO, paid ads, and social media strategy to increase qualified traffic and conversions. We focus on measurable outcomes with clear reporting and optimization.",
+    "cta_text": "Talk to an Expert",
+    "cta_link": "contact",
+    "hero_image": "assets/imgs/service/service-8.webp",
+    "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
+    "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
+    "key_services_title": "Key Digital Marketing Services We Provide",
+    "key_services": [
+      "Search Engine Optimization (SEO)",
+      "Google and Meta Ads Management",
+      "Social Media Strategy and Content",
+      "Landing Page Optimization",
+      "Conversion Tracking and Analytics",
+      "Campaign Reporting and Optimization"
+    ],
+    "process_title": "Ways to Grow Your Company With Smart Marketing",
+    "process_steps": [
+      {
+        "number": "01",
+        "title": "Audit",
+        "text": "We evaluate your current performance and identify growth opportunities."
+      },
+      {
+        "number": "02",
+        "title": "Strategy",
+        "text": "We build a channel mix that aligns with your goals and budget."
+      },
+      {
+        "number": "03",
+        "title": "Execution",
+        "text": "We launch campaigns with clear KPIs and tracking in place."
+      },
+      {
+        "number": "04",
+        "title": "Optimization",
+        "text": "We improve ROI with continuous testing and reporting."
+      }
+    ]
+  },
+  "social-media-optimization": {
+    "meta_title": "SEO Optimization Services | Mohjay Infotech",
+    "meta_description": "Technical and content SEO to improve rankings and long-term organic growth.",
+    "meta_tags": "seo, seo optimization, technical seo, content seo",
+    "breadcrumb_title": "SEO Optimization",
+    "subtitle": "SEO Optimization",
+    "headline": "Rank Higher and Grow Organic Traffic",
+    "highlight": "Our strategic SEO approach improves visibility, drives targeted traffic, and increases long-term growth.",
+    "body": "We combine technical audits, on-page optimization, and content strategy to build sustainable search visibility. Our SEO process is data-driven and aligned with your business goals.",
+    "cta_text": "Talk to an Expert",
+    "cta_link": "contact",
+    "hero_image": "assets/imgs/service/service-10.webp",
+    "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
+    "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
+    "key_services_title": "Key SEO Services We Provide",
+    "key_services": [
+      "Keyword Research and Content Planning",
+      "Technical SEO Audits",
+      "On-Page Optimization",
+      "Link Building Strategy",
+      "Local SEO Optimization",
+      "Performance Reporting"
+    ],
+    "process_title": "Ways to Grow Your Company With Smart SEO",
+    "process_steps": [
+      {
+        "number": "01",
+        "title": "Research",
+        "text": "We analyze keywords, competitors, and content gaps."
+      },
+      {
+        "number": "02",
+        "title": "Optimize",
+        "text": "We improve site structure, speed, and on-page elements."
+      },
+      {
+        "number": "03",
+        "title": "Build",
+        "text": "We publish and optimize content to match search intent."
+      },
+      {
+        "number": "04",
+        "title": "Measure",
+        "text": "We track rankings, traffic, and conversions to refine the plan."
+      }
+    ]
+  },
+  "graphic-designing": {
+    "meta_title": "Graphic Designing Services | Mohjay Infotech",
+    "meta_description": "Branding and creative design that communicates clearly and stands out.",
+    "meta_tags": "graphic design, branding, logo, marketing creatives",
+    "breadcrumb_title": "Graphic Designing",
+    "subtitle": "Graphic Designing",
+    "headline": "Designs That Speak, Brands That Stand Out",
+    "highlight": "We create visually compelling designs that communicate your brand message effectively.",
+    "body": "From branding to marketing creatives, our design work is built to capture attention and reinforce your identity. We blend strategy with aesthetics to deliver designs that perform across digital and print.",
+    "cta_text": "Talk to an Expert",
+    "cta_link": "contact",
+    "hero_image": "assets/imgs/service/service-11.webp",
+    "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
+    "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
+    "key_services_title": "Key Design Services We Provide",
+    "key_services": [
+      "Logo and Brand Identity",
+      "Marketing and Social Creatives",
+      "Brochures and Banners",
+      "Presentation Design",
+      "UI/UX Visual Design",
+      "Brand Guidelines"
+    ],
+    "process_title": "Ways to Grow Your Company With Smart Design",
+    "process_steps": [
+      {
+        "number": "01",
+        "title": "Discover",
+        "text": "We understand your brand, audience, and goals."
+      },
+      {
+        "number": "02",
+        "title": "Concept",
+        "text": "We explore visual directions that fit your identity."
+      },
+      {
+        "number": "03",
+        "title": "Design",
+        "text": "We produce polished assets ready for your channels."
+      },
+      {
+        "number": "04",
+        "title": "Refine",
+        "text": "We iterate based on feedback to finalize the work."
+      }
+    ]
+  },
+  "social-media-marketing": {
+    "meta_title": "Social Media Marketing | Mohjay Infotech",
+    "meta_description": "Campaigns that build awareness, engagement, and leads on social platforms.",
+    "meta_tags": "social media marketing, content, ads, engagement",
+    "breadcrumb_title": "Social Media Marketing",
+    "subtitle": "Social Media Marketing",
+    "headline": "Engage, Influence, and Convert Across Social Channels",
+    "highlight": "We help brands build strong digital presence and meaningful audience engagement across social platforms.",
+    "body": "Our social media services combine content strategy, creative production, and paid campaigns to increase visibility and generate high-quality leads. We focus on consistent growth and measurable outcomes.",
+    "cta_text": "Talk to an Expert",
+    "cta_link": "contact",
+    "hero_image": "assets/imgs/service/service-12.webp",
+    "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
+    "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
+    "key_services_title": "Key Social Media Services We Provide",
+    "key_services": [
+      "Content Strategy and Calendars",
+      "Creative Design and Copywriting",
+      "Paid Social Campaigns",
+      "Community Management",
+      "Influencer Collaboration",
+      "Reporting and Optimization"
+    ],
+    "process_title": "Ways to Grow Your Company With Social Media",
+    "process_steps": [
+      {
+        "number": "01",
+        "title": "Plan",
+        "text": "We define goals, platforms, and content pillars."
+      },
+      {
+        "number": "02",
+        "title": "Create",
+        "text": "We produce content that fits your brand and audience."
+      },
+      {
+        "number": "03",
+        "title": "Promote",
+        "text": "We run targeted ads to amplify reach and leads."
+      },
+      {
+        "number": "04",
+        "title": "Optimize",
+        "text": "We measure performance and improve results over time."
+      }
+    ]
+  }
+}
+

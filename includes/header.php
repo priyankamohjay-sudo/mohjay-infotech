@@ -176,7 +176,7 @@
                         <li><a href="<?= BASE_URL ?>web-development">Web Development</a></li>
                         <li><a href="<?= BASE_URL ?>digital-marketing">Digital Marketing</a></li>
                         <li><a href="<?= BASE_URL ?>app-development">App Development</a></li>
-                        <li><a href="<?= BASE_URL ?>seo-optimization">SEO Optimization</a></li>
+                        <li><a href="<?= BASE_URL ?>social-media-optimization">SEO Optimization</a></li>
                         <li><a href="<?= BASE_URL ?>graphic-designing">Graphic Designing</a></li>
                         <li><a href="<?= BASE_URL ?>social-media-marketing">Social Media Marketing</a></li>
                       </ul>

@@ -1,3 +1,3 @@
 ﻿<?php
-$serviceSlug = 'web-development';
+$serviceSlug = 'social-media-optimization';
 include __DIR__ . '/service-template.php';
