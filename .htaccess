@@ -8,9 +8,9 @@ RewriteBase /mohjay-infotech/
 # COURSE ROUTES
 # /course/web-development -> pages/course/web-development.php
 # -------------------------
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^course/([a-zA-Z0-9-_]+)/?$ pages/courses/$1.php [L,QSA]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^course/([a-zA-Z0-9-_]+)/?$ pages/courses/$1.php [L,QSA]
 
 # -------------------------
 # NORMAL PAGES
