@@ -114,8 +114,8 @@
                 <p class="text">Copyright &copy; <?php echo date("Y"); ?> Mohjay Infotech Pvt. Ltd. | All Rights Reserved.</p>
               </div>
               <div class="copyright-3-link">
-                <a href="contact.html">Privacy policy</a>
-                <a href="contact.html">Terms of use</a>
+                <a href="privacy-policy">Privacy policy</a>
+                <a href="terms-and-conditions">Terms of use</a>
               </div>
             </div>
           </div>

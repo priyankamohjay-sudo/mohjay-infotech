@@ -1,13 +1,12 @@
 ﻿{
   "web-development": {
-    "meta_title": "Web Development Services | Mohjay Infotech",
-    "meta_description": "High-performance, secure, and scalable websites designed to convert and grow your business.",
-    "meta_tags": "web development, website design, ecommerce, ui ux, seo",
+    "meta_title": "Mohjay Infotech Pvt Ltd: Your Trusted IT Solutions Partner",
+    "meta_description": "Mohjay Infotech Pvt Ltd offers reliable IT solutions to empower your business. Partner with us for cutting-edge technology and exceptional support.",
     "breadcrumb_title": "Web Development",
     "subtitle": "Web Development",
     "headline": "Build Powerful Websites That Drive Real Business Growth",
     "highlight": "At Mohjay Infotech website development company, we build websites that are fast, eye-catching and designed to convert visitors into customers based on your business objectives.",
-    "body": "Website development is more than design. It is about creating a seamless digital experience that converts visitors into customers. We build responsive, fast-loading, and SEO-optimized websites using modern technologies for performance, security, and scalability. From corporate websites and ecommerce platforms to custom web applications, our solutions are designed to optimize user experience, strengthen brand credibility, and improve online visibility. Clean UI/UX, mobile responsiveness, loading speed optimization, and reliable backend systems help your business stand out. Whether you are launching a new brand or rebuilding an existing platform, our websites are secure, scalable, and built for long-term success.",
+    "body": "Website Development is more than just about design — it is about creating a seamless digital experience that converts visitors into customers. The websites developed are to be responsive, fast-loading, and SEO-optimized using state-of-the-art technologies ensuring performance, security, and scalability. From corporate websites and eCommerce platforms to custom web applications, our solutions are designed to optimize user experience, foster brand credibility, and promote better visibility online. Clean UI/UX, mobile responsiveness, website and loading speed optimization, and firm backend system concern dominate, aiding your businesses in creating a mark in this highly competitive online space of the market. Whether you’re building new brand or rebuilding an existing platform, the websites delivered by Mohjay Infotech is secure, scalable and designed for long-term strategy success. ",
     "cta_text": "Talk to an Expert",
     "cta_link": "contact",
     "hero_image": "assets/imgs/gallery/gallery-32.webp",
@@ -49,237 +48,246 @@
     ]
   },
   "app-development": {
-    "meta_title": "App Development Services | Mohjay Infotech",
-    "meta_description": "Custom iOS and Android apps built for performance, security, and great user experience.",
-    "meta_tags": "app development, ios, android, mobile apps, ui ux",
+    "meta_title": "Mohjay Infotech Pvt Ltd: Your Trusted IT Solutions Partner",
+    "meta_description": "Mohjay Infotech Pvt Ltd offers reliable IT solutions to empower your business. Partner with us for cutting-edge technology and exceptional support.",
     "breadcrumb_title": "App Development",
     "subtitle": "App Development",
-    "headline": "Create High-Impact Mobile Apps That Users Love",
-    "highlight": "We design and develop powerful, user-friendly mobile applications that help businesses connect, engage, and grow.",
-    "body": "From concept to deployment, our apps are built for performance, security, and seamless user experience. We deliver cross-platform and native solutions with scalable architecture, clean UI/UX, and reliable integrations that support long-term growth.",
+    "headline": "Transform Your Ideas Into Powerful Mobile Applications",
+    "highlight": "Designed to improve your company in the digital world, at Mohjay Infotech we create creative, user-friendly, high-performance mobile apps.",
+    "body": "App Development service is about developing smooth digital experiences that attract customers and generate actual results, not just about programming. Tailored to your company objectives and target audience, we create and build cross-platform Android, iOS, and mobile apps that are scalable. From idea planning and UI/UX design to development, testing, and deployment, our team guarantees your app is safe, fast, and performance optimized. To provide a seamless user experience, we concentrate on intuitive navigation, quick loading speed, and contemporary architecture. Whether you are launching a new software or updating a current one, Mohjay Infotech offers custom mobile apps that enable you to interact with clients and accelerate business expansion.",
     "cta_text": "Talk to an Expert",
     "cta_link": "contact",
-    "hero_image": "assets/imgs/service/service-9.webp",
+    "hero_image": "assets/imgs/service/app-development.webp",
     "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
     "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
     "key_services_title": "Key App Development Services We Provide",
     "key_services": [
-      "iOS and Android App Development",
+      "Custom Android App Development",
+      "iOS App Development Solutions",
       "Cross-Platform App Development",
-      "UI/UX Design for Mobile",
-      "API and Third-Party Integrations",
-      "App Store Deployment",
-      "Maintenance and Performance Monitoring"
+      "UI/UX Design for Mobile Applications",
+      "E-commerce & Business App Solutions",
+      "App Testing & Quality Assurance",
+      "App Maintenance & Version Upgrades",
+      "API Integration & Backend Development"
+      
     ],
-    "process_title": "Ways to Grow Your Company With Smart Apps",
+    "process_title": "Creating Strong Mobile Apps That Promote Corporate Expansion",
     "process_steps": [
       {
         "number": "01",
-        "title": "Discovery",
-        "text": "We align business goals, users, and requirements to define a clear product strategy."
+        "title": "Planning and Discovery",
+        "text": "We first investigate your concept, company plan, and intended audience. By thorough research and conversations, we app development company clarify app features, user flow, and a clear development road map to guarantee your ideas are faithfully conveyed."
       },
       {
         "number": "02",
-        "title": "Design",
-        "text": "We design user flows and UI that maximize engagement and retention."
+        "title": "UI/UX Development",
+        "text": "Our design team produces user-friendly, interesting, and simple interfaces that provide fluid experiences across several platforms. To optimize user happiness, we emphasize usability, contemporary design trends, and simple navigation. "
       },
       {
         "number": "03",
-        "title": "Development",
-        "text": "We build secure, scalable apps using proven frameworks and best practices."
+        "title": "Integration and Development",
+        "text": "With the most recent technologies, we create safe, flexible, and high-performance mobile apps for Android, iOS, or cross-platform settings. We mix APIs, payment gateways, and backend systems for easy operation."
       },
       {
         "number": "04",
-        "title": "Launch and Support",
-        "text": "We test across devices, deploy to stores, and provide ongoing support."
+        "title": "Test, Launch & Support",
+        "text": "Before release, we carefully test performance, security, and compatibility. We offer continuous maintenance, updates, and technical support after launch to enable your software to grow with your company."
       }
     ]
   },
   "digital-marketing": {
-    "meta_title": "Digital Marketing Services | Mohjay Infotech",
-    "meta_description": "ROI-driven digital marketing campaigns to grow visibility, traffic, and leads.",
-    "meta_tags": "digital marketing, seo, ads, social media, performance marketing",
+    "meta_title": "Mohjay Infotech Pvt Ltd: Your Trusted IT Solutions Partner",
+    "meta_description": "Mohjay Infotech Pvt Ltd offers reliable IT solutions to empower your business. Partner with us for cutting-edge technology and exceptional support.",
     "breadcrumb_title": "Digital Marketing",
-    "subtitle": "Digital Marketing",
-    "headline": "Grow Visibility, Traffic, and Leads With Performance Marketing",
-    "highlight": "We help businesses grow with measurable and performance-focused campaigns.",
-    "body": "Our digital marketing combines SEO, paid ads, and social media strategy to increase qualified traffic and conversions. We focus on measurable outcomes with clear reporting and optimization.",
+    "subtitle": "Digital Marketing",  
+    "headline": "Results-driven digital marketing agency will help you speed up your growth",
+    "highlight": "Through smart digital marketing services tactics, Mohjay Infotech enables companies to create great online presence, draw in the appropriate audience, and turn clicks into consumers.",
+    "body": "Digital marketing company entails building a strong internet presence that generates quantifiable outcomes rather than only executing advertisements. Maximizing your brand reach and return on investment, our team uses performance analytics, creative campaigns, and data-driven approaches. From Social Media Marketing and Google Ads to SEO, content marketing, and performance campaigns, we create tailored plans that support your company objectives. Our goals are to raise conversions on several digital channels, produce qualified leads, and improve involvement. Mohjay Infotech digital marketing advertising agency offers marketing solutions that generate steady growth and long-term success whether your company is a startup seeking to raise awareness or a well-known brand trying to expand.",
     "cta_text": "Talk to an Expert",
     "cta_link": "contact",
-    "hero_image": "assets/imgs/service/service-8.webp",
+    "hero_image": "assets/imgs/service/digital-marketing.webp",
     "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
     "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
     "key_services_title": "Key Digital Marketing Services We Provide",
     "key_services": [
       "Search Engine Optimization (SEO)",
-      "Google and Meta Ads Management",
-      "Social Media Strategy and Content",
-      "Landing Page Optimization",
-      "Conversion Tracking and Analytics",
-      "Campaign Reporting and Optimization"
+      "Social Media Marketing (SMM)",
+      "Google Ads & PPC Campaigns",
+      "Performance Marketing",
+      "Content Marketing & Strategy",
+      "Social Media Management",
+      "Lead Generation Campaigns",
+      "Analytics & Conversion Optimization"
     ],
-    "process_title": "Ways to Grow Your Company With Smart Marketing",
+    "process_title": "Strategic digital marketing services that produces quantifiable results",
     "process_steps": [
       {
         "number": "01",
-        "title": "Audit",
-        "text": "We evaluate your current performance and identify growth opportunities."
+        "title": "Research and Strategy",
+        "text": "First of all, we learn your market, target audience, and rivals. We develop a tailored digital marketing plan in line with your growth goals using insights and data."
       },
       {
         "number": "02",
-        "title": "Strategy",
-        "text": "We build a channel mix that aligns with your goals and budget."
+        "title": "Setup and Campaign Planning",
+        "text": "From day one, our team creates engaging graphics, specifies audience targeting, establishes budgets, and configures tracking systems to guarantee precise performance measurement."
       },
       {
         "number": "03",
-        "title": "Execution",
-        "text": "We launch campaigns with clear KPIs and tracking in place."
+        "title": "Execution and Enhancement",
+        "text": "On Google, Meta, and other digital media, we start campaigns. We improve performance to maximize ROI and lower cost per lead by ongoing monitoring and A/B testing."
       },
       {
         "number": "04",
-        "title": "Optimization",
-        "text": "We improve ROI with continuous testing and reporting."
+        "title": "Scaling and Reporting",
+        "text": "We offer open performance reports including practical suggestions. Results helps digital marketing advertising agency improve plans and increase effective initiatives to generate ongoing company expansion. "
       }
     ]
   },
   "social-media-optimization": {
-    "meta_title": "SEO Optimization Services | Mohjay Infotech",
-    "meta_description": "Technical and content SEO to improve rankings and long-term organic growth.",
-    "meta_tags": "seo, seo optimization, technical seo, content seo",
+    "meta_title": "Mohjay Infotech Pvt Ltd: Your Trusted IT Solutions Partner",
+    "meta_description": "Mohjay Infotech Pvt Ltd offers reliable IT solutions to empower your business. Partner with us for cutting-edge technology and exceptional support.",
     "breadcrumb_title": "SEO Optimization",
     "subtitle": "SEO Optimization",
     "headline": "Rank Higher and Grow Organic Traffic",
-    "highlight": "Our strategic SEO approach improves visibility, drives targeted traffic, and increases long-term growth.",
-    "body": "We combine technical audits, on-page optimization, and content strategy to build sustainable search visibility. Our SEO process is data-driven and aligned with your business goals.",
+    "highlight": "Mohjay Infotech SEO optimization services helps companies draw in high-intent consumers and raise their internet presence by use of focused and result-driven search engine optimization (SEO).",
+    "body": "SEO service is about developing a solid internet base that raises search results, increases organic traffic, and increases conversions—not only about keywords. To guarantee your website performs at its best, our team combines data-driven techniques with cutting-edge technologies and sector best practices. From thorough keyword research and on-page optimization to technical SEO, content strategy, and great link building, we design unique SEO plans matching your company objectives. Our priorities are long-term ROI, better search exposure, and sustainable development. Mohjay Infotech offers SEO solutions whether you are a local company trying to reach local customers or a national brand trying to increase exposure. These solutions set you ahead of the competition.",
     "cta_text": "Talk to an Expert",
     "cta_link": "contact",
-    "hero_image": "assets/imgs/service/service-10.webp",
+    "hero_image": "assets/imgs/service/seo.webp",
     "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
     "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
     "key_services_title": "Key SEO Services We Provide",
     "key_services": [
       "Keyword Research and Content Planning",
-      "Technical SEO Audits",
-      "On-Page Optimization",
-      "Link Building Strategy",
-      "Local SEO Optimization",
-      "Performance Reporting"
+      "On-Page SEO Optimization",
+      "Technical SEO Audit & Fixes",
+      "Local SEO & Google Business Optimization",
+      "High-Quality Link Building",
+      "Content Strategy & SEO Copywriting",
+      "Website Speed & Performance Optimization",
+      "Monthly Reporting & Performance Tracking"
     ],
-    "process_title": "Ways to Grow Your Company With Smart SEO",
+    "process_title": "Strategic SEO optimization services for Long-Term Rankings",
     "process_steps": [
       {
         "number": "01",
-        "title": "Research",
-        "text": "We analyze keywords, competitors, and content gaps."
+        "title": "Website Audit & Research",
+        "text": "Starting with a thorough SEO audit to assess the present state of your website, find technical problems, and investigate highly relevant keywords your target demographic is seeking."
       },
       {
         "number": "02",
-        "title": "Optimize",
-        "text": "We improve site structure, speed, and on-page elements."
+        "title": "On-page and technical optimization",
+        "text": "To guarantee your site adheres to search engine best practices, seo consultant maximizes page speed, mobile responsiveness, internal linking, content, meta tags, and website architecture."
       },
       {
         "number": "03",
-        "title": "Build",
-        "text": "We publish and optimize content to match search intent."
+        "title": "Creating authority and Credibility",
+        "text": "We improve domain authority, credibility, and search rankings by producing SEO-optimized content and using premium link-building techniques."
       },
       {
         "number": "04",
-        "title": "Measure",
-        "text": "We track rankings, traffic, and conversions to refine the plan."
+        "title": "Monitoring & Continuous Improvement",
+        "text": "SEO service is a continuous work. We monitor rankings, traffic, and conversions, give thorough reports, and always change our plans to keep and increase your search visibility."
       }
     ]
   },
   "graphic-designing": {
-    "meta_title": "Graphic Designing Services | Mohjay Infotech",
-    "meta_description": "Branding and creative design that communicates clearly and stands out.",
-    "meta_tags": "graphic design, branding, logo, marketing creatives",
+    "meta_title": "Mohjay Infotech Pvt Ltd: Your Trusted IT Solutions Partner",
+    "meta_description": "Mohjay Infotech Pvt Ltd offers reliable IT solutions to empower your business. Partner with us for cutting-edge technology and exceptional support.",
     "breadcrumb_title": "Graphic Designing",
     "subtitle": "Graphic Designing",
-    "headline": "Designs That Speak, Brands That Stand Out",
-    "highlight": "We create visually compelling designs that communicate your brand message effectively.",
-    "body": "From branding to marketing creatives, our design work is built to capture attention and reinforce your identity. We blend strategy with aesthetics to deliver designs that perform across digital and print.",
-    "cta_text": "Talk to an Expert",
+    "headline": "Artistic Graphic Design Brings Your Brand Alive",
+    "highlight": "At Mohjay Infotech graphic designing company, we develop eye-catching designs that leave a lasting impact and clearly convey your brand message. Our graphic design solutions are geared toward originality, uniformity, and smart effect.",
+    "body": "Graphic Design goes beyond looks; it's about creating a powerful visual identity that engages your target. From logo creation to full brand identity design, we guarantee that every aspect fits the attitude and principles of your company. Enhancement of brand exposure and strengthening of client confidence come from our creation of appealing social media creatives, marketing materials, website graphics, brochures, banners, and promotional assets. Our staff uses market knowledge and creativity to create designs that not only look fantastic but also encourage participation. Mohjay Infotech creative agency provides professional, powerful, brand-focused design solutions whether you are debuting a new company or revitalizing your present identity.",
+    "cta_text": "Speak With Our Design Specialists",
     "cta_link": "contact",
-    "hero_image": "assets/imgs/service/service-11.webp",
+    "hero_image": "assets/imgs/service/graphic-designig.webp",
     "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
     "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
-    "key_services_title": "Key Design Services We Provide",
+    "key_services_title": "Key Graphic Designing Services We Provide",
     "key_services": [
-      "Logo and Brand Identity",
-      "Marketing and Social Creatives",
-      "Brochures and Banners",
-      "Presentation Design",
-      "UI/UX Visual Design",
-      "Brand Guidelines"
+      "Logo Design & Branding Identity Creation",
+      "Social Media Creatives & Campaign Designs",
+      "Brochures, Flyers & Marketing Collaterals",
+      "Website & App UI Graphics",
+      "Banner, Poster & Ad Creative Design",
+      "Packaging & Print Design Solutions",
+      "Corporate Presentation Design",
+      "Brand Guidelines & Visual Strategy",
+      "Booklet Graphic Design"
     ],
-    "process_title": "Ways to Grow Your Company With Smart Design",
+    "process_title": "Developing Distinctive Visual Identities That Help Your Business Stand Out",
     "process_steps": [
       {
         "number": "01",
-        "title": "Discover",
-        "text": "We understand your brand, audience, and goals."
+        "title": "Understanding Your Brand",
+        "text": "First we get to know your company, target audience, and brand character. This enables us to appreciate your ideas, beliefs, and the message you hope to convey through architecture logo design & branding."
       },
       {
         "number": "02",
-        "title": "Concept",
-        "text": "We explore visual directions that fit your identity."
+        "title": "Creative Strategy and Concept",
+        "text": "Our creative agency team creates original ideas consistent with your brand identity and marketing objectives. We guarantee your graphics are strong and consistent by concentrating on typography, layout, and color psychology."
       },
       {
         "number": "03",
-        "title": "Design",
-        "text": "We produce polished assets ready for your channels."
+        "title": "Creative Design & Refining",
+        "text": "We give life to ideas by means of expert graphic creations suited for print and digital channels. Your comments guide us as we improve the ideas to meet your expectations exactly."
       },
       {
         "number": "04",
-        "title": "Refine",
-        "text": "We iterate based on feedback to finalize the work."
+        "title": "Brand Consistency and Final Delivery",
+        "text": "Once approved, graphic designing company ensure consistency across all platforms and offer premium, ready-to-use design files. Our aim is to support your brand keep a powerful and distinct visual profile. "
       }
     ]
   },
   "social-media-marketing": {
-    "meta_title": "Social Media Marketing | Mohjay Infotech",
-    "meta_description": "Campaigns that build awareness, engagement, and leads on social platforms.",
-    "meta_tags": "social media marketing, content, ads, engagement",
+    "meta_title": "Mohjay Infotech Pvt Ltd: Your Trusted IT Solutions Partner",
+    "meta_description": "Mohjay Infotech Pvt Ltd offers reliable IT solutions to empower your business. Partner with us for cutting-edge technology and exceptional support.",
     "breadcrumb_title": "Social Media Marketing",
     "subtitle": "Social Media Marketing",
-    "headline": "Engage, Influence, and Convert Across Social Channels",
-    "highlight": "We help brands build strong digital presence and meaningful audience engagement across social platforms.",
-    "body": "Our social media services combine content strategy, creative production, and paid campaigns to increase visibility and generate high-quality leads. We focus on consistent growth and measurable outcomes.",
-    "cta_text": "Talk to an Expert",
+    "headline": "Strategic Social Media Marketing Helps You Grow Your Brand",
+    "highlight": "Mohjay Infotech social media agency supports companies in creating a strong presence on social media channels and converting followers into devoted clients.",
+    "body": "Social Media Marketing is about producing relevant interaction, developing trust, and generating continual growth—not only about publishing material. Our team creates goal driven plans customized for the voice of your brand, intended audience, and corporate aims. We take care of every facet of your social media presence, from performance tracking to sponsored advertising campaigns, creative design to content creation. We concentrate on raising reach, enhancing engagement rates, producing excellent leads, and driving conversions across several platforms including Instagram, Facebook, LinkedIn, and others. Whether you want to boost direct sales or improve brand recognition, Mohjay Infotech social media agency provides social media plans that link, interact, and convert.",
+    "cta_text": "Talk with Our Performance Marketer",
     "cta_link": "contact",
-    "hero_image": "assets/imgs/service/service-12.webp",
+    "hero_image": "assets/imgs/service/social-media-marketing.webp",
     "breadcrumb_bg": "assets/imgs/gallery/gallery-29.webp",
     "key_service_bg": "assets/imgs/gallery/gallery-33.webp",
-    "key_services_title": "Key Social Media Services We Provide",
+    "key_services_title": "Key Social Media Marketing Services We Provide",
     "key_services": [
       "Content Strategy and Calendars",
-      "Creative Design and Copywriting",
-      "Paid Social Campaigns",
-      "Community Management",
-      "Influencer Collaboration",
-      "Reporting and Optimization"
+      "Content Creation & Creative Designing",
+      "Social Media Account Management",
+      "Facebook Advertising Management",
+      "Content Strategy and Calendars",
+      "Paid Advertising Campaigns (Meta & LinkedIn Ads)",
+      "Audience Targeting & Growth Optimization",
+      "Influencer Marketing & Collaborations",
+      "Performance Tracking & Analytics Reporting",
+      "Social Media Strategy & Planning"
     ],
-    "process_title": "Ways to Grow Your Company With Social Media",
+    "process_title": "Through strategic social media marketing, engage audiences",
     "process_steps": [
       {
         "number": "01",
-        "title": "Plan",
-        "text": "We define goals, platforms, and content pillars."
+        "title": "Strategic Planning and Study",
+        "text": "Beginning with knowledge of your brand, target market, competitors, and corporate objectives. Using thorough study, we develop a bespoke social media plan intended to boost conversions, exposure, and interaction."
       },
       {
         "number": "02",
-        "title": "Create",
-        "text": "We produce content that fits your brand and audience."
+        "title": "Content creation and creative design",
+        "text": "Graphics, movies, captions, and campaigns reflecting your brand voice are among the top quality content our social media agency team creates. To grab attention and establish sincere connections, we concentrate on narrative and innovation."
       },
       {
         "number": "03",
-        "title": "Promote",
-        "text": "We run targeted ads to amplify reach and leads."
+        "title": "Optimization and Implementation",
+        "text": "We oversee performance tracking, paid advertising initiatives, audience targeting, and posting schedules. Through regular monitoring and optimization, we performance marketing agencies guarantee your campaigns provide greatest return on investment."
       },
       {
         "number": "04",
-        "title": "Optimize",
-        "text": "We measure performance and improve results over time."
+        "title": "Reporting, engagement, and growth",
+        "text": "We foster community confidence, answer questions, and interact with your audience aggressively. Comprehensive performance reports inform you of growth, reach, engagement, and general campaign success."
       }
     ]
   }

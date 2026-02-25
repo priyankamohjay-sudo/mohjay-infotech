@@ -14,7 +14,7 @@ include '../includes/header.php'; ?>
             <div class="container rr-container-1410">
               <div class="breadcrumb-content">
                 <div class="title-wrapper">
-                  <h1 class="breadcrumb-title">Our Recent Projects</h1>
+                  <h1 class="breadcrumb-title">Our Projects</h1>
                 </div>
                 <div class="breadcrumb-wrapper">
                   <ul class="rr-breadcrumb">
@@ -33,142 +33,70 @@ include '../includes/header.php'; ?>
           <div class="container rr-container-1410">
             <div class="project-3-area-inner section-spacing">
               <div class="project-3-wrapper-box">
-                <div class="project-3-wrapper">
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
+                 <div class="project-5-header fade-anim pb-5">
+                  <div class="section-title-wrapper">
+                    <div class="subtitle-wrapper">
+                      <span class="section-subtitle"
+                        ><span class="start-shape"></span
+                        ><span class="text">Our Projects</span
+                        ><span class="end-shape"></span
+                      ></span>
                     </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-8.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Optimizing Project-Based IT Services for
-                            Enhanced</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-9.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Cloud Migration and Infrastructure Optimization
-                            for Enterprise</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-10.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Software Development to Automate Operations and
-                            Enhance</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-11.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Design and Deployment of Scalable Network
-                            Architecture</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-12.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Digital Transformation Strategy and Execution
-                            for Business Process</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-13.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Full-Service IT Support and Help Desk
-                            Integration for Seamless</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
+                    <div class="title-wrapper">
+                      <h2 class="section-title">
+                        We Have Some Portfolio For Inspiration.
+                      </h2>
                     </div>
                   </div>
                 </div>
+                <div class="project-3-wrapper">
+                  <div class="project-3-box fade-anim">
+                    <div class="area-bg">
+                      <img src="assets/imgs/shape/shape-23.webp" alt="image">
+                    </div>
+                    <div class="thumb">
+                      <a href="miskills.in"><img src="assets/imgs/project/mi-skills-project.webp" alt="image"></a>
+                    </div>
+                    <div class="content-wrapper">
+                      <div class="content">
+                        <h3 class="title"><a href="mi-skills">Mi Skills</a></h3>
+                        <div class="btn-wrapper">
+                          <a href="mi-skills" class="rr-btn">
+                            <span class="btn-wrap">
+                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
+                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="project-3-box fade-anim">
+                    <div class="area-bg">
+                      <img src="assets/imgs/shape/shape-23.webp" alt="image">
+                    </div>
+                    <div class="thumb">
+                      <a href="citizen"><img src="assets/imgs/project/project-12.webp" alt="image"></a>
+                    </div>
+                    <div class="content-wrapper">
+                      <div class="content">
+                        <h3 class="title"><a href="citizen">Citizen</a></h3>
+                        <div class="btn-wrapper">
+                          <a href="citizen" class="rr-btn">
+                            <span class="btn-wrap">
+                              <span class="text-one">Coming Soon <i class="fa-solid fa-arrow-right"></i></span>
+                              <span class="text-two">Coming Soon <i class="fa-solid fa-arrow-right"></i></span>
+                            </span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                 
+                </div>
               </div>
-              <div class="project-3-footer">
+              <!-- <div class="project-3-footer">
                 <div class="rr-pagination fade-anim">
                   <a href="#">01</a>
                   <a href="#">02</a>
@@ -176,7 +104,7 @@ include '../includes/header.php'; ?>
                   <a href="#">04</a>
                   <a href="#"><i class="fa-solid fa-angles-right"></i></a>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </section>

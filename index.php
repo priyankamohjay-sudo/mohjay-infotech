@@ -350,7 +350,7 @@ include 'includes/header.php'; ?>
                         <div class="swiper-slide">
                           <div class="project-5-box">
                             <div class="thumb">
-                              <a href="project-details.html"
+                              <a href="miskills.in"
                                 ><img
                                   src="assets/imgs/project/miskills-project.webp"
                                   alt="image"
@@ -359,14 +359,14 @@ include 'includes/header.php'; ?>
                             <div class="content-wrapper">
                               <div class="content">
                                 <h3 class="title">
-                                  <a href="project-details.html"
+                                  <a href="miskills.in"
                                     >Mi Skills</a
                                   >
                                 </h3>
                                 <span class="tag">Step Into Your Future Career</span>
                               </div>
                               <a
-                                href="project-details.html"
+                                href="miskills.in"
                                 class="details-btn"
                               >
                                 <i class="fa-solid fa-eye"></i>

@@ -5896,9 +5896,9 @@ section {
   color: var(--theme);
 }
 .about-2-content .btn-wrapper {
-  margin-top: 28px;
+  margin-top: 20px;
   border-top: 1px solid var(--border);
-  padding-top: 40px;
+  padding-top: 15px;
   display: flex;
   gap: 20px 47px;
   align-items: center;
@@ -13953,3 +13953,5 @@ section {
   object-fit: cover;
   border-radius: 10px 10px 0 0;
 }
+
+

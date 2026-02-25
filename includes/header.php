@@ -152,7 +152,7 @@
                 <a href="https://www.facebook.com/mohjayinfotechpvtltd" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/mohjayinfotech/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                 <a href="https://www.linkedin.com/company/mohjay-infotech/posts/?feedView=all" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.linkedin.com/"><i class="fa-brands fa-youtube"></i></a>
+                <!-- <a href="https://www.linkedin.com/"><i class="fa-brands fa-youtube"></i></a> -->
               </div>
             </div>
           </div>
@@ -161,7 +161,7 @@
           <div class="container rr-container-1410">
             <div class="header-2-main-inner">
               <div class="header-2-logo">
-                <a href="<?= BASE_URL ?>index.php">
+                <a href="<?= BASE_URL ?>/">
                   <img src="assets/imgs/logo/mohjaylogo-dark.png" class="normal-logo" alt="Site Logo">
                 </a>
               </div>
@@ -173,22 +173,16 @@
                     <li class="menu-item-has-children">
                       <a href="<?= BASE_URL ?>service">Services</a>
                       <ul class="dp-menu">
-                        <li><a href="<?= BASE_URL ?>web-development">Web Development</a></li>
-                        <li><a href="<?= BASE_URL ?>digital-marketing">Digital Marketing</a></li>
-                        <li><a href="<?= BASE_URL ?>app-development">App Development</a></li>
-                        <li><a href="<?= BASE_URL ?>social-media-optimization">SEO Optimization</a></li>
-                        <li><a href="<?= BASE_URL ?>graphic-designing">Graphic Designing</a></li>
-                        <li><a href="<?= BASE_URL ?>social-media-marketing">Social Media Marketing</a></li>
+                        <li><a href="<?= BASE_URL ?>services/web-development">Web Development</a></li>
+                        <li><a href="<?= BASE_URL ?>services/digital-marketing">Digital Marketing</a></li>
+                        <li><a href="<?= BASE_URL ?>services/app-development">App Development</a></li>
+                        <li><a href="<?= BASE_URL ?>services/social-media-optimization">SEO Optimization</a></li>
+                        <li><a href="<?= BASE_URL ?>services/graphic-designing">Graphic Designing</a></li>
+                        <li><a href="<?= BASE_URL ?>services/social-media-marketing">Social Media Marketing</a></li>
                       </ul>
                     </li>
-                     <li><a href="<?= BASE_URL ?>project">Project</a></li>   
-                    <li class="menu-item-has-children">
-                      <a href="#">Blog</a>
-                      <ul class="dp-menu">
-                        <li><a href="blog.php <?= BASE_URL ?>">Blog</a></li>
-                        <li><a href="<?= BASE_URL ?>blog-details.php">Blog Details</a></li>
-                      </ul>
-                    </li>
+                     <li><a href="<?= BASE_URL ?>project">Project</a></li>                     
+                       <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
                       <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
                     <li><a href="<?= BASE_URL ?>contact">Contact</a></li>
                   </ul>
