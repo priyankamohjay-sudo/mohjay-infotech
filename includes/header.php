@@ -162,7 +162,7 @@
             <div class="header-2-main-inner">
               <div class="header-2-logo">
                 <a href="<?= BASE_URL ?>/">
-                  <img src="assets/imgs/logo/mohjaylogo-dark.png" class="normal-logo" alt="Site Logo">
+                  <img src="<?= BASE_URL ?>assets/imgs/logo/mohjaylogo-dark.png" class="normal-logo" alt="Site Logo">
                 </a>
               </div>
               <div class="header-2-nav">

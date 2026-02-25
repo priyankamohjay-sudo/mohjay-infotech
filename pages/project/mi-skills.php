@@ -1,7 +1,7 @@
 <?php
 $title="MI Skills – Official Learning Platform by Mohjay Infotech | Job-Ready Courses";
 $description="MI Skills by Mohjay Infotech provides job-oriented courses with training and guidance for a fast track growth in your chosen career.";
-include '../includes/header.php'; ?>
+include dirname(dirname(__DIR__)) . '/includes/header.php'; ?>
 
       <main>
 
@@ -9,7 +9,7 @@ include '../includes/header.php'; ?>
         <section class="breadcrumb-area">
           <div class="breadcrumb-area-inner">
             <div class="breadcrumb-bg">
-              <img src="assets/imgs/gallery/gallery-29.webp" alt="image">
+              <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-29.webp" alt="image">
             </div>
             <div class="container rr-container-1410">
               <div class="breadcrumb-content">
@@ -18,7 +18,7 @@ include '../includes/header.php'; ?>
                 </div>
                 <div class="breadcrumb-wrapper">
                   <ul class="rr-breadcrumb">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="<?= BASE_URL ?>">Home</a></li>
                     <li>Mi Skills</li>
                   </ul>
                 </div>
@@ -34,7 +34,7 @@ include '../includes/header.php'; ?>
             <div class="project-details-inner section-spacing-top">
               <div class="project-details-thumb-wrapper">
                 <div class="project-details-thumb fade-anim" data-direction="left">
-                  <img src="assets/imgs/gallery/miskills-project.webp" alt="image">
+                  <img src="<?= BASE_URL ?>assets/imgs/gallery/miskills-project.webp" alt="image">
                 </div>
                 <div class="project-details-meta fade-anim" data-direction="right">
                   <h3 class="meta-block-title">Project Information</h3>
@@ -86,9 +86,9 @@ include '../includes/header.php'; ?>
                 </div>
               </div>
               <div class="gallery-wrapper pt-4 pb-4">
-                  <img src="assets/imgs/gallery/gallery-35.webp" alt="image">
-                  <img src="assets/imgs/gallery/gallery-36.webp" alt="image">
-                  <img src="assets/imgs/gallery/gallery-37.webp" alt="image">
+                  <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-35.webp" alt="image">
+                  <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-36.webp" alt="image">
+                  <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-37.webp" alt="image">
                 </div>
               <div class="proeject-details-info fade-anim pb-5">
                 <h3 class="info-title">The challenge of project</h3>
@@ -106,9 +106,9 @@ include '../includes/header.php'; ?>
           <section class="testimonial-2-area">
             <div class="testimonial-2-area-bg">
               <div class="area-shape-1">
-                <img src="assets/imgs/shape/shape-15.webp" alt="image" />
+                <img src="<?= BASE_URL ?>assets/imgs/shape/shape-15.webp" alt="image" />
               </div>
-              <img src="assets/imgs/shape/shape-14.webp" alt="image" />
+              <img src="<?= BASE_URL ?>assets/imgs/shape/shape-14.webp" alt="image" />
             </div>
             <div class="container rr-container-1410">
               <div class="testimonial-2-area-inner section-spacing-top">
@@ -135,15 +135,6 @@ include '../includes/header.php'; ?>
                   <div class="swiper-wrapper">
                     <div class="swiper-slide">
                       <div class="testimonial-2-item">
-                        <!-- <div class="avatar">
-                          <div class="icon">
-                            <i class="fa-solid fa-quote-right"></i>
-                          </div>
-                          <img
-                            src="assets/imgs/client/client-13.webp"
-                            alt="image"
-                          />
-                        </div> -->
                         <div class="content">
                           <div class="author">
                             <div class="meta">
@@ -159,18 +150,18 @@ include '../includes/header.php'; ?>
                           <div class="review-box">
                             <div class="site-review">
                               <img
-                                src="assets/imgs/icon/icon-18.webp"
+                                src="<?= BASE_URL ?>assets/imgs/icon/icon-18.webp"
                                 alt="image"
                               />4.8 Site reviews
                             </div>
                             <div class="google-review">
                               <img
-                                src="assets/imgs/icon/icon-19.webp"
+                                src="<?= BASE_URL ?>assets/imgs/icon/icon-19.webp"
                                 alt="image"
                               />4.8 Google reviews
                             </div>
                              <div class="quote-icon">
-                            <img src="assets/imgs/icon/icon-33.webp" alt="icon">
+                            <img src="<?= BASE_URL ?>assets/imgs/icon/icon-33.webp" alt="icon">
                           </div>
                           </div>
                           
@@ -179,15 +170,6 @@ include '../includes/header.php'; ?>
                     </div>
                     <div class="swiper-slide">
                       <div class="testimonial-2-item">
-                        <!-- <div class="avatar">
-                          <div class="icon">
-                            <i class="fa-solid fa-quote-right"></i>
-                          </div>
-                          <img
-                            src="assets/imgs/client/client-14.webp"
-                            alt="image"
-                          />
-                        </div> -->
                         <div class="content">
                           <div class="author">
                             <div class="meta">
@@ -206,18 +188,18 @@ include '../includes/header.php'; ?>
                           <div class="review-box">
                             <div class="site-review">
                               <img
-                                src="assets/imgs/icon/icon-18.webp"
+                                src="<?= BASE_URL ?>assets/imgs/icon/icon-18.webp"
                                 alt="image"
                               />4.8 Site reviews
                             </div>
                             <div class="google-review">
                               <img
-                                src="assets/imgs/icon/icon-19.webp"
+                                src="<?= BASE_URL ?>assets/imgs/icon/icon-19.webp"
                                 alt="image"
                               />4.8 Google reviews
                             </div>
                              <div class="quote-icon">
-                              <img src="assets/imgs/icon/icon-33.webp" alt="icon">
+                              <img src="<?= BASE_URL ?>assets/imgs/icon/icon-33.webp" alt="icon">
                             </div>
                           </div>
                         </div>
@@ -231,83 +213,6 @@ include '../includes/header.php'; ?>
           </section>
           <!-- testimonial-2 area end -->
 
-
-        <!-- project-4 area start -->
-        <!-- <section class="project-4-area">
-          <div class="container rr-container-1410">
-            <div class="project-4-area-inner section-spacing">
-              <div class="project-4-header fade-anim">
-                <div class="section-title-wrapper">
-                  <div class="subtitle-wrapper">
-                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">New
-                        Projects</span><span class="end-shape"></span></span>
-                  </div>
-                  <div class="title-wrapper">
-                    <h2 class="section-title">Most Related Projects</h2>
-                  </div>
-                </div>
-                <div class="btn-wrapper">
-                  <a href="projects.html" class="rr-btn">
-                    <span class="btn-wrap">
-                      <span class="text-one">View More Projects <i class="fa-solid fa-arrow-right"></i></span>
-                      <span class="text-two">View More Projects <i class="fa-solid fa-arrow-right"></i></span>
-                    </span>
-                  </a>
-                </div>
-              </div>
-              <div class="project-4-wrapper-box">
-                <div class="project-3-wrapper">
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-8.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Optimizing Project-Based IT Services for
-                            Enhanced</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="project-3-box fade-anim">
-                    <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.html" alt="image">
-                    </div>
-                    <div class="thumb">
-                      <a href="project-details.html"><img src="assets/imgs/project/project-11.html" alt="image"></a>
-                    </div>
-                    <div class="content-wrapper">
-                      <div class="content">
-                        <h3 class="title"><a href="project-details.html">Design and Deployment of Scalable Network
-                            Architecture</a></h3>
-                        <div class="btn-wrapper">
-                          <a href="project-details.html" class="rr-btn">
-                            <span class="btn-wrap">
-                              <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                              <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-        <!-- project-4 area end -->
-
       </main>
 
-            <?php include '../includes/footer.php'; ?>
+            <?php include dirname(dirname(__DIR__)) . '/includes/footer.php'; ?>

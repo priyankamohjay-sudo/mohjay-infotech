@@ -13,6 +13,30 @@ RewriteBase /mohjay-infotech/
 # RewriteRule ^course/([a-zA-Z0-9-_]+)/?$ pages/courses/$1.php [L,QSA]
 
 # -------------------------
+# SERVICE ROUTES
+# /services/web-development -> pages/services/web-development.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^services/([a-zA-Z0-9-_]+)/?$ pages/services/$1.php [L,QSA]
+
+# -------------------------
+# BLOG ROUTES
+# /blog/slug -> pages/blog-details.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/([a-zA-Z0-9-_]+)/?$ pages/blog-details.php?slug=$1 [L,QSA]
+
+# -------------------------
+# PROJECT ROUTES
+# /project/mi-skills -> pages/project/mi-skills.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^project/([a-zA-Z0-9-_]+)/?$ pages/project/$1.php [L,QSA]
+
+# -------------------------
 # NORMAL PAGES
 # /about-us -> pages/about-us.php
 # -------------------------

@@ -33,7 +33,7 @@
             <div class="footer-3-widget-wrapper">
               <div class="footer-3-widget-box">
                 <div class="footer-3-logo">
-                  <a href="index.html"><img src="assets/imgs/logo/mohjaylogo-white.png" alt="image"></a>
+                  <a href="<?= BASE_URL ?>index.html"><img src="<?= BASE_URL ?>assets/imgs/logo/mohjaylogo-white.png" alt="image"></a>
                 </div>
                 <div class="footer-3-text">
                   <p class="text text-white">As a reputable IT software company, we are dedicated to forming enduring alliances that support our clients long-term success.</p>
@@ -61,46 +61,42 @@
               <div class="footer-3-widget-box">
                 <h2 class="footer-3-widget-title">Our Services</h2>
                 <ul class="footer-3-nav-list">
-                <li><a href="web-development.php"><i class="fa-solid fa-chevron-right"></i>Web Development</a></li>
-                  <li><a href="digital-marketing.php"><i class="fa-solid fa-chevron-right"></i>Digital Marketing</a></li>
-                  <li><a href="app-development.php"><i class="fa-solid fa-chevron-right"></i>App Development</a></li>
-                  <li><a href="seo-optimization.php"><i class="fa-solid fa-chevron-right"></i>SEO Optimization</a></li>
-                  <li><a href="graphic-designing.php"><i class="fa-solid fa-chevron-right"></i>Graphic Designing</a></li>
-                  <li><a href="social-media-marketing.php"><i class="fa-solid fa-chevron-right"></i>Social Media Marketing</a></li>
+                <li><a href="<?= BASE_URL ?>services/web-development"><i class="fa-solid fa-chevron-right"></i>Web Development</a></li>
+                  <li><a href="<?= BASE_URL ?>services/digital-marketing"><i class="fa-solid fa-chevron-right"></i>Digital Marketing</a></li>
+                  <li><a href="<?= BASE_URL ?>services/app-development"><i class="fa-solid fa-chevron-right"></i>App Development</a></li>
+                  <li><a href="<?= BASE_URL ?>services/social-media-optimization"><i class="fa-solid fa-chevron-right"></i>SEO Optimization</a></li>
+                  <li><a href="<?= BASE_URL ?>services/graphic-designing"><i class="fa-solid fa-chevron-right"></i>Graphic Designing</a></li>
+                  <li><a href="<?= BASE_URL ?>services/social-media-marketing"><i class="fa-solid fa-chevron-right"></i>Social Media Marketing</a></li>
                 </ul>
               </div>
               <div class="footer-3-widget-box">
                 <h2 class="footer-3-widget-title">Latest Posts</h2>
                 <div class="footer-3-blog-wrapper-box">
                   <div class="footer-3-blog-wrapper">
+                    <?php 
+                    // Fetch 3rd and 4th latest blogs (Offset 2)
+                    $stmt_footer_blogs = $pdo->prepare("SELECT * FROM blogs WHERE deleted_at IS NULL ORDER BY created_at DESC LIMIT 2 OFFSET 2");
+                    $stmt_footer_blogs->execute();
+                    $footer_blogs = $stmt_footer_blogs->fetchAll();
+                    foreach ($footer_blogs as $fblog): ?>
                     <article class="footer-3-blog">
                       <div class="thumb">
-                        <a href="blog-details.html"><img src="assets/imgs/blog/blog-9.webp" alt="blog image"></a>
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($fblog['slug']) ?>"><img src="<?= BASE_URL ?>assets/imgs/blog/<?= htmlspecialchars($fblog['featured_image']) ?>" alt="<?= htmlspecialchars($fblog['title']) ?>" style="width: 80px; height: 80px; object-fit: cover;"></a>
                       </div>
                       <div class="content">
                         <div class="meta">
-                          <span class="date"><i class="fa-regular fa-clock"></i>15th Dec, 2025</span>
+                          <span class="date"><i class="fa-regular fa-clock"></i><?= date('d M, Y', strtotime($fblog['created_at'])) ?></span>
                         </div>
-                        <h2 class="title"><a href="blog-details.html">Why Your Business Needs</a>
+                        <h2 class="title"><a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($fblog['slug']) ?>"><?= htmlspecialchars(mb_strimwidth($fblog['title'], 0, 40, '...')) ?></a>
                         </h2>
-                        <a href="blog-details.html" class="blog-btn">Read More <i
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($fblog['slug']) ?>" class="blog-btn">Read More <i
                             class="fa-solid fa-arrow-right"></i></a>
                       </div>
                     </article>
-                    <article class="footer-3-blog">
-                      <div class="thumb">
-                        <a href="blog-details.html"><img src="assets/imgs/blog/blog-10.webp" alt="blog image"></a>
-                      </div>
-                      <div class="content">
-                        <div class="meta">
-                          <span class="date"><i class="fa-regular fa-clock"></i>15th Dec, 2025</span>
-                        </div>
-                        <h2 class="title"><a href="blog-details.html">Small Business Essentials</a>
-                        </h2>
-                        <a href="blog-details.html" class="blog-btn">Read More <i
-                            class="fa-solid fa-arrow-right"></i></a>
-                      </div>
-                    </article>
+                    <?php endforeach; ?>
+                    <?php if (empty($footer_blogs)): ?>
+                        <p class="text-white-50">Visit our <a href="<?= BASE_URL ?>blog">Blog</a> for more updates.</p>
+                    <?php endif; ?>
                   </div>
                 </div>
               </div>
@@ -114,8 +110,8 @@
                 <p class="text">Copyright &copy; <?php echo date("Y"); ?> Mohjay Infotech Pvt. Ltd. | All Rights Reserved.</p>
               </div>
               <div class="copyright-3-link">
-                <a href="privacy-policy">Privacy policy</a>
-                <a href="terms-and-conditions">Terms of use</a>
+                <a href="<?= BASE_URL ?>privacy-policy">Privacy policy</a>
+                <a href="<?= BASE_URL ?>terms-and-conditions">Terms of use</a>
               </div>
             </div>
           </div>
@@ -129,25 +125,25 @@
 
 
   <!-- Dependencies JS Files -->
-  <script src="assets/js/jquery-3.6.0.min.js"></script>
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="assets/js/swiper-bundle.min.js"></script>
-  <script src="assets/js/odometer.min.js"></script>
-  <script src="assets/js/waypoints.min.js"></script>
-  <script src="assets/js/progressbar.js"></script>
-  <script src="assets/js/gsap.min.js"></script>
-  <script src="assets/js/ScrollSmoother.min.js"></script>
-  <script src="assets/js/ScrollTrigger.min.js"></script>
-  <script src="assets/js/SplitText.min.js"></script>
-  <script src="assets/js/TextPlugin.js"></script>
-  <script src="assets/js/customEase.js"></script>
-  <script src="assets/js/jquery.meanmenu.min.js"></script>
-  <script src="assets/js/backToTop.js"></script>
-  <script src="assets/js/jquery.nice-select.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/jquery-3.6.0.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/bootstrap.bundle.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/swiper-bundle.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/odometer.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/waypoints.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/progressbar.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/gsap.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/ScrollSmoother.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/ScrollTrigger.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/SplitText.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/TextPlugin.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/customEase.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/jquery.meanmenu.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/backToTop.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/jquery.nice-select.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/wow.min.js"></script>
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/main.js"></script>
 
 
 

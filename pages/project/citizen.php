@@ -1,7 +1,7 @@
 <?php
 $title="MI Skills – Official Learning Platform by Mohjay Infotech | Job-Ready Courses";
 $description="MI Skills by Mohjay Infotech provides job-oriented courses with training and guidance for a fast track growth in your chosen career.";
-include '../includes/header.php'; ?>
+include dirname(dirname(__DIR__)) . '/includes/header.php'; ?>
 
       <main>
 
@@ -10,7 +10,7 @@ include '../includes/header.php'; ?>
 
   <!-- Background Image -->
   <div class="position-absolute top-0 start-0 w-100 h-100">
-    <img src="assets/imgs/gallery/gallery-22.webp" 
+    <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-22.webp" 
          class="w-100 h-100 object-fit-cover" 
          alt="Background">
   </div>
@@ -28,4 +28,4 @@ include '../includes/header.php'; ?>
 
       </main>
 
-            <?php include '../includes/footer.php'; ?>
+            <?php include dirname(dirname(__DIR__)) . '/includes/footer.php'; ?>
