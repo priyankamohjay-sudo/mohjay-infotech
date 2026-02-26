@@ -2,7 +2,7 @@
 $title="Best Software Company In India | Mohjay Infotech";
 $description="We are a technology-driven IT company specializing in software development mobile applications, web solutions, and digital transformation services.";
 $tags = "software development, web solutions, digital marketing, mobile app development";
-include '../includes/header.php'; ?>
+include dirname(dirname(__DIR__)) . '/includes/header.php'; ?>
 
       <main>
 
@@ -10,7 +10,7 @@ include '../includes/header.php'; ?>
         <section class="breadcrumb-area">
           <div class="breadcrumb-area-inner">
             <div class="breadcrumb-bg">
-              <img src="assets/imgs/gallery/gallery-29.webp" alt="image">
+              <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-29.webp" alt="image">
             </div>
             <div class="container rr-container-1410">
               <div class="breadcrumb-content">
@@ -19,7 +19,7 @@ include '../includes/header.php'; ?>
                 </div>
                 <div class="breadcrumb-wrapper">
                   <ul class="rr-breadcrumb">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="<?= BASE_URL ?>">Home</a></li>
                     <li>Cross-Platform Apps: Shaping the Future of Mobile Development</li>
                   </ul>
                 </div>
@@ -37,7 +37,7 @@ include '../includes/header.php'; ?>
                 <div class="blog-details-wrapper fade-anim">
                   <article class="blog-details">
                     <div class="thumb">
-                      <img src="assets/imgs/blog/Cross-Platform-Apps.jpg" alt="blog image">
+                      <img src="<?= BASE_URL ?>assets/imgs/blog/Cross-Platform-Apps.jpg" alt="blog image">
                     </div>
                     <div class="content">
                       
@@ -65,9 +65,9 @@ include '../includes/header.php'; ?>
                         <p class="text">Cross-platform apps are applications designed to work seamlessly across multiple operating systems, primarily iOS and Android, using a single codebase. Instead of writing separate code for each platform, developers can write once and deploy everywhere.</p>
                       </div>
                       <div class="gallery-wrapper">
-                        <img src="assets/imgs/blog/blog-19.webp" alt="image">
-                        <img src="assets/imgs/blog/blog-20.webp" alt="image">
-                        <img src="assets/imgs/blog/blog-21.webp" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/blog-19.webp" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/blog-20.webp" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/blog-21.webp" alt="image">
                       </div>
                       <div class="text-wrapper">
                         <span>Popular cross-platform frameworks include:</span>
@@ -126,12 +126,12 @@ include '../includes/header.php'; ?>
                   </article>
                   <div class="post-navigation">
                     <div class="post-nav-shape">
-                      <img src="assets/imgs/shape/shape-25.html" alt="image">
+                      <img src="<?= BASE_URL ?>assets/imgs/shape/shape-25.html" alt="image">
                     </div>
                     <div class="prev-post">
                       <div class="nav-post">
                         <div class="thumb">
-                          <a href="blog-details.html"><img src="assets/imgs/blog/blog-22.html" alt="image"></a>
+                          <a href="<?= BASE_URL ?>blog"><img src="<?= BASE_URL ?>assets/imgs/blog/blog-22.html" alt="image"></a>
                         </div>
                       </div>
                       <h3 class="title">Previous Post</h3>
@@ -139,7 +139,7 @@ include '../includes/header.php'; ?>
                     <div class="next-post">
                       <div class="nav-post">
                         <div class="thumb">
-                          <a href="blog-details.html"><img src="assets/imgs/blog/blog-23.html" alt="image"></a>
+                          <a href="<?= BASE_URL ?>blog"><img src="<?= BASE_URL ?>assets/imgs/blog/blog-23.html" alt="image"></a>
                         </div>
                       </div>
                       <h3 class="title">Next Post</h3>
@@ -169,29 +169,29 @@ include '../includes/header.php'; ?>
                       <div class="sidebar-blog-wrapper">
                         <article class="sidebar-blog">
                           <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/imgs/blog/blog-15.webp" alt="blog image"></a>
+                            <a href="<?= BASE_URL ?>blog/cross-platform-apps"><img src="<?= BASE_URL ?>assets/imgs/blog/blog-15.webp" alt="blog image"></a>
                           </div>
                           <div class="content">
                             <!-- <div class="meta">
                               <span class="author"><i class="fa-regular fa-user"></i>by David Smith</span>
                             </div> -->
-                            <h2 class="title"><a href="blog-details.html">Cross-Platform Apps: Shaping the Future of Mobile Development</a></h2>
+                            <h2 class="title"><a href="<?= BASE_URL ?>blog/cross-platform-apps">Cross-Platform Apps: Shaping the Future of Mobile Development</a></h2>
                           </div>
                         </article>
                         <article class="sidebar-blog">
                           <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/imgs/blog/blog-16.webp" alt="blog image"></a>
+                            <a href="<?= BASE_URL ?>blog/nist-cybersecurity-framework"><img src="<?= BASE_URL ?>assets/imgs/blog/blog-16.webp" alt="blog image"></a>
                           </div>
                           <div class="content">
-                            <h2 class="title"><a href="blog-details.html">Understanding the NIST Cybersecurity Framework: A Complete Guide</a></h2>
+                            <h2 class="title"><a href="<?= BASE_URL ?>blog/nist-cybersecurity-framework">Understanding the NIST Cybersecurity Framework: A Complete Guide</a></h2>
                           </div>
                         </article>
                         <article class="sidebar-blog">
                           <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/imgs/blog/blog-17.webp" alt="blog image"></a>
+                            <a href="<?= BASE_URL ?>blog/multi-factor-authentication"><img src="<?= BASE_URL ?>assets/imgs/blog/blog-17.webp" alt="blog image"></a>
                           </div>
                           <div class="content">
-                            <h2 class="title"><a href="blog-details.html">What is Multi-Factor Authentication (MFA)?</a></h2>
+                            <h2 class="title"><a href="<?= BASE_URL ?>blog/multi-factor-authentication">What is Multi-Factor Authentication (MFA)?</a></h2>
                           </div>
                         </article>
                       </div>
@@ -201,11 +201,11 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Categories</h3>
                     <div class="sidebar-category-box">
                       <ul class="sidebar-category-list">
-                        <li><a href="blog.html">IT Solution <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">SEO Marketing <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">Website Development <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">Cloud Solution <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">Network Marketing <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="<?= BASE_URL ?>blog">IT Solution <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="<?= BASE_URL ?>blog">SEO Marketing <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="<?= BASE_URL ?>blog">Website Development <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="<?= BASE_URL ?>blog">Cloud Solution <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <li><a href="<?= BASE_URL ?>blog">Network Marketing <i class="fa-solid fa-arrow-right"></i></a></li>
                       </ul>
                     </div>
                   </div>
@@ -213,12 +213,12 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Gallery</h3>
                     <div class="sidebar-gallery-box">
                       <div class="sidebar-gallery-wrapper">
-                        <img src="assets/imgs/blog/Cross-Platform-Apps.jpg" alt="image">
-                        <img src="assets/imgs/blog/NIST-Cybersecurity-Framework-1280x700.jpg" alt="image">
-                        <img src="assets/imgs/blog/What-is-Multi-Factor-Authentication.png" alt="image">
-                        <img src="assets/imgs/blog/Websites-to-learn-1-1280x700.png" alt="image">
-                        <img src="assets/imgs/blog/Green-Computing.jpg" alt="image">
-                        <img src="assets/imgs/blog/10-Best-Programming-Frameworks-to-Build-Powerful-Apps-1280x700.jpg" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/Cross-Platform-Apps.jpg" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/NIST-Cybersecurity-Framework-1280x700.jpg" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/What-is-Multi-Factor-Authentication.png" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/Websites-to-learn-1-1280x700.png" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/Green-Computing.jpg" alt="image">
+                        <img src="<?= BASE_URL ?>assets/imgs/blog/10-Best-Programming-Frameworks-to-Build-Powerful-Apps-1280x700.jpg" alt="image">
                       </div>
                     </div>
                   </div>
@@ -226,14 +226,14 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Popular Tags</h3>
                     <div class="sidebar-tags-box">
                       <div class="sidebar-tags">
-                        <a href="blog.html" class="tag">Mobile App</a>
-                        <a href="blog.html" class="tag">Frameworks</a>
-                        <a href="blog.html" class="tag">Technologies</a>
-                        <a href="blog.html" class="tag">Web development</a>
-                        <a href="blog.html" class="tag">UI/UX Designing</a>
-                        <a href="blog.html" class="tag">Cross-platform</a>
-                        <a href="blog.html" class="tag">Marketing</a>
-                        <a href="blog.html" class="tag">Responsive Web</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Mobile App</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Frameworks</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Technologies</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Web development</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">UI/UX Designing</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Cross-platform</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Marketing</a>
+                        <a href="<?= BASE_URL ?>blog" class="tag">Responsive Web</a>
                       </div>
                     </div>
                   </div>
@@ -246,4 +246,4 @@ include '../includes/header.php'; ?>
 
       </main>
 
-  <?php include '../includes/footer.php'; ?>
+  <?php include dirname(dirname(__DIR__)) . '/includes/footer.php'; ?>

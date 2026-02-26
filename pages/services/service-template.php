@@ -1,7 +1,7 @@
 ﻿<?php
 $serviceSlug = $serviceSlug ?? null;
 
-$dataPath = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'services.json';
+$dataPath = dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'services.json';
 $services = [];
 
 if (is_readable($dataPath)) {
@@ -21,13 +21,13 @@ if (!$service) {
   $title = 'Service Not Found | Mohjay Infotech';
   $description = '';
   $tags = '';
-  include '../includes/header.php';
+  include dirname(dirname(__DIR__)) . '/includes/header.php';
   ?>
   <main>
     <section class="breadcrumb-area">
       <div class="breadcrumb-area-inner">
         <div class="breadcrumb-bg">
-          <img src="assets/imgs/gallery/gallery-29.webp" alt="image">
+          <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-29.webp" alt="image">
         </div>
         <div class="container rr-container-1410">
           <div class="breadcrumb-content">
@@ -36,7 +36,7 @@ if (!$service) {
             </div>
             <div class="breadcrumb-wrapper">
               <ul class="rr-breadcrumb">
-                <li><a href="#">Home</a></li>
+                <li><a href="<?= BASE_URL ?>">Home</a></li>
                 <li>Service Not Found</li>
               </ul>
             </div>
@@ -57,7 +57,7 @@ if (!$service) {
               <p class="text">Please check the URL or contact us for assistance.</p>
             </div>
             <div class="btn-wrapper">
-              <a href="contact" class="rr-btn">
+              <a href="<?= BASE_URL ?>contact" class="rr-btn">
                 <span class="btn-wrap">
                   <span class="text-one">Contact Us <i class="fa-solid fa-arrow-right"></i></span>
                   <span class="text-two">Contact Us <i class="fa-solid fa-arrow-right"></i></span>
@@ -69,7 +69,7 @@ if (!$service) {
       </div>
     </section>
   </main>
-  <?php include '../includes/footer.php'; ?>
+  <?php include dirname(dirname(__DIR__)) . '/includes/footer.php'; ?>
   <?php
   return;
 }
@@ -78,7 +78,7 @@ $title = $service['meta_title'] ?? 'Mohjay Infotech Services';
 $description = $service['meta_description'] ?? '';
 $tags = $service['meta_tags'] ?? '';
 
-include '../includes/header.php';
+include dirname(dirname(__DIR__)) . '/includes/header.php';
 ?>
 
 <main>
@@ -87,7 +87,7 @@ include '../includes/header.php';
   <section class="breadcrumb-area">
     <div class="breadcrumb-area-inner">
       <div class="breadcrumb-bg">
-        <img src="<?= htmlspecialchars($service['breadcrumb_bg']) ?>" alt="image">
+        <img src="<?= BASE_URL ?><?= htmlspecialchars($service['breadcrumb_bg']) ?>" alt="image">
       </div>
       <div class="container rr-container-1410">
         <div class="breadcrumb-content">
@@ -96,7 +96,7 @@ include '../includes/header.php';
           </div>
           <div class="breadcrumb-wrapper">
             <ul class="rr-breadcrumb">
-              <li><a href="#">Home</a></li>
+              <li><a href="<?= BASE_URL ?>">Home</a></li>
               <li><?= htmlspecialchars($service['breadcrumb_title']) ?></li>
             </ul>
           </div>
@@ -124,7 +124,7 @@ include '../includes/header.php';
             <p class="text"><?= htmlspecialchars($service['body']) ?></p>
           </div>
           <div class="btn-wrapper">
-            <a href="<?= htmlspecialchars($service['cta_link']) ?>" class="rr-btn">
+            <a href="<?= BASE_URL ?><?= htmlspecialchars($service['cta_link']) ?>" class="rr-btn">
               <span class="btn-wrap">
                 <span class="text-one"><?= htmlspecialchars($service['cta_text']) ?> <i class="fa-solid fa-arrow-right"></i></span>
                 <span class="text-two"><?= htmlspecialchars($service['cta_text']) ?> <i class="fa-solid fa-arrow-right"></i></span>
@@ -134,7 +134,7 @@ include '../includes/header.php';
         </div>
         <div class="service-details-thumb-wrappper fade-anim" data-direction="right">
           <div class="service-details-thumb">
-            <img src="<?= htmlspecialchars($service['hero_image']) ?>" alt="image">
+            <img src="<?= BASE_URL ?><?= htmlspecialchars($service['hero_image']) ?>" alt="image">
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ include '../includes/header.php';
   <!-- key-service area start  -->
   <section class="key-service-area fade-anim">
     <div class="key-service-bg">
-      <img src="<?= htmlspecialchars($service['key_service_bg']) ?>" alt="image">
+      <img src="<?= BASE_URL ?><?= htmlspecialchars($service['key_service_bg']) ?>" alt="image">
     </div>
     <div class="container rr-container-1410">
       <div class="key-service-area-inner section-spacing">
@@ -198,4 +198,4 @@ include '../includes/header.php';
 
 </main>
 
-<?php include '../includes/footer.php'; ?>
+<?php include dirname(dirname(__DIR__)) . '/includes/footer.php'; ?>

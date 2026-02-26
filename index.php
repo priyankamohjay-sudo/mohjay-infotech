@@ -35,7 +35,7 @@ include 'includes/header.php'; ?>
                           <p class="text">Our software agency prioritizes lasting collaborations, helping clients achieve continuous growth and long-term business success.</p>
                         </div>
                         <div class="btn-wrapper" data-animation="fadeInUp" data-delay="1.2s">
-                          <a href="about.php" class="rr-btn">
+                          <a href="<?= BASE_URL ?>about" class="rr-btn">
                             <span class="btn-wrap">
                               <span class="text-one">Get Started Now</span>
                               <span class="text-two">Get Started Now</span>
@@ -67,7 +67,7 @@ include 'includes/header.php'; ?>
                           <p class="text">Our software development company fosters lasting relationships, helping clients achieve sustainable growth and long-term business performance.</p>
                         </div>
                         <div class="btn-wrapper" data-animation="fadeInUp" data-delay="1.2s">
-                          <a href="contact.html" class="rr-btn">
+                          <a href="<?= BASE_URL ?>contact" class="rr-btn">
                             <span class="btn-wrap">
                               <span class="text-one">Get Started Now</span>
                               <span class="text-two">Get Started Now</span>
@@ -143,7 +143,7 @@ include 'includes/header.php'; ?>
                   </div>
                 </div>
                 <div class="btn-wrapper">
-                  <a href="about.php" class="rr-btn">
+                  <a href="<?= BASE_URL ?>about" class="rr-btn">
                     <span class="btn-wrap">
                       <span class="text-one">About Us<i class="fa-solid fa-arrow-right"></i></span>
                       <span class="text-two">About Us<i class="fa-solid fa-arrow-right"></i></span>
@@ -327,7 +327,7 @@ include 'includes/header.php'; ?>
                         <div class="swiper-slide">
                           <div class="project-5-box">
                             <div class="thumb">
-                              <a href="miskills.in"
+                              <a href="<?= BASE_URL ?>project/mi-skills"
                                 ><img
                                   src="assets/imgs/project/miskills-project.webp"
                                   alt="image"
@@ -336,14 +336,14 @@ include 'includes/header.php'; ?>
                             <div class="content-wrapper">
                               <div class="content">
                                 <h3 class="title">
-                                  <a href="miskills.in"
+                                  <a href="<?= BASE_URL ?>project/mi-skills"
                                     >Mi Skills</a
                                   >
                                 </h3>
                                 <span class="tag">Step Into Your Future Career</span>
                               </div>
                               <a
-                                href="miskills.in"
+                                href="<?= BASE_URL ?>project/mi-skills"
                                 class="details-btn"
                               >
                                 <i class="fa-solid fa-eye"></i>
@@ -354,7 +354,7 @@ include 'includes/header.php'; ?>
                         <div class="swiper-slide">
                           <div class="project-5-box">
                             <div class="thumb">
-                              <a href="project-details.html"
+                              <a href="<?= BASE_URL ?>project/citizen"
                                 ><img
                                   src="assets/imgs/project/project-16.webp"
                                   alt="image"
@@ -363,14 +363,14 @@ include 'includes/header.php'; ?>
                             <div class="content-wrapper">
                               <div class="content">
                                 <h3 class="title">
-                                  <a href="project-details.html"
+                                  <a href="<?= BASE_URL ?>project/citizen"
                                     >Citizen</a
                                   >
                                 </h3>
                                 <span class="tag">Coming Soon</span>
                               </div>
                               <a
-                                href="project-details.html"
+                                href="<?= BASE_URL ?>project/citizen"
                                 class="details-btn"
                               >
                                 <i class="fa-solid fa-eye"></i>
@@ -756,7 +756,7 @@ include 'includes/header.php'; ?>
                   <p class="text">We help students, freshers, and aspiring professionals build real-world skills through practical training and live projects. Learn, build, and grow with industry-focused programs designed to make you job-ready.</p>
                 </div>
                 <div class="btn-wrapper">
-                  <a href="contact.html" class="rr-btn">
+                  <a href="<?= BASE_URL ?>contact" class="rr-btn">
                     <span class="btn-wrap">
                       <span class="text-one">Get Started</span>
                       <span class="text-two">Get Started</span>
@@ -809,7 +809,7 @@ include 'includes/header.php'; ?>
                     </p>
                   </div>
                   <div class="btn-wrapper">
-                    <a href="service.html" class="rr-btn">
+                    <a href="<?= BASE_URL ?>blog" class="rr-btn">
                       <span class="btn-wrap">
                         <span class="text-one"
                           >View More Blogs
@@ -825,22 +825,24 @@ include 'includes/header.php'; ?>
                 </div>
                 <div class="blog-3-wrapper-box">
                   <div class="blog-3-wrapper">
+                    <?php 
+                    $stmt_home_blogs = $pdo->prepare("SELECT * FROM blogs WHERE deleted_at IS NULL ORDER BY created_at DESC LIMIT 2");
+                    $stmt_home_blogs->execute();
+                    $home_blogs = $stmt_home_blogs->fetchAll();
+                    foreach ($home_blogs as $hblog): ?>
                     <article class="blog-3 fade-anim">
                       <div class="thumb">
-                        <a href="blog-details.html"
-                          ><img src="assets/imgs/blog/blog-7.webp" alt="blog image"/></a>
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($hblog['slug']) ?>"
+                          ><img src="<?= BASE_URL ?>assets/imgs/blog/<?= htmlspecialchars($hblog['featured_image']) ?>" alt="<?= htmlspecialchars($hblog['title']) ?>"/></a>
                       </div>
                       <div class="content">
-                        <div class="meta">
-                          
-                         
-                        </div>
+                        <div class="meta"></div>
                         <h2 class="title">
-                          <a href="blog-details.html"
-                            >Cross-Platform Apps: Shaping the Future of Mobile Development</a
+                          <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($hblog['slug']) ?>"
+                            ><?= htmlspecialchars($hblog['title']) ?></a
                           >
                         </h2>
-                        <a href="blog-details.html" class="rr-btn">
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($hblog['slug']) ?>" class="rr-btn">
                           <span class="btn-wrap">
                             <span class="text-one">Read More</span>
                             <span class="text-two">Read More</span>
@@ -848,27 +850,7 @@ include 'includes/header.php'; ?>
                         </a>
                       </div>
                     </article>
-                    <article class="blog-3 fade-anim">
-                      <div class="thumb">
-                        <a href="blog-details.html"><img src="assets/imgs/blog/blog-8.webp" alt="blog image"/></a>
-                      </div>
-                      <div class="content">
-                        <div class="meta">
-                         
-                        </div>
-                        <h2 class="title">
-                          <a href="blog-details.html"
-                            >Understanding the NIST Cybersecurity Framework: A Complete Guide</a
-                          >
-                        </h2>
-                        <a href="blog-details.html" class="rr-btn">
-                          <span class="btn-wrap">
-                            <span class="text-one">Read More</span>
-                            <span class="text-two">Read More</span>
-                          </span>
-                        </a>
-                      </div>
-                    </article>
+                    <?php endforeach; ?>
                   </div>
                 </div>
               </div>

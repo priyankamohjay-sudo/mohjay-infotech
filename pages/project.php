@@ -52,16 +52,16 @@ include '../includes/header.php'; ?>
                 <div class="project-3-wrapper">
                   <div class="project-3-box fade-anim">
                     <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.webp" alt="image">
+                      <img src="<?= BASE_URL ?>assets/imgs/shape/shape-23.webp" alt="image">
                     </div>
                     <div class="thumb">
-                      <a href="miskills.in"><img src="assets/imgs/project/mi-skills-project.webp" alt="image"></a>
+                      <a href="<?= BASE_URL ?>project/mi-skills"><img src="<?= BASE_URL ?>assets/imgs/project/mi-skills-project.webp" alt="image"></a>
                     </div>
                     <div class="content-wrapper">
                       <div class="content">
-                        <h3 class="title"><a href="mi-skills">Mi Skills</a></h3>
+                        <h3 class="title"><a href="<?= BASE_URL ?>project/mi-skills">Mi Skills</a></h3>
                         <div class="btn-wrapper">
-                          <a href="mi-skills" class="rr-btn">
+                          <a href="<?= BASE_URL ?>project/mi-skills" class="rr-btn">
                             <span class="btn-wrap">
                               <span class="text-one">View Project <i class="fa-solid fa-arrow-right"></i></span>
                               <span class="text-two">View Project <i class="fa-solid fa-arrow-right"></i></span>
@@ -73,16 +73,16 @@ include '../includes/header.php'; ?>
                   </div>
                   <div class="project-3-box fade-anim">
                     <div class="area-bg">
-                      <img src="assets/imgs/shape/shape-23.webp" alt="image">
+                      <img src="<?= BASE_URL ?>assets/imgs/shape/shape-23.webp" alt="image">
                     </div>
                     <div class="thumb">
-                      <a href="citizen"><img src="assets/imgs/project/project-12.webp" alt="image"></a>
+                      <a href="<?= BASE_URL ?>project/citizen"><img src="<?= BASE_URL ?>assets/imgs/project/project-12.webp" alt="image"></a>
                     </div>
                     <div class="content-wrapper">
                       <div class="content">
-                        <h3 class="title"><a href="citizen">Citizen</a></h3>
+                        <h3 class="title"><a href="<?= BASE_URL ?>project/citizen">Citizen</a></h3>
                         <div class="btn-wrapper">
-                          <a href="citizen" class="rr-btn">
+                          <a href="<?= BASE_URL ?>project/citizen" class="rr-btn">
                             <span class="btn-wrap">
                               <span class="text-one">Coming Soon <i class="fa-solid fa-arrow-right"></i></span>
                               <span class="text-two">Coming Soon <i class="fa-solid fa-arrow-right"></i></span>
