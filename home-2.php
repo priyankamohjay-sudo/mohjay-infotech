@@ -1200,7 +1200,7 @@
 
           <div class="faq-project-group">
             <div class="faq-project-group-bg">
-              <img src="assets/imgs/shape/shape-17.html" alt="image" />
+              <img src="assets/imgs/shape/shape-17.webp" alt="image" />
             </div>
             <!-- faq area start  -->
             <section class="faq-area">
@@ -1553,56 +1553,62 @@
             <!-- project-2 area end -->
           </div>
 
-          <!-- cta-2 area start  -->
-          <section class="cta-2-area section-spacing-top">
-            <div class="container rr-container-1410">
-              <div class="cta-2-area-inner fade-anim">
-                <div class="cta-2-content">
-                  <div class="section-title-wrapper">
-                    <div class="subtitle-wrapper">
-                      <span class="section-subtitle"
-                        ><span class="start-shape"></span
-                        ><span class="text">Book Appointment Now</span
-                        ><span class="end-shape"></span
-                      ></span>
-                    </div>
-                    <div class="title-wrapper">
-                      <h2 class="section-title">
-                        We Make Awesome IT Services For Your Newly Business
-                      </h2>
-                    </div>
-                  </div>
-                  <div class="btn-wrapper">
-                    <a href="contact.html" class="rr-btn">
-                      <span class="btn-wrap">
-                        <span class="text-one">Start A Projects</span>
-                        <span class="text-two">Start A Projects</span>
-                      </span>
-                    </a>
-                    <div class="cta-box">
-                      <div class="icon">
-                        <i class="fa-solid fa-phone"></i>
-                      </div>
-                      <div class="cta-text">
-                        <div class="number">
-                          Call Us: <a href="tel:258-3258235">258-3258 235</a>
-                        </div>
-                        <p class="text">For any question</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="cta-2-thumb">
-                  <img
-                    class="img-reveal-anim"
-                    src="assets/imgs/gallery/gallery-17.html"
-                    alt="image"
-                  />
-                </div>
-              </div>
+        <!-- cta-2 area start  -->
+<section class="cta-2-area section-spacing-top">
+  <div class="container rr-container-1410">
+    <div class="cta-2-area-inner fade-anim">
+
+      <div class="cta-2-content">
+        <div class="section-title-wrapper">
+
+          <div class="subtitle-wrapper">
+            <span class="section-subtitle">
+              <span class="start-shape"></span>
+              <span class="text">Software Download</span>
+              <span class="end-shape"></span>
+            </span>
+          </div>
+
+          <div class="title-wrapper">
+            <h2 class="section-title text-white">
+              Download Our Desktop Software And Get Started Instantly
+            </h2>
+          </div>
+
+        </div>
+
+        <div class="btn-wrapper">
+          <!-- MAIN BUTTON -->
+          <a href="#" class="rr-btn">
+            <span class="btn-wrap">
+              <span class="text-one">Download Desktop Software</span>
+              <span class="text-two">Download Desktop Software</span>
+            </span>
+          </a>
+
+          <!-- VERSION INFO -->
+          <div class="cta-box">
+            <div class="icon">
+              <i class="fa-solid fa-download"></i>
             </div>
-          </section>
-          <!-- cta-2 area end  -->
+            <div class="cta-text">
+              <div class="number">
+                Latest Version: <span>v1.3</span>
+              </div>
+              <p class="text">Fast, Secure & Easy Installation</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cta-2-thumb">
+        <img class="img-reveal-anim" src="assets/imgs/gallery/gallery-17.webp" alt="software"/>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- cta-2 area end  -->
 
           <!-- blog-2 area start -->
           <section class="blog-2-area">

@@ -12098,11 +12098,12 @@ section {
 
 /* cta-2 area style  */
 .cta-2-area-inner {
-  border: 1px solid var(--theme);
+  border: 1px solid #0e143d;
   border-radius: 30px;
   display: grid;
   gap: 0px 50px;
   grid-template-columns: 1fr 550px;
+  background: #0e143d;
 }
 @media only screen and (max-width: 1199px) {
   .cta-2-area-inner {

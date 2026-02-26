@@ -157,62 +157,85 @@ include 'includes/header.php'; ?>
         </section>
         <!-- about area end -->
 
-         <!-- cta-2 area start  -->
-        <section class="cta-2-area ">
+        <!-- service area start -->
+        <section class="service-area">
+          <div class="service-area-bg">
+            <img src="assets/imgs/gallery/gallery-4.webp" alt="image">
+          </div>
           <div class="container rr-container-1410">
-            <div class="cta-2-area-inner fade-anim">
-
-              <div class="cta-2-content">
+            <div class="service-area-inner section-spacing">
+              <div class="service-header fade-anim">
                 <div class="section-title-wrapper">
-
                   <div class="subtitle-wrapper">
-                    <span class="section-subtitle">
-                      <span class="start-shape"></span>
-                      <span class="text">Software Download</span>
-                      <span class="end-shape"></span>
-                    </span>
+                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Service We
+                        Offer</span><span class="end-shape"></span></span>
                   </div>
-
                   <div class="title-wrapper">
-                    <h2 class="section-title text-white">
-                      Download Our Desktop Software And Get Started Instantly
-                    </h2>
+                    <h2 class="section-title">Our Demanding Services</h2>
                   </div>
-
                 </div>
-
-                <div class="btn-wrapper">
-                  <!-- MAIN BUTTON -->
-                  <a href="#" class="rr-btn">
-                    <span class="btn-wrap">
-                      <span class="text-one">Download Desktop Software</span>
-                      <span class="text-two">Download Desktop Software</span>
-                    </span>
-                  </a>
-
-                  <!-- VERSION INFO -->
-                  <div class="cta-box">
-                    <div class="icon">
-                      <i class="fa-solid fa-download"></i>
-                    </div>
-                    <div class="cta-text">
-                      <div class="number">
-                        Latest Version: <span>v1.3</span>
+              </div>
+              <div class="services-wrapper-box">
+                <div class="services-wrapper">
+                  <div class="service-box fade-anim">
+                    <div class="thumb">
+                      <div class="service-logo">
+                        <img src="assets/imgs/icon/icon-1.webp" alt="image">
                       </div>
-                      <p class="text">Fast, Secure & Easy Installation</p>
+                      <a class="service-btn" href="service-details.html">
+                        <span class="btn-text">Read More</span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                      <a href="service-details.html"> <img class="main-img" src="assets/imgs/service/service-1.webp"
+                          alt="image"></a>
+                    </div>
+                    <div class="content">
+                      <h3 class="title"><a href="service-details.html">Web Development</a></h3>
+                      <p class="text">Custom, responsive, scalable website solutions.</p>
+                    </div>
+                  </div>
+                  <div class="service-box fade-anim">
+                    <div class="thumb">
+                      <div class="service-logo">
+                        <img src="assets/imgs/icon/icon-2.webp" alt="image">
+                      </div>
+                      <a class="service-btn" href="service-details.html">
+                        <span class="btn-text">Read More</span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-2.webp"
+                          alt="image"></a>
+                    </div>
+                    <div class="content">
+                      <h3 class="title"><a href="service-details.html">Digital Marketing</a></h3>
+                      <p class="text">Targeted, data-driven, growth-focused digital marketing</p>
+                    </div>
+                  </div>
+                  <div class="service-box fade-anim">
+                    <div class="thumb">
+                      <div class="service-logo">
+                        <img src="assets/imgs/icon/icon-3.webp" alt="image">
+                      </div>
+                      <a class="service-btn" href="service-details.html">
+                        <span class="btn-text">Read More</span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-3.webp"
+                          alt="image"></a>
+
+
+                    </div>
+                    <div class="content">
+                      <h3 class="title"><a href="service-details.html">App Development</a></h3>
+                      <p class="text">Innovative, user-friendly, high-performance mobile applications.</p>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <div class="cta-2-thumb">
-                <img class="img-reveal-anim" src="assets/imgs/gallery/gallery-17.webp" alt="software"/>
-              </div>
-
             </div>
           </div>
         </section>
-        <!-- cta-2 area end  -->
+        <!-- service area end -->
 
           <!-- brand area start  -->
         <div class="brand-area">
@@ -462,86 +485,6 @@ include 'includes/header.php'; ?>
           </div>
         </section>
         <!-- progress area end  -->
-
-          <!-- service area start -->
-        <section class="service-area">
-          <div class="service-area-bg">
-            <img src="assets/imgs/gallery/gallery-4.webp" alt="image">
-          </div>
-          <div class="container rr-container-1410">
-            <div class="service-area-inner section-spacing">
-              <div class="service-header fade-anim">
-                <div class="section-title-wrapper">
-                  <div class="subtitle-wrapper">
-                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Service We
-                        Offer</span><span class="end-shape"></span></span>
-                  </div>
-                  <div class="title-wrapper">
-                    <h2 class="section-title">Our Demanding Services</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="services-wrapper-box">
-                <div class="services-wrapper">
-                  <div class="service-box fade-anim">
-                    <div class="thumb">
-                      <div class="service-logo">
-                        <img src="assets/imgs/icon/icon-1.webp" alt="image">
-                      </div>
-                      <a class="service-btn" href="service-details.html">
-                        <span class="btn-text">Read More</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                      </a>
-                      <a href="service-details.html"> <img class="main-img" src="assets/imgs/service/service-1.webp"
-                          alt="image"></a>
-                    </div>
-                    <div class="content">
-                      <h3 class="title"><a href="service-details.html">Web Development</a></h3>
-                      <p class="text">Custom, responsive, scalable website solutions.</p>
-                    </div>
-                  </div>
-                  <div class="service-box fade-anim">
-                    <div class="thumb">
-                      <div class="service-logo">
-                        <img src="assets/imgs/icon/icon-2.webp" alt="image">
-                      </div>
-                      <a class="service-btn" href="service-details.html">
-                        <span class="btn-text">Read More</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                      </a>
-                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-2.webp"
-                          alt="image"></a>
-                    </div>
-                    <div class="content">
-                      <h3 class="title"><a href="service-details.html">Digital Marketing</a></h3>
-                      <p class="text">Targeted, data-driven, growth-focused digital marketing</p>
-                    </div>
-                  </div>
-                  <div class="service-box fade-anim">
-                    <div class="thumb">
-                      <div class="service-logo">
-                        <img src="assets/imgs/icon/icon-3.webp" alt="image">
-                      </div>
-                      <a class="service-btn" href="service-details.html">
-                        <span class="btn-text">Read More</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                      </a>
-                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-3.webp"
-                          alt="image"></a>
-
-
-                    </div>
-                    <div class="content">
-                      <h3 class="title"><a href="service-details.html">App Development</a></h3>
-                      <p class="text">Innovative, user-friendly, high-performance mobile applications.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- service area end -->
 
         <!-- testimonial area start -->
         <section class="testimonial-area">
