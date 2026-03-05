@@ -1,4 +1,8 @@
-<?php require_once 'config.php'; ?>
+<?php 
+$url = $_SERVER['REQUEST_URI'];
+require_once 'config.php'; 
+
+?>
 
 
 <!DOCTYPE html>
@@ -36,7 +40,7 @@
 </head>
 
 
-<body class="body-wrapper">
+<body class="body-wrapper <?= $url != "/mohjay-infotech/" ? 'page-inner' : '' ?>">
 
   <div class="loader-wrap">
     <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
