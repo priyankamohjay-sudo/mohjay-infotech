@@ -329,7 +329,7 @@ h6 {
 }
 
 .rr-container-1410 {
-  max-width: 1410px;
+  max-width: 1490px;
 }
 
 /* Background color classes */
@@ -12117,7 +12117,7 @@ section {
 }
 
 .cta-2-content {
-  padding: 98px 0 120px 120px;
+  padding: 70px 0 100px 72px;
 }
 @media only screen and (max-width: 1199px) {
   .cta-2-content {
@@ -13639,7 +13639,7 @@ section {
 .contact-wrapper {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 @media only screen and (max-width: 991px) {
   .contact-wrapper {

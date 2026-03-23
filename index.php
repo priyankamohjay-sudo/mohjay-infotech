@@ -28,11 +28,11 @@ include 'includes/header.php'; ?>
                             <span class="hero-subtitle">Driving Digital Advancement</span>
                           </div>
                           <div class="title-wrapper" data-animation="fadeInUp" data-delay=".6s">
-                            <h1 class="hero-title">Transforming Ideas into <span>IT Solutions</span></h1>
+                            <h1 class="hero-title">Code the Future <span>Empower People</span></h1>
                           </div>
                         </div>
                         <div class="text-wrapper" data-animation="fadeInUp" data-delay=".9s">
-                          <p class="text">Our software agency prioritizes lasting collaborations, helping clients achieve continuous growth and long-term business success.</p>
+                          <p class="text">As a reputable IT software company, we are dedicated to forming enduring alliances that support our clients long-term success.</p>
                         </div>
                         <div class="btn-wrapper" data-animation="fadeInUp" data-delay="1.2s">
                           <a href="<?= BASE_URL ?>about" class="rr-btn">
@@ -59,12 +59,12 @@ include 'includes/header.php'; ?>
                             <span class="hero-subtitle">Powering the Future of Digital Innovation</span>
                           </div>
                           <div class="title-wrapper" data-animation="fadeInUp" data-delay=".6s">
-                            <h1 class="hero-title">Elevating Your Business <span>With Industry
-                                Experts</span></h1>
+                            <h1 class="hero-title">Powering Digital <span>Innovation
+                                </span></h1>
                           </div>
                         </div>
                         <div class="text-wrapper" data-animation="fadeInUp" data-delay=".9s">
-                          <p class="text">Our software development company fosters lasting relationships, helping clients achieve sustainable growth and long-term business performance.</p>
+                          <p class="text">In order to help clients achieve long-term business performance and sustainable growth, our software development company cultivates enduring relationships.</p>
                         </div>
                         <div class="btn-wrapper" data-animation="fadeInUp" data-delay="1.2s">
                           <a href="<?= BASE_URL ?>contact" class="rr-btn">
@@ -114,11 +114,11 @@ include 'includes/header.php'; ?>
                         Comapny</span><span class="end-shape"></span></span>
                   </div>
                   <div class="title-wrapper">
-                    <h2 class="section-title">Established Enterprises Ensuring Operational Excellence</h2>
+                    <h2 class="section-title">Delivering Operational Excellence for Established Enterprises</h2>
                   </div>
                 </div>
                 <div class="text-wrapper">
-                  <p class="text">Recognized as a leading software agency in India, we specialize in building innovative, bespoke solutions that match your exact requirements. From early-stage ventures, we deliver efficient, industry-spanning technology solutions that drive impact.</p>
+                  <p class="text">Well-Known Businesses Maintaining Operational Excellence Being a top software agency in India, we are experts at creating custom, cutting-edge solutions that precisely meet your needs. We provide effective, sector-spanning technology solutions that have an impact, starting with early-stage endeavors.</p>
                 </div>
                 <div class="features-wrapper-box">
                   <div class="features-wrapper">
@@ -128,7 +128,7 @@ include 'includes/header.php'; ?>
                       </div>
                       <div class="content">
                         <h3 class="title">Sustainable Growth Targets</h3>
-                        <p class="text">Architect and deploy tailored digital strategies that empower business performance, guaranteeing efficient integration, future-ready scalability, and alignment.</p>
+                        <p class="text">Create and implement customized digital strategies that enhance business performance while ensuring alignment, future-ready scalability, and effective integration.</p>
                       </div>
                     </div>
                     <div class="feature-box">
@@ -137,7 +137,7 @@ include 'includes/header.php'; ?>
                       </div>
                       <div class="content">
                         <h3 class="title">Assess Market Competition</h3>
-                        <p class="text">Capitalize on intelligent analytics and AI-driven intelligence to detect emerging opportunities, and build forward-looking strategies that fuel consistent business expansion.</p>
+                        <p class="text">Make use of AI-driven intelligence and intelligent analytics to identify new opportunities and develop forward-thinking plans that support steady business growth.</p>
                       </div>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ include 'includes/header.php'; ?>
 
                   <div class="title-wrapper">
                     <h2 class="section-title text-white">
-                      Download Our Desktop Software And Get Started Instantly
+                      Download Our Desktop Software Or Open The Web Version And Get Started Instantly
                     </h2>
                   </div>
 
@@ -185,23 +185,23 @@ include 'includes/header.php'; ?>
                   <!-- MAIN BUTTON -->
                   <a href="#" class="rr-btn">
                     <span class="btn-wrap">
-                      <span class="text-one">Download Desktop Software</span>
-                      <span class="text-two">Download Desktop Software</span>
+                      <span class="text-one"><i class="fa-solid fa-download"></i>Download Desktop Software</span>
+                      <span class="text-two"><i class="fa-solid fa-download"></i>Download Desktop Software</span>
                     </span>
                   </a>
 
                   <!-- VERSION INFO -->
-                  <div class="cta-box">
-                    <div class="icon">
-                      <i class="fa-solid fa-download"></i>
-                    </div>
-                    <div class="cta-text">
-                      <div class="number">
-                        Latest Version: <span>v1.3</span>
-                      </div>
-                      <p class="text">Fast, Secure & Easy Installation</p>
-                    </div>
-                  </div>
+               <a href="#" class="rr-btn">
+                <span class="btn-wrap">
+                  <span class="text-one">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Web Version
+                  </span>
+                  <span class="text-two">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Web Version
+                  </span>
+                </span>
+              </a>
+
                 </div>
               </div>
 

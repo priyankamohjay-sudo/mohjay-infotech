@@ -59,7 +59,7 @@ include '../includes/header.php'; ?>
                   </div>
                 </div>
                 
-                <div class="contact-box fade-anim">
+                <!-- <div class="contact-box fade-anim">
                   <div class="thumb">
                     <div class="icon">
                       <i class="fa-solid fa-phone-volume"></i>
@@ -70,7 +70,7 @@ include '../includes/header.php'; ?>
                     <div class="link">Call Us:</div>
                    <a href="tel:7349369477">7349369477</a>
                   </div>
-                </div>
+                </div> -->
               </div>
               
                <div class="contact-map pt-5">

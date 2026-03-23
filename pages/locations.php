@@ -181,21 +181,14 @@ include '../includes/header.php'; ?>
 
                 <!-- LOCATION 14 -->
                 <div class="col-lg-6 col-md-6 mb-4">
-                  <div class="team-box rr-bg-white fade-anim">
-
-                    <div class="location-img">
-                      <img src="assets/imgs/gallery/Mohjay-Infotech-Pvt-Ltd-scaled.png" alt="Bangalore Location">
+                
+                <div class="team-box rr-bg-white fade-anim">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62200.29659256262!2d77.59139774863282!3d13.002616999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae112c879a7bc1%3A0xc8988561f3722587!2sMohjay%20Infotech%20Pvt%20Ltd!5e0!3m2!1sen!2sin!4v1773035602843!5m2!1sen!2sin" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    
+                      <div class="content">
+                      <h3 class="name"><a href="https://maps.app.goo.gl/ptQaM7vRnrAtyPYe8" target="_blank">Bangalore Karnataka - 560002</a></h3>
                     </div>
-
-                    <div class="content">
-                      <h3 class="name">
-                        <a href="https://maps.app.goo.gl/ujLgCcnV3yTiuGvp9" target="_blank">
-                          Bangalore Karnataka - 560002
-                        </a>
-                      </h3>
-                    </div>
-
                   </div>
+
                 </div>
 
 

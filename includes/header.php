@@ -113,10 +113,7 @@ require_once 'config.php';
               <span class="icon"><i class="fa-solid fa-envelope"></i></span>
               <span class="text"><a href="mailto:support@mohjayinfotech.com">support@mohjayinfotech.com</a></span>
             </div>
-            <div class="contact-item">
-              <span class="icon"><i class="fa-solid fa-phone"></i></span>
-              <span class="text"><a href="tel:7349369477">7349369477</a></span>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -188,12 +185,12 @@ require_once 'config.php';
                      <li><a href="<?= BASE_URL ?>project">Project</a></li>                     
                        <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
                       <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
-                    <li><a href="<?= BASE_URL ?>contact">Contact</a></li>
+                    
                   </ul>
                 </nav>
               </div>
               <div class="header-2-cta">
-                <span class="call-box">Call us: <a href="tel:7349369477">7349369477</a> </span>
+                <span class="call-box"><a href="<?= BASE_URL ?>contact">Contact Us</a> </span>
               </div>
               <div class="header-2-offfcanvas">
                 <button class="side-toggle">
