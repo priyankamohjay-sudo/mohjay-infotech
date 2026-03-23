@@ -183,15 +183,15 @@ include 'includes/header.php'; ?>
 
                 <div class="btn-wrapper">
                   <!-- MAIN BUTTON -->
-                  <a href="#" class="rr-btn">
+                  <!-- <a href="#" class="rr-btn">
                     <span class="btn-wrap">
                       <span class="text-one"><i class="fa-solid fa-download"></i>Download Desktop Software</span>
                       <span class="text-two"><i class="fa-solid fa-download"></i>Download Desktop Software</span>
                     </span>
-                  </a>
+                  </a> -->
 
                   <!-- VERSION INFO -->
-               <a href="#" class="rr-btn">
+               <a href="https://erp.mohjayinfotech.com/login" class="rr-btn" target="_blank">
                 <span class="btn-wrap">
                   <span class="text-one">
                     <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Web Version
