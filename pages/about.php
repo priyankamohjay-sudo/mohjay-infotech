@@ -216,7 +216,7 @@ include '../includes/header.php'; ?>
           </section>
           <!-- feature-2 area end  -->
 
-         <!-- testimonial area start -->
+          <!-- testimonial area start -->
         <section class="testimonial-area">
           <div class="testimonial-area-bg">
             <img src="assets/imgs/shape/shape-4.webp" alt="image">
@@ -245,7 +245,7 @@ include '../includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-1.webp" alt="image">
+                            <img src="assets/imgs/client/3_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Ankit Jain</h3>
@@ -275,7 +275,7 @@ include '../includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-2.webp" alt="image">
+                            <img src="assets/imgs/client/6_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Kavita Nair</h3>
@@ -305,7 +305,7 @@ include '../includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-3.webp" alt="image">
+                            <img src="assets/imgs/client/1_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Aditi Rao</h3>
@@ -408,7 +408,7 @@ include '../includes/header.php'; ?>
                   </p>
                 </div>
                 <div class="btn-wrapper">
-                  <a href="contact.html" class="rr-btn">
+                  <a href="<?= BASE_URL ?>contact" class="rr-btn">
                     <span class="btn-wrap">
                       <span class="text-one">Obtain An Estimate</span>
                       <span class="text-two">Obtain An Estimate</span>

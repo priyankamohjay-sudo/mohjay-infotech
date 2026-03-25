@@ -488,15 +488,15 @@ include 'includes/header.php'; ?>
                       <div class="service-logo">
                         <img src="assets/imgs/icon/icon-1.webp" alt="image">
                       </div>
-                      <a class="service-btn" href="service-details.html">
+                      <a class="service-btn" href="services/web-development">
                         <span class="btn-text">Read More</span>
                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                       </a>
-                      <a href="service-details.html"> <img class="main-img" src="assets/imgs/service/service-1.webp"
+                      <a href="services/web-development"> <img class="main-img" src="assets/imgs/service/service-1.webp"
                           alt="image"></a>
                     </div>
                     <div class="content">
-                      <h3 class="title"><a href="service-details.html">Web Development</a></h3>
+                      <h3 class="title"><a href="services/web-development">Web Development</a></h3>
                       <p class="text">Custom, responsive, scalable website solutions.</p>
                     </div>
                   </div>
@@ -505,15 +505,15 @@ include 'includes/header.php'; ?>
                       <div class="service-logo">
                         <img src="assets/imgs/icon/icon-2.webp" alt="image">
                       </div>
-                      <a class="service-btn" href="service-details.html">
+                      <a class="service-btn" href="services/digital-marketing">
                         <span class="btn-text">Read More</span>
                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                       </a>
-                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-2.webp"
+                      <a href="services/digital-marketing"><img class="main-img" src="assets/imgs/service/service-2.webp"
                           alt="image"></a>
                     </div>
                     <div class="content">
-                      <h3 class="title"><a href="service-details.html">Digital Marketing</a></h3>
+                      <h3 class="title"><a href="services/digital-marketing">Digital Marketing</a></h3>
                       <p class="text">Targeted, data-driven, growth-focused digital marketing</p>
                     </div>
                   </div>
@@ -522,17 +522,17 @@ include 'includes/header.php'; ?>
                       <div class="service-logo">
                         <img src="assets/imgs/icon/icon-3.webp" alt="image">
                       </div>
-                      <a class="service-btn" href="service-details.html">
+                      <a class="service-btn" href="services/app-development">
                         <span class="btn-text">Read More</span>
                         <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                       </a>
-                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-3.webp"
+                      <a href="services/app-development"><img class="main-img" src="assets/imgs/service/service-3.webp"
                           alt="image"></a>
 
 
                     </div>
                     <div class="content">
-                      <h3 class="title"><a href="service-details.html">App Development</a></h3>
+                      <h3 class="title"><a href="services/app-development">App Development</a></h3>
                       <p class="text">Innovative, user-friendly, high-performance mobile applications.</p>
                     </div>
                   </div>
@@ -572,7 +572,7 @@ include 'includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-1.webp" alt="image">
+                            <img src="assets/imgs/client/3_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Ankit Jain</h3>
@@ -602,7 +602,7 @@ include 'includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-2.webp" alt="image">
+                            <img src="assets/imgs/client/6_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Kavita Nair</h3>
@@ -632,7 +632,7 @@ include 'includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-3.webp" alt="image">
+                            <img src="assets/imgs/client/1_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Aditi Rao</h3>
