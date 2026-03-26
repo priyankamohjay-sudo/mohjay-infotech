@@ -168,14 +168,14 @@ include 'includes/header.php'; ?>
                   <div class="subtitle-wrapper">
                     <span class="section-subtitle">
                       <span class="start-shape"></span>
-                      <span class="text">Software Download</span>
+                      <span class="text">ACCESS OUR WEB PLATFORM</span>
                       <span class="end-shape"></span>
                     </span>
                   </div>
 
                   <div class="title-wrapper">
                     <h2 class="section-title text-white">
-                      Download Our Desktop Software Or Open The Web Version And Get Started Instantly
+                      Open The Web Version And Get Started Instantly Across Our Platform
                     </h2>
                   </div>
 
