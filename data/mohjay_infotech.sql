@@ -87,6 +87,12 @@ ALTER TABLE `blogs`
   ADD UNIQUE KEY `slug` (`slug`);
 
 --
+-- Indexes for table `contact_queries`
+--
+ALTER TABLE `contact_queries`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -95,9 +101,12 @@ ALTER TABLE `blogs`
 --
 ALTER TABLE `blogs`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
-COMMIT;
+
+--
+-- AUTO_INCREMENT for table `contact_queries`
+--
 ALTER TABLE `contact_queries`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 
