@@ -657,6 +657,98 @@ include 'includes/header.php'; ?>
                       </div>
                     </div>
                   </div>
+                
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/review-7.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Aman Verma</h3>
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“My internship at Mohjay Infotech was a great learning experience that helped me build strong technical skills and confidence. The team provided proper guidance and allowed me to work on real projects, which gave me practical industry exposure. I also attended live classes conducted directly by Mohjay through their online video sessions, where concepts were explained clearly with real-time interaction. Mohjay Infotech truly focuses on student growth and provides the right direction for starting a successful career.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/review-6.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Neha Gupta</h3>
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“I attended live classes conducted by Mohjay Infotech through their online sessions, and the experience was very helpful. The classes were well-structured and focused on practical learning. Mentors explained each concept clearly and ensured that every topic was easy to understand. It is a great platform for students who want to improve their skills with proper guidance and real-time learning.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/review-5.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Rohit Sharma</h3>
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“I connected with Mohjay Infotech to improve my digital marketing skills, and the experience has been very positive. Their team guided me with proper strategies, tools, and practical knowledge that helped me understand how real marketing works. From SEO basics to social media growth, everything was explained clearly. Mohjay Infotech is a reliable place for students who want to learn and grow in the digital marketing field.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="testimonial-pagination"></div>
               </div>

@@ -7,8 +7,11 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-// Base URL for server
+// Base URL for local
 define('BASE_URL', 'http://localhost/mohjay-infotech/');
+
+// Base URL for server
+//define('BASE_URL', 'https://mohjayinfotech.com/');
 
 // SMTP Configuration (Loaded from .env)
 define('SMTP_HOST', $_ENV['SMTP_HOST'] ?? 'smtpout.secureserver.net');
