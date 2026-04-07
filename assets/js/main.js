@@ -500,6 +500,10 @@
       speed: 2000,
       watchSlidesProgress: true,
       centeredSlides: true,
+      autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
       pagination: {
         el: ".testimonial-pagination",
         type: "progressbar",

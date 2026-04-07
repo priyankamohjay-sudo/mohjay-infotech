@@ -3,12 +3,12 @@
 // Database configuration
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
-//define('DB_PASS', '');
-//define('DB_NAME', 'mohjay_database');
+define('DB_PASS', '');
+define('DB_NAME', 'mohjay_database');
 
 //server db config
-define('DB_PASS', 'MohjayInfotech@2026');
-define('DB_NAME', 'mohjay_infotech_db');
+//define('DB_PASS', 'MohjayInfotech@2026');
+//define('DB_NAME', 'mohjay_infotech_db');
 
 try {
     $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=utf8", DB_USER, DB_PASS);
