@@ -1,10 +1,10 @@
 <?php
 
-// Database configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'mohjay_database');
+// Database configuration (Loaded from .env)
+define('DB_HOST', $_ENV['DB_HOST'] ?? 'localhost');
+define('DB_USER', $_ENV['DB_USER'] ?? 'root');
+define('DB_PASS', $_ENV['DB_PASS'] ?? '');
+define('DB_NAME', $_ENV['DB_NAME'] ?? 'mohjay_infotech');
 
 //server db config
 //define('DB_PASS', 'MohjayInfotech@2026');

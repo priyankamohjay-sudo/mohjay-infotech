@@ -1,4 +1,9 @@
-﻿RewriteEngine On
+﻿# Block access to sensitive files
+<FilesMatch "^\.env|composer\.(json|lock)$">
+    Require all denied
+</FilesMatch>
+
+RewriteEngine On
 Options -Indexes
 
 # Base path for local XAMPP

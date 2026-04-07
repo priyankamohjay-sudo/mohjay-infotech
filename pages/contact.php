@@ -223,42 +223,43 @@ include '../includes/header.php'; ?>
                 <!-- ================= RIGHT SIDE FORM (UNCHANGED) ================= -->
                 <div class="appointment-2-contact-wrap fade-anim" data-direction="right">
                   <h3 class="contact-title">Book Your Service Here</h3>
-                  <form action="#">
+                  <div id="contact-response"></div>
+                  <form action="process-contact.php" method="POST" id="contact-form">
                     <div class="form-bg">
                       <img src="assets/imgs/gallery/gallery-15.webp" alt="image" />
                     </div>
 
                     <div class="appointment-2-formwrap">
                       <div class="appointment-2-formfield">
-                        <input type="text" name="Name" id="Name" placeholder="First Name*" />
+                        <input type="text" name="first_name" id="Name" placeholder="First Name*" required />
                       </div>
 
                       <div class="appointment-2-formfield">
-                        <input type="text" name="L_Name" id="L_Name" placeholder="Last Name*" />
+                        <input type="text" name="last_name" id="L_Name" placeholder="Last Name*" required />
                       </div>
 
                       <div class="appointment-2-formfield">
-                        <input type="text" name="Email" id="Email" placeholder="Your Email*" />
+                        <input type="email" name="email" id="Email" placeholder="Your Email*" required />
                       </div>
 
                       <div class="appointment-2-formfield">
-                        <input type="text" name="Phone" id="Phone" placeholder="Phone Number*" />
+                        <input type="text" name="phone" id="Phone" placeholder="Phone Number*" required />
                       </div>
 
                       <div class="appointment-2-formfield span-2">
-                        <input type="url" name="Url" id="Url" placeholder="Your Website Url*" />
+                        <input type="text" name="subject" id="Subject" placeholder="Subject*" required />
                       </div>
 
                       <div class="appointment-2-formfield span-2 message">
-                        <textarea name="Message" id="Message" placeholder="Write Your Message Here*"></textarea>
+                        <textarea name="message" id="Message" placeholder="Write Your Message Here*" required></textarea>
                       </div>
                     </div>
 
                     <div class="submit-btn">
-                      <button type="submit" class="rr-btn">
+                      <button type="submit" class="rr-btn" id="submit-btn">
                         <span class="btn-wrap">
-                          <span class="text-one">Send Message Now</span>
-                          <span class="text-two">Send Message Now</span>
+                          <span class="text-one"><i class="fa-solid fa-spinner fa-spin d-none" id="btn-loader"></i> Send Message Now</span>
+                          <span class="text-two"><i class="fa-solid fa-spinner fa-spin d-none" id="btn-loader-2"></i> Send Message Now</span>
                         </span>
                       </button>
                     </div>
@@ -275,3 +276,42 @@ include '../includes/header.php'; ?>
       </main>
 
        <?php include '../includes/footer.php'; ?>
+
+       <script>
+       $(document).ready(function() {
+           $('#contact-form').on('submit', function(e) {
+               e.preventDefault();
+               
+               var $form = $(this);
+               var $submitBtn = $('#submit-btn');
+               var $responseDiv = $('#contact-response');
+               var $loader = $submitBtn.find('.fa-spinner');
+               
+               $submitBtn.attr('disabled', true);
+               $loader.removeClass('d-none');
+               
+               $.ajax({
+                   url: 'process-contact',
+                   type: 'POST',
+                   data: $form.serialize(),
+                   dataType: 'json',
+                   success: function(response) {
+                       if (response.status === 'success') {
+                           $responseDiv.html('<div class="alert alert-success">' + response.message + '</div>');
+                           $form[0].reset();
+                       } else {
+                           $responseDiv.html('<div class="alert alert-danger">' + response.message + '</div>');
+                       }
+                   },
+                   error: function(xhr, status, error) {
+                       console.error(xhr.responseText);
+                       $responseDiv.html('<div class="alert alert-danger">An error occurred: ' + status + ' - ' + error + '. Check console for details.</div>');
+                   },
+                   complete: function() {
+                       $submitBtn.attr('disabled', false);
+                       $loader.addClass('d-none');
+                   }
+               });
+           });
+       });
+       </script>
