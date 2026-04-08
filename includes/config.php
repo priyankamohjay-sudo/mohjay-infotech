@@ -11,7 +11,7 @@ $dotenv->load();
 define('BASE_URL', 'http://localhost/mohjay-infotech/');
 
 // Base URL for server
-//define('BASE_URL', 'https://mohjayinfotech.com/');
+//define('BASE_URL', 'https://www.mohjayinfotech.com/');
 
 // SMTP Configuration (Loaded from .env)
 define('SMTP_HOST', $_ENV['SMTP_HOST'] ?? 'smtpout.secureserver.net');
