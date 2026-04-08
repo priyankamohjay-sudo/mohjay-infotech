@@ -114,13 +114,20 @@ include dirname(__DIR__) . '/includes/header.php'; ?>
                   </div>
                   <div class="social-wrapper">
                     <span class="title">Social Share</span>
-                    <div class="blog-social">
-                      <?php if($blog['facebook_url']): ?><a href="<?= htmlspecialchars($blog['facebook_url']) ?>" target="_blank"><i class="fa-brands fa-facebook-f"></i></a><?php endif; ?>
-                      <?php if($blog['twitter_url']): ?><a href="<?= htmlspecialchars($blog['twitter_url']) ?>" target="_blank"><i class="fa-brands fa-twitter"></i></a><?php endif; ?>
-                      <?php if($blog['instagram_url']): ?><a href="<?= htmlspecialchars($blog['instagram_url']) ?>" target="_blank"><i class="fa-brands fa-instagram"></i></a><?php endif; ?>
-                      <?php if($blog['linkedin_url']): ?><a href="<?= htmlspecialchars($blog['linkedin_url']) ?>" target="_blank"><i class="fa-brands fa-linkedin"></i></a><?php endif; ?>
-                      <a href="https://x.com/intent/tweet?url=<?= urlencode(BASE_URL . "blog/" . $blog['slug']) ?>&text=<?= urlencode($blog['title']) ?>" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                    </div>
+                 <div class="blog-social">
+                  <a href="https://www.facebook.com/mohjayinfotechpvtltd" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com/mohjayinfotech/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+
+                  <a href="https://www.linkedin.com/company/mohjay-infotech/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+
+                </div>
                   </div>
                 </div>
               </div>
