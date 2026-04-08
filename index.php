@@ -758,7 +758,7 @@ include 'includes/header.php'; ?>
         <!-- testimonial area end -->
 
         <!-- process area start -->
-        <section class="process-area">
+        <section class="process-area bg-white">
           <div class="container rr-container-1410">
             <div class="process-area-inner section-spacing">
               <div class="process-header fade-anim">
