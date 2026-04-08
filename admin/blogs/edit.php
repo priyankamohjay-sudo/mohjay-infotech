@@ -24,6 +24,7 @@ if (!$blog) {
     exit;
 }
 
+$upload_error = null;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
     $slug = $_POST['slug'] ?: $title;
@@ -40,22 +41,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     // Handle File Upload
     $featured_image = $blog['featured_image']; // Default to current image
-    if (isset($_FILES['featured_image']) && $_FILES['featured_image']['error'] === 0) {
-        $target_dir = dirname(dirname(__DIR__)) . "/assets/imgs/blog/";
-        $file_ext = pathinfo($_FILES["featured_image"]["name"], PATHINFO_EXTENSION);
-        $file_name = time() . '_' . $slug . '.' . $file_ext;
-        $target_file = $target_dir . $file_name;
-
-        if (move_uploaded_file($_FILES["featured_image"]["tmp_name"], $target_file)) {
-            $featured_image = $file_name;
+    if (isset($_FILES['featured_image']) && $_FILES['featured_image']['size'] > 0) {
+        // Validate file
+        $allowed_ext = ['jpg', 'jpeg', 'png', 'gif', 'webp'];
+        $max_size = 5 * 1024 * 1024; // 5MB
+        $file_ext = strtolower(pathinfo($_FILES["featured_image"]["name"], PATHINFO_EXTENSION));
+        
+        if ($_FILES['featured_image']['error'] !== 0) {
+            $upload_error = "Upload error code: " . $_FILES['featured_image']['error'];
+            log_error("Blog edit image upload error: " . $upload_error);
+        } elseif (!in_array($file_ext, $allowed_ext)) {
+            $upload_error = "Invalid file type. Allowed: JPG, PNG, GIF, WEBP";
+        } elseif ($_FILES['featured_image']['size'] > $max_size) {
+            $upload_error = "File size exceeds 5MB limit";
+        } else {
+            $target_dir = dirname(dirname(__DIR__)) . "/assets/imgs/blog/";
+            
+            // Ensure directory exists
+            if (!is_dir($target_dir)) {
+                mkdir($target_dir, 0755, true);
+            }
+            
+            $file_name = time() . '_' . $slug . '.' . $file_ext;
+            $target_file = $target_dir . $file_name;
+            
+            if (move_uploaded_file($_FILES["featured_image"]["tmp_name"], $target_file)) {
+                $featured_image = $file_name;
+                log_error("Blog $id image updated: $file_name");
+            } else {
+                $upload_error = "Failed to move uploaded file. Check directory permissions.";
+                log_error("Blog edit image upload failed: " . $upload_error . " | Target: " . $target_file);
+            }
         }
     }
 
     $stmt = $pdo->prepare("UPDATE blogs SET title = ?, slug = ?, content = ?, quote = ?, tags = ?, category = ?, featured_image = ?, facebook_url = ?, twitter_url = ?, instagram_url = ?, linkedin_url = ? WHERE id = ?");
     $stmt->execute([$title, $slug, $content, $quote, $tags, $category, $featured_image, $facebook_url, $twitter_url, $instagram_url, $linkedin_url, $id]);
 
-    header("Location: index.php");
-    exit;
+    if (!$upload_error) {
+        header("Location: index.php");
+        exit;
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -100,6 +126,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <h2 class="fw-bold">Edit Blog Post</h2>
                     <a href="index.php" class="btn btn-outline-secondary px-4"><i class="fa-solid fa-arrow-left me-2"></i> Back to List</a>
                 </div>
+
+                <?php if ($upload_error): ?>
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                        <i class="fa-solid fa-circle-exclamation me-2"></i> <strong>Upload Error:</strong> <?= htmlspecialchars($upload_error) ?>
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                <?php endif; ?>
 
                 <div class="card shadow-sm">
                     <div class="card-body p-4">

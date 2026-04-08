@@ -1490,15 +1490,21 @@ section {
   text-transform: uppercase;
   color: var(--white);
   z-index: 20;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  letter-spacing: 8px;
 }
 @media only screen and (max-width: 767px) {
   .loader-wrap .loader-wrap-heading .load-text {
-    font-size: 50px;
+    font-size: 36px;
+    letter-spacing: 4px;
   }
 }
 
 .load-text span {
   animation: loading 1s infinite alternate;
+  display: inline-block;
 }
 
 .load-text span:nth-child(1) {
