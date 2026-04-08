@@ -10,7 +10,9 @@ if (!isset($_SESSION['admin_logged_in']) || !$_SESSION['admin_logged_in']) {
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = $_POST['title'];
-    $slug = $_POST['slug'] ?: strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $title)));
+    $slug = $_POST['slug'] ?: $title;
+    $slug = strtolower(trim(preg_replace('/[^A-Za-z0-9-]+/', '-', $slug)));
+    $slug = preg_replace('/-+/', '-', $slug); // Collapse multiple dashes
     $content = $_POST['content'];
     $quote = $_POST['quote'];
     $tags = $_POST['tags'];
