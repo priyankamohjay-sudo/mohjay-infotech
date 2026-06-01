@@ -239,28 +239,29 @@ include '../includes/header.php'; ?>
                     <h2 class="section-title">Find Job Opportunities Through Mohjay Infotech</h2>
                   </div>
                 </div>
+                <div id="career-response"></div>
                 <div class="appointment-contact-wrap">
-                  <form action="#">
+                  <form id="career-form">
                     <div class="appointment-formwrap">
                       <div class="appointment-formfield">
-                        <input type="text" name="Name" id="Name" placeholder="Your Name">
+                 <input type="text" name="name" id="name" placeholder="Your Name" required>
                         <i class="fa-regular fa-user"></i>
                       </div>
                       <div class="appointment-formfield">
-                        <input type="text" name="Email" id="Email" placeholder="Email Address">
+                   <input type="email" name="email" id="email" placeholder="Email Address" required>
                         <i class="fa-regular fa-envelope"></i>
                       </div>
                       <div class="appointment-formfield">
-                        <input type="tel" name="Phone" id="Phone" placeholder="Your Phone Number">
+                <input type="tel" name="phone" id="phone" placeholder="Your Phone Number" required>
                         <i class="fa-regular fa-phone"></i>
                       </div>
                       <div class="appointment-formfield">
-                        <input type="text" name="Location" id="Location" placeholder="Location">
+                  <input type="text" name="location" id="location" placeholder="Location" required>
                         <i class="fa-regular fa-map-location"></i>
                       </div>
                       
                       <div class="appointment-formfield span-2">
-                        <select name="category" id="category">
+                        <select name="expertise" id="expertise">
                           <option value="Select Designation" selected disabled>Select Your Expertise</option>
                           <option value="Front End Developer">Front End Developer</option>
                           <option value="Backend Developer">Backend Developer</option>
@@ -273,10 +274,10 @@ include '../includes/header.php'; ?>
                       </div>
                     </div>
                     <div class="submit-btn">
-                      <button type="submit" class="rr-btn">
+                      <button type="submit" class="rr-btn" id="submit-btn-career">
                         <span class="btn-wrap">
-                          <span class="text-one">Request a Call Back</span>
-                          <span class="text-two">Request a Call Back</span>
+                          <span class="text-one"><i class="fa-solid fa-spinner fa-spin d-none" id="btn-loader"></i>Request a Call Back</span>
+                          <span class="text-two"><i class="fa-solid fa-spinner fa-spin d-none" id="btn-loader-2"></i>Request a Call Back</span>
                         </span>
                       </button>
                     </div>
@@ -302,3 +303,42 @@ include '../includes/header.php'; ?>
       </main>
 
     <?php include '../includes/footer.php'; ?>
+
+     <script>
+       $(document).ready(function() {
+           $('#career-form').on('submit', function(e) {
+               e.preventDefault();
+               
+               var $form = $(this);
+               var $submitBtn = $('#submit-btn-career');
+               var $responseDiv = $('#career-response');
+               var $loader = $submitBtn.find('.fa-spinner');
+               
+               $submitBtn.attr('disabled', true);
+               $loader.removeClass('d-none');
+               
+               $.ajax({
+                   url: 'process-career',
+                   type: 'POST',
+                   data: $form.serialize(),
+                   dataType: 'json',
+                   success: function(response) {
+                       if (response.status === 'success') {
+                           $responseDiv.html('<div class="alert alert-success">' + response.message + '</div>');
+                           $form[0].reset();
+                       } else {
+                           $responseDiv.html('<div class="alert alert-danger">' + response.message + '</div>');
+                       }
+                   },
+                   error: function(xhr, status, error) {
+                       console.error(xhr.responseText);
+                       $responseDiv.html('<div class="alert alert-danger">An error occurred: ' + status + ' - ' + error + '. Check console for details.</div>');
+                   },
+                   complete: function() {
+                       $submitBtn.attr('disabled', false);
+                       $loader.addClass('d-none');
+                   }
+               });
+           });
+       });
+       </script>
