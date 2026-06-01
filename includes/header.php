@@ -172,6 +172,7 @@ require_once 'config.php';
                   <ul>
                     <li><a href="<?= BASE_URL ?>">Home</a> </li>
                    <li><a href="<?= BASE_URL ?>about">About Us</a></li>
+                    <li><a href="<?= BASE_URL ?>hiring">Hiring</a></li>
                     <li class="menu-item-has-children">
                       <a href="<?= BASE_URL ?>service">Services</a>
                       <ul class="dp-menu">
@@ -185,7 +186,7 @@ require_once 'config.php';
                     </li>
                      <li><a href="<?= BASE_URL ?>project">Project</a></li>                     
                        <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
-                       <li><a href="<?= BASE_URL ?>hiring">Hiring</a></li>
+                      
                       <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
                     <li><a href="<?= BASE_URL ?>careers">Careers</a></li>
                   </ul>
