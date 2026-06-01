@@ -11912,7 +11912,7 @@ section {
 /* cta css */
 /* cta area style  */
 .cta-area {
-  margin: 0 30px;
+  margin: 0 30px 60px 30px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;

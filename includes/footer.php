@@ -128,7 +128,7 @@
   <script src="<?= BASE_URL ?>assets/js/jquery-3.6.0.min.js"></script>
   <script src="<?= BASE_URL ?>assets/js/bootstrap.bundle.min.js"></script>
   <script src="<?= BASE_URL ?>assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="<?= BASE_URL ?>assets/js/swiper-bundle.min.js"></script>
+  <script src="<?= BASE_URL ?>assets/js/swiper-bundle.min.js"></script> 
   <script src="<?= BASE_URL ?>assets/js/odometer.min.js"></script>
   <script src="<?= BASE_URL ?>assets/js/waypoints.min.js"></script>
   <script src="<?= BASE_URL ?>assets/js/progressbar.js"></script>
@@ -142,6 +142,7 @@
   <script src="<?= BASE_URL ?>assets/js/backToTop.js"></script>
   <script src="<?= BASE_URL ?>assets/js/jquery.nice-select.min.js"></script>
   <script src="<?= BASE_URL ?>assets/js/wow.min.js"></script>
+   <script src="assets/js/slider.html"></script>
   <!-- Template Main JS File -->
   <script src="<?= BASE_URL ?>assets/js/main.js"></script>
 

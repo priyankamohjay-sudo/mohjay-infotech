@@ -32,6 +32,7 @@ require_once 'config.php';
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/animate.min.css">
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
+   <link rel="stylesheet" href="assets/css/carouselTicker.html">
 
   <!-- Template Main CSS File -->
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
@@ -184,8 +185,9 @@ require_once 'config.php';
                     </li>
                      <li><a href="<?= BASE_URL ?>project">Project</a></li>                     
                        <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
+                       <li><a href="<?= BASE_URL ?>hiring">Hiring</a></li>
                       <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
-                    
+                    <li><a href="<?= BASE_URL ?>careers">Careers</a></li>
                   </ul>
                 </nav>
               </div>
