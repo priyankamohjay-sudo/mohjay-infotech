@@ -62,8 +62,8 @@ include '../includes/header.php'; ?>
                       <img src="assets/imgs/icon/icon-8.webp" alt="image">
                     </div>
                     <div class="content">
-                      <div class="title"><span class="number odometer" data-count="1000">0</span>+</div>
-                      <p class="text">Candidates Registered</p>
+                      <div class="title"><span class="number odometer" data-count="10">0</span>k +</div>
+                      <p class="text">Registered job seekers</p>
                     </div>
                   </div>
                   <div class="counter-box fade-anim">
@@ -71,8 +71,8 @@ include '../includes/header.php'; ?>
                       <img src="assets/imgs/icon/icon-9.webp" alt="image">
                     </div>
                     <div class="content">
-                      <div class="title"><span class="number odometer" data-count="200">0</span>+</div>
-                      <p class="text">Startup Partners</p>
+                      <div class="title"><span class="number odometer" data-count="450">0</span>+</div>
+                      <p class="text">Tie Up Companies</p>
                     </div>
                   </div>
                   <div class="counter-box fade-anim">
@@ -81,7 +81,7 @@ include '../includes/header.php'; ?>
                     </div>
                     <div class="content">
                       <div class="title"><span class="number odometer" data-count="95">0</span>%</div>
-                      <p class="text">Employer Satisfaction Rate</p>
+                      <p class="text">Satisfaction Clients - Hiring + BGV+ Replacements</p>
                     </div>
                   </div>
                   <div class="counter-box fade-anim">
@@ -89,8 +89,8 @@ include '../includes/header.php'; ?>
                       <img src="assets/imgs/icon/icon-11.webp" alt="image">
                     </div>
                     <div class="content">
-                      <div class="title"><span class="number odometer" data-count="24">0</span>Hrs</div>
-                      <p class="text">Average Response Time</p>
+                      <div class="title"><span class="number">24-72</span> Hrs</div>
+                      <p class="text">Average Min & Max Response Time</p>
                     </div>
                   </div>
                 </div>

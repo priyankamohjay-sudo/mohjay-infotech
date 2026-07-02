@@ -965,12 +965,6 @@ h6 {
   display: none !important;
 }
 
-/* Mobile Hiring Menu Styling */
-.mobile-menu.mean-container .mean-nav > ul > li:nth-child(3) > a {
-  color: var(--theme);
-  font-weight: 700;
-}
-
 /* Sticky header styling */
 .header-sticky {
   transition: all 0.5s;
