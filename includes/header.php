@@ -1,6 +1,6 @@
-<?php 
+<?php
 $url = $_SERVER['REQUEST_URI'];
-require_once 'config.php'; 
+require_once 'config.php';
 
 ?>
 
@@ -10,6 +10,16 @@ require_once 'config.php';
 
 
 <head>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-52GNDD43');</script>
+  <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,7 +42,7 @@ require_once 'config.php';
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/animate.min.css">
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/odometer-theme-default.css">
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/nice-select.css">
-   <link rel="stylesheet" href="assets/css/carouselTicker.html">
+  <link rel="stylesheet" href="assets/css/carouselTicker.html">
 
   <!-- Template Main CSS File -->
   <link rel="stylesheet" href="<?= BASE_URL ?>assets/css/style.css">
@@ -43,6 +53,10 @@ require_once 'config.php';
 
 <body class="body-wrapper <?= $url != "/mohjay-infotech/" ? 'page-inner' : '' ?>">
 
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-52GNDD43" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
   <div class="loader-wrap">
     <svg viewBox="0 0 1000 1000" preserveAspectRatio="none">
       <path id="svg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
@@ -102,9 +116,11 @@ require_once 'config.php';
         </div>
         <div class="offset-widget-box">
           <h2 class="title">Contact US</h2>
-           <div class="header-note">
-            <p class="text">We are a software development company focused on creating innovative, scalable, and high-performance digital solutions. Our mission is to help businesses with technology that drives growth, improves efficiency, and boosts customer experiences.</p>
-           </div>
+          <div class="header-note">
+            <p class="text">We are a software development company focused on creating innovative, scalable, and
+              high-performance digital solutions. Our mission is to help businesses with technology that drives growth,
+              improves efficiency, and boosts customer experiences.</p>
+          </div>
           <div class="contact-meta pt-4">
             <div class="contact-item">
               <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
@@ -114,7 +130,7 @@ require_once 'config.php';
               <span class="icon"><i class="fa-solid fa-envelope"></i></span>
               <span class="text"><a href="mailto:support@mohjayinfotech.com">support@mohjayinfotech.com</a></span>
             </div>
-           
+
           </div>
         </div>
       </div>
@@ -130,7 +146,7 @@ require_once 'config.php';
   <div id="smooth-wrapper">
     <div id="smooth-content">
 
-        <!-- Header-2 area start -->
+      <!-- Header-2 area start -->
       <header class="header-2-area">
         <div class="header-2-top">
           <div class="container rr-container-1410">
@@ -142,7 +158,8 @@ require_once 'config.php';
                 </div> -->
                 <div class="header-2-contact-item">
                   <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
-                  <span class="text"><a href="https://maps.app.goo.gl/XWi1nNvkV5owDr939" target="_blank">Canal Rd, Dehradun - 248009</a></span>
+                  <span class="text"><a href="https://maps.app.goo.gl/XWi1nNvkV5owDr939" target="_blank">Canal Rd,
+                      Dehradun - 248009</a></span>
                 </div>
                 <div class="header-2-contact-item">
                   <span class="icon"><i class="fa-solid fa-envelope"></i></span>
@@ -151,9 +168,12 @@ require_once 'config.php';
               </div>
               <div class="header-2-social">
                 <span class="text">Follow Us On:</span>
-                <a href="https://www.facebook.com/mohjayinfotechpvtltd" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/mohjayinfotech/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/mohjay-infotech/posts/?feedView=all" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/mohjayinfotechpvtltd" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/mohjayinfotech/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/mohjay-infotech/posts/?feedView=all" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
                 <!-- <a href="https://www.linkedin.com/"><i class="fa-brands fa-youtube"></i></a> -->
               </div>
             </div>
@@ -171,7 +191,7 @@ require_once 'config.php';
                 <nav class="main-menu">
                   <ul>
                     <li><a href="<?= BASE_URL ?>">Home</a> </li>
-                   <li><a href="<?= BASE_URL ?>about">About Us</a></li>
+                    <li><a href="<?= BASE_URL ?>about">About Us</a></li>
                     <li><a href="<?= BASE_URL ?>hiring">Hiring</a></li>
                     <li class="menu-item-has-children">
                       <a href="<?= BASE_URL ?>service">Services</a>
@@ -184,10 +204,10 @@ require_once 'config.php';
                         <li><a href="<?= BASE_URL ?>services/social-media-marketing">Social Media Marketing</a></li>
                       </ul>
                     </li>
-                     <li><a href="<?= BASE_URL ?>project">Project</a></li>                     
-                       <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
-                      
-                      <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
+                    <li><a href="<?= BASE_URL ?>project">Project</a></li>
+                    <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
+
+                    <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
                     <li><a href="<?= BASE_URL ?>careers">Careers</a></li>
                   </ul>
                 </nav>
