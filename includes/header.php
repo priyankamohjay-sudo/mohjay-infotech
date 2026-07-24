@@ -206,7 +206,6 @@ require_once 'config.php';
                     </li>
                     <li><a href="<?= BASE_URL ?>project">Project</a></li>
                     <li><a href="<?= BASE_URL ?>blog">Blog</a></li>
-
                     <li><a href="<?= BASE_URL ?>locations">Locations</a></li>
                     <li><a href="<?= BASE_URL ?>careers">Careers</a></li>
                   </ul>

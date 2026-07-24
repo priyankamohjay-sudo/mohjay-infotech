@@ -3581,11 +3581,16 @@ section {
   font-size: 16px;
   font-weight: 600;
   padding: 7px 14px;
-  background-color: transparent;
+  background-color: var(--action);
+  color: var(--white);
   border-radius: 30px;
 }
+.header-2-area .main-menu > ul > li:nth-child(3) > a {
+  color: var(--white) !important;
+}
 .header-2-area .main-menu li a:hover {
-  color: var(--secondary);
+  color: var(--white);
+  background-color: var(--action);
 }
 .header-2-area .search-icon {
   color: var(--primary);
@@ -12145,6 +12150,17 @@ section {
   .cta-down-option .text {
     font-size: 14px;
   }
+}
+.cta-down-option {
+  text-align: left;
+}
+@media only screen and (max-width: 991px) {
+  .cta-down-option {
+    text-align: center;
+  }
+}
+.feature-2-box:hover .icon .step-number {
+  color: var(--white) !important;
 }
 
 /* cta-2 area style  */

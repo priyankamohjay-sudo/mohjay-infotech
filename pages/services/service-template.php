@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $serviceSlug = $serviceSlug ?? null;
 
 $dataPath = dirname(dirname(__DIR__)) . DIRECTORY_SEPARATOR . 'data' . DIRECTORY_SEPARATOR . 'services.json';
@@ -177,14 +177,14 @@ include dirname(dirname(__DIR__)) . '/includes/header.php';
           </div>
         </div>
         <div class="process-3-wrapper-box">
-          <div class="process-3-wrapper">
+          <div class="feature-2-wrapper">
             <?php foreach ($service['process_steps'] as $step) { ?>
-              <div class="process-3-box fade-anim">
-                <div class="number-box">
-                  <div class="number"><?= htmlspecialchars($step['number']) ?></div>
+              <div class="feature-2-box fade-anim">
+                <div class="icon">
+                  <span class="step-number" style="font-family: var(--font_inter); font-size: 32px; font-weight: 700; color: var(--theme); transition: color 0.5s;"><?= htmlspecialchars($step['number']) ?></span>
                 </div>
                 <div class="content">
-                  <h3 class="title"><?= htmlspecialchars($step['title']) ?></h3>
+                  <h4 class="title"><?= htmlspecialchars($step['title']) ?></h4>
                   <p class="text"><?= htmlspecialchars($step['text']) ?></p>
                 </div>
               </div>

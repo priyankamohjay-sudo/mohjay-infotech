@@ -66,6 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $target_file = $target_dir . $file_name;
             
             if (move_uploaded_file($_FILES["featured_image"]["tmp_name"], $target_file)) {
+                chmod($target_file, 0644); // Ensure readable by web server
                 $featured_image = $file_name;
                 log_error("Blog $id image updated: $file_name");
             } else {

@@ -45,17 +45,11 @@
                 </div>
               </div>
               <div class="footer-3-widget-box">
-                <h2 class="footer-3-widget-title">Company Information</h2>
-                <ul class="footer-3-meta-list">
-                 <li><span class="icon"><i class="fa-solid fa-location-dot"></i></span><span class="text text-white">Anand Arcade, 305, Canal Rd, near Rajpur Road, Kishanpur, Dehradun, Uttarakhand 248009</span></li>
-                  <!-- <li><span class="icon"><i class="fa-solid fa-phone"></i></span><span class="text text-white"><a
-                        href="tel:7349369477">7349369477</a></span>
-                  </li> -->
-                  <li><span class="icon"><i class="fa-solid fa-envelope"></i></span><span class="text text-white"><a
-                        href="mailto:support@mohjayinfotech.com">support@mohjayinfotech.com</a></span>
-                  </li>
-                  <!-- <li><span class="icon"><i class="fa-solid fa-clock"></i></span><span class="text text-white"> Office : 10:00 AM -
-                      6:00 PM</span></li> -->
+                <h2 class="footer-3-widget-title">Useful Links</h2>
+                <ul class="footer-3-nav-list">
+                  <li><a href="<?= BASE_URL ?>privacy-policy"><i class="fa-solid fa-chevron-right"></i>Privacy Policy</a></li>
+                  <li><a href="<?= BASE_URL ?>terms-and-conditions"><i class="fa-solid fa-chevron-right"></i>Terms & Conditions</a></li>
+                  <li><a href="<?= BASE_URL ?>contact"><i class="fa-solid fa-chevron-right"></i>Contact Us</a></li>
                 </ul>
               </div>
               <div class="footer-3-widget-box">
@@ -105,13 +99,9 @@
         </div>
         <div class="copyright-3-area">
           <div class="container rr-container-1410">
-            <div class="copyright-3-area-inner">
+            <div class="copyright-3-area-inner" style="justify-content: center; text-align: center; display: flex;">
               <div class="copyright-3-text">
                 <p class="text">Copyright &copy;  Mohjay Infotech Pvt. Ltd. | All Rights Reserved.</p>
-              </div>
-              <div class="copyright-3-link">
-                <a href="<?= BASE_URL ?>privacy-policy">Privacy policy</a>
-                <a href="<?= BASE_URL ?>terms-and-conditions">Terms of use</a>
               </div>
             </div>
           </div>

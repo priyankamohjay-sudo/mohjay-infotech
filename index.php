@@ -856,12 +856,15 @@ include 'includes/header.php'; ?>
                 </div>
               </div>
              <div class="cta-down-option">
-              <p class="text">Email Us</p>
-              <span class="number">
-                  <a href="mailto:info@mohjayinfotech.com">info@mohjayinfotech.com</a>
-              </span>
-             
-          </div>
+               <p class="text" style="margin-bottom: 8px;">Company Information</p>
+               <p class="address-text" style="color: #a7acb5; font-size: 15px; line-height: 1.5; margin-bottom: 24px; font-weight: 500;">
+                 Anand Arcade, 305, Canal Rd, near Rajpur Road, Kishanpur, Dehradun, Uttarakhand 248009
+               </p>
+               <p class="text">Email Us</p>
+               <span class="number" style="font-size: 20px; word-break: break-word;">
+                   <a href="mailto:support@mohjayinfotech.com">support@mohjayinfotech.com</a>
+               </span>
+             </div>
             </div>
           </div>
         </div>

@@ -7,11 +7,19 @@ require_once __DIR__ . '/../vendor/autoload.php';
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-// Base URL for local
-define('BASE_URL', 'http://localhost/mohjay-infotech/');
-
-// Base URL for server
-//define('BASE_URL', 'https://www.mohjayinfotech.com/');
+// Dynamically determine protocol
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || ($_SERVER['SERVER_PORT'] ?? 80) == 443) ? "https://" : "http://";
+// Dynamically determine host
+$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+// Dynamically determine base path
+$docRoot = str_replace('\\', '/', $_SERVER['DOCUMENT_ROOT'] ?? '');
+$dirPath = str_replace('\\', '/', dirname(__DIR__));
+$basePath = str_replace($docRoot, '', $dirPath);
+$basePath = '/' . ltrim($basePath, '/');
+if (substr($basePath, -1) !== '/') {
+    $basePath .= '/';
+}
+define('BASE_URL', $protocol . $host . $basePath);
 
 // SMTP Configuration (Loaded from .env)
 define('SMTP_HOST', $_ENV['SMTP_HOST'] ?? 'smtpout.secureserver.net');
