@@ -1,13 +1,45 @@
+﻿# Block access to sensitive files
+<FilesMatch "^\.env|composer\.(json|lock)$">
+    Require all denied
+</FilesMatch>
+
 RewriteEngine On
 Options -Indexes
+
+# Base path for local XAMPP
+RewriteBase /mohjay-infotech/
 
 # -------------------------
 # COURSE ROUTES
 # /course/web-development -> pages/course/web-development.php
 # -------------------------
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteRule ^course/([a-zA-Z0-9-_]+)/?$ pages/courses/$1.php [L,QSA]
+
+# -------------------------
+# SERVICE ROUTES
+# /services/web-development -> pages/services/web-development.php
+# -------------------------
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^course/([a-zA-Z0-9-_]+)/?$ pages/courses/$1.php [L,QSA]
+RewriteRule ^services/([a-zA-Z0-9-_]+)/?$ pages/services/$1.php [L,QSA]
+
+# -------------------------
+# BLOG ROUTES
+# /blog/slug -> pages/blog-details.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/([a-zA-Z0-9-_]+)/?$ pages/blog-details.php?slug=$1 [L,QSA]
+
+# -------------------------
+# PROJECT ROUTES
+# /project/mi-skills -> pages/project/mi-skills.php
+# -------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^project/([a-zA-Z0-9-_]+)/?$ pages/project/$1.php [L,QSA]
 
 # -------------------------
 # NORMAL PAGES
@@ -20,4 +52,4 @@ RewriteRule ^([a-zA-Z0-9-_]+)/?$ pages/$1.php [L,QSA]
 # -------------------------
 # CUSTOM 404
 # -------------------------
-ErrorDocument 404 /mi-skillls-website/pages/404.php
+ErrorDocument 404 /mohjay-infotech/pages/404.php

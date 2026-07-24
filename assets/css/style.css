@@ -101,10 +101,12 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: var(--secondary);
+  overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 h1,
@@ -329,7 +331,7 @@ h6 {
 }
 
 .rr-container-1410 {
-  max-width: 1410px;
+  max-width: 1490px;
 }
 
 /* Background color classes */
@@ -703,6 +705,20 @@ h6 {
   border: 1px solid var(--black);
   border-radius: 50%;
   line-height: 38px;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+  z-index: 10;
+}
+@media (max-width: 575px) {
+  .side-info-close {
+    right: 15px;
+    top: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    font-size: 18px;
+  }
 }
 .dark .side-info-close {
   border-color: var(--white);
@@ -740,7 +756,7 @@ h6 {
 @media (max-width: 575px) {
   .side-info {
     width: 100%;
-    padding: 30px 20px;
+    padding: 30px 25px;
   }
 }
 .side-info ::-webkit-scrollbar {
@@ -858,6 +874,7 @@ h6 {
   width: 100%;
   padding: 15px 0;
   padding-inline-start: 0px;
+  padding-inline-end: 40px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1;
@@ -879,22 +896,27 @@ h6 {
 @media only screen and (max-width: 767px) {
   .mobile-menu.mean-container .mean-nav ul li a {
     font-size: 20px;
+    padding-inline-end: 45px;
   }
 }
 .mobile-menu.mean-container .mean-nav ul li a:hover {
   color: var(--primary);
 }
 .mobile-menu.mean-container .mean-nav ul li a.mean-expand {
-  width: 100%;
+  width: 40px;
   height: 48px;
-  justify-content: end;
+  justify-content: center;
   font-weight: 300;
   border: none !important;
   background-color: transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 @media only screen and (max-width: 767px) {
   .mobile-menu.mean-container .mean-nav ul li a.mean-expand {
     height: 50px;
+    width: 45px;
   }
 }
 .mobile-menu.mean-container .mean-nav ul li a.mean-expand:hover {
@@ -1031,12 +1053,13 @@ h6 {
   top: 0;
   left: 0;
   z-index: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: fixed;
   text-align: left;
   padding: 0 100px;
   overflow-y: scroll;
+  overflow-x: hidden;
   background: var(--white);
   clip-path: inset(0 0 100% 0);
   transition:
@@ -1049,6 +1072,11 @@ h6 {
 @media only screen and (max-width: 991px) {
   .side-info-4 {
     padding: 0 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .side-info-4 {
+    padding: 0 15px;
   }
 }
 .side-info-4.info-open {
@@ -1436,7 +1464,7 @@ section {
   position: fixed;
   z-index: 10;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   left: 0;
   top: 0;
   right: 0;
@@ -1451,7 +1479,7 @@ section {
 .loader-wrap svg {
   position: absolute;
   top: 0;
-  width: 100vw;
+  width: 100%;
   height: 110vh;
   fill: #000;
 }
@@ -1462,15 +1490,21 @@ section {
   text-transform: uppercase;
   color: var(--white);
   z-index: 20;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  letter-spacing: 8px;
 }
 @media only screen and (max-width: 767px) {
   .loader-wrap .loader-wrap-heading .load-text {
-    font-size: 50px;
+    font-size: 36px;
+    letter-spacing: 4px;
   }
 }
 
 .load-text span {
   animation: loading 1s infinite alternate;
+  display: inline-block;
 }
 
 .load-text span:nth-child(1) {
@@ -2503,6 +2537,13 @@ section {
   font-weight: 700;
   font-size: 16px;
 }
+
+/* Hiring Menu Styling */
+.main-menu > ul > li:nth-child(3) > a {
+  color: var(--theme);
+  font-weight: 700;
+}
+
 .main-menu .mega-menu {
   background-color: var(--black);
   padding: 30px 50px;
@@ -3120,7 +3161,7 @@ section {
   }
 }
 .modal__sfluence-area {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: var(--black);
   position: fixed;
@@ -3522,6 +3563,11 @@ section {
 }
 .header-2-area .header-2-nav {
   margin-right: 25px;
+}
+@media only screen and (max-width: 1299px) {
+  .header-2-area .header-2-nav {
+    display: none;
+  }
 }
 .header-2-area .main-menu > ul {
   display: flex;
@@ -5896,9 +5942,9 @@ section {
   color: var(--theme);
 }
 .about-2-content .btn-wrapper {
-  margin-top: 28px;
+  margin-top: 20px;
   border-top: 1px solid var(--border);
-  padding-top: 40px;
+  padding-top: 15px;
   display: flex;
   gap: 20px 47px;
   align-items: center;
@@ -8090,6 +8136,11 @@ section {
 
 .testimonial-active {
   overflow: visible;
+}
+@media only screen and (max-width: 991px) {
+  .testimonial-active {
+    overflow: hidden;
+  }
 }
 .testimonial-active .swiper-slide-duplicate-next .testimonial-item {
   transform: translate(0px, 53px) rotate(-12deg);
@@ -11868,7 +11919,7 @@ section {
 /* cta css */
 /* cta area style  */
 .cta-area {
-  margin: 0 30px;
+  margin: 0 30px 60px 30px;
   border-radius: 20px;
   overflow: hidden;
   position: relative;
@@ -12098,11 +12149,12 @@ section {
 
 /* cta-2 area style  */
 .cta-2-area-inner {
-  border: 1px solid var(--theme);
+  border: 1px solid #0e143d;
   border-radius: 30px;
   display: grid;
   gap: 0px 50px;
   grid-template-columns: 1fr 550px;
+  background: #0e143d;
 }
 @media only screen and (max-width: 1199px) {
   .cta-2-area-inner {
@@ -12116,7 +12168,7 @@ section {
 }
 
 .cta-2-content {
-  padding: 98px 0 120px 120px;
+  padding: 70px 0 100px 72px;
 }
 @media only screen and (max-width: 1199px) {
   .cta-2-content {
@@ -13638,7 +13690,7 @@ section {
 .contact-wrapper {
   display: grid;
   gap: 24px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 @media only screen and (max-width: 991px) {
   .contact-wrapper {
@@ -13952,4 +14004,9 @@ section {
   height: 400px;
   object-fit: cover;
   border-radius: 10px 10px 0 0;
+}
+
+
+.bg-white {
+  background-color: var(--white);
 }

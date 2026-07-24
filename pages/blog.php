@@ -3,13 +3,26 @@ $title="Best Software Company In India | Mohjay Infotech";
 $description="We are a technology-driven IT company specializing in software development mobile applications, web solutions, and digital transformation services.";
 $tags = "software development, web solutions, digital marketing, mobile app development";
 include '../includes/header.php'; ?>
+
+<style>
+  @media (min-width: 992px) {
+    .blog-sidebar-wrapper-box {
+      height: 100%;
+    }
+    /* Allow GSAP to handle transforms for pinning */
+    .blog-sidebar-wrapper {
+      position: relative;
+    }
+  }
+</style>
+
       <main>
 
         <!-- breadcrumb area start -->
         <section class="breadcrumb-area">
           <div class="breadcrumb-area-inner">
             <div class="breadcrumb-bg">
-              <img src="assets/imgs/gallery/gallery-29.webp" alt="image">
+              <img src="<?= BASE_URL ?>assets/imgs/gallery/gallery-29.webp" alt="image">
             </div>
             <div class="container rr-container-1410">
               <div class="breadcrumb-content">
@@ -18,8 +31,8 @@ include '../includes/header.php'; ?>
                 </div>
                 <div class="breadcrumb-wrapper">
                   <ul class="rr-breadcrumb">
-                    <li><a href="#">Home</a></li>
-                    <li>Blog Lists</li>
+                    <li><a href="<?= BASE_URL ?>">Home</a></li>
+                    <li>Blog</li>
                   </ul>
                 </div>
               </div>
@@ -34,113 +47,77 @@ include '../includes/header.php'; ?>
             <div class="blog-list-area-inner section-spacing">
               <div class="blog-list-wrapper-box">
                 <div class="blog-list-wrapper">
-                  <article class="blog-4 fade-anim">
-                    <div class="thumb">
-                      <a href="blog-details.html"><img src="assets/imgs/blog/blog-11.html" alt="blog image"></a>
-                    </div>
-                    <div class="content">
-                      <div class="meta">
-                        <span class="date"><i class="fa-regular fa-calendar"></i>24 Dec, 2024</span>
-                        <span class="author"><i class="fa-regular fa-user"></i>by admin</span>
+                  <?php 
+                  $search = $_GET['search'] ?? '';
+                  $cat_filter = $_GET['category'] ?? '';
+                  $tag_filter = $_GET['tag'] ?? '';
+
+                  $sql = "SELECT * FROM blogs WHERE deleted_at IS NULL";
+                  $params = [];
+
+                  if ($search) {
+                      $sql .= " AND (title LIKE ? OR content LIKE ?)";
+                      $params[] = "%$search%";
+                      $params[] = "%$search%";
+                  }
+                  if ($cat_filter) {
+                      $sql .= " AND category = ?";
+                      $params[] = $cat_filter;
+                  }
+                  if ($tag_filter) {
+                      $sql .= " AND tags LIKE ?";
+                      $params[] = "%$tag_filter%";
+                  }
+
+                  $sql .= " ORDER BY created_at DESC";
+                  $stmt = $pdo->prepare($sql);
+                  $stmt->execute($params);
+                  $blogs = $stmt->fetchAll();
+
+                  // Redirect to detail if search has exact one result
+                  if ($search && count($blogs) === 1) {
+                      header("Location: " . BASE_URL . "blog/" . $blogs[0]['slug']);
+                      exit;
+                  }
+                  
+                  if ($blogs):
+                    foreach ($blogs as $blog): ?>
+                    <article class="blog-4 fade-anim">
+                      <div class="thumb">
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($blog['slug']) ?>"><img src="<?= BASE_URL ?>assets/imgs/blog/<?= htmlspecialchars($blog['featured_image']) ?>" alt="<?= htmlspecialchars($blog['title']) ?>"></a>
                       </div>
-                      <h2 class="title"><a href="blog-details.html">Benefits of IT Services for Small Businesses</a>
-                      </h2>
-                      <p class="text">The core essence of IT solutions lies in their pivotal role in business
-                        transformation. These solutions serve as catalysts for operational optimization, streamlining
-                        complex processes, and expediting productivity. By harnessing cutting-edge technologies...</p>
-                      <a href="blog-details.html" class="rr-btn">
-                        <span class="btn-wrap">
-                          <span class="text-one">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                          <span class="text-two">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                        </span>
-                      </a>
-                    </div>
-                  </article>
-                  <article class="blog-4 fade-anim">
-                    <div class="thumb">
-                      <a href="blog-details.html"><img src="assets/imgs/blog/blog-12.html" alt="blog image"></a>
-                    </div>
-                    <div class="content">
-                      <div class="meta">
-                        <span class="date"><i class="fa-regular fa-calendar"></i>24 Dec, 2024</span>
-                        <span class="author"><i class="fa-regular fa-user"></i>by admin</span>
+                      <div class="content">
+                        <div class="meta">
+                          <span class="category"><i class="fa-regular fa-folder"></i><?= htmlspecialchars($blog['category']) ?></span>
+                          <span class="date"><i class="fa-regular fa-calendar"></i><?= date('d M, Y', strtotime($blog['created_at'])) ?></span>
+                        </div>
+                        <h2 class="title"><a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($blog['slug']) ?>"><?= htmlspecialchars($blog['title']) ?></a>
+                        </h2>
+                        <p class="text"><?= htmlspecialchars(mb_strimwidth(strip_tags($blog['content']), 0, 250, '...')) ?></p>
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($blog['slug']) ?>" class="rr-btn">
+                          <span class="btn-wrap">
+                            <span class="text-one">Read Details <i class="fa-solid fa-angles-right"></i></span>
+                            <span class="text-two">Read Details <i class="fa-solid fa-angles-right"></i></span>
+                          </span>
+                        </a>
                       </div>
-                      <h2 class="title"><a href="blog-details.html">Top 10 Cybersecurity Threats Every Business </a>
-                      </h2>
-                      <p class="text">The core essence of IT solutions lies in their pivotal role in business
-                        transformation. These solutions serve as catalysts for operational optimization, streamlining
-                        complex processes, and expediting productivity. By harnessing cutting-edge technologies...</p>
-                      <a href="blog-details.html" class="rr-btn">
-                        <span class="btn-wrap">
-                          <span class="text-one">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                          <span class="text-two">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                        </span>
-                      </a>
-                    </div>
-                  </article>
-                  <article class="blog-4 fade-anim">
-                    <div class="thumb">
-                      <a href="blog-details.html"><img src="assets/imgs/blog/blog-13.html" alt="blog image"></a>
-                    </div>
-                    <div class="content">
-                      <div class="meta">
-                        <span class="date"><i class="fa-regular fa-calendar"></i>24 Dec, 2024</span>
-                        <span class="author"><i class="fa-regular fa-user"></i>by admin</span>
-                      </div>
-                      <h2 class="title"><a href="blog-details.html">From Legacy Systems to Modern IT Infrastructure</a>
-                      </h2>
-                      <p class="text">The core essence of IT solutions lies in their pivotal role in business
-                        transformation. These solutions serve as catalysts for operational optimization, streamlining
-                        complex processes, and expediting productivity. By harnessing cutting-edge technologies...</p>
-                      <a href="blog-details.html" class="rr-btn">
-                        <span class="btn-wrap">
-                          <span class="text-one">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                          <span class="text-two">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                        </span>
-                      </a>
-                    </div>
-                  </article>
-                  <article class="blog-4 fade-anim">
-                    <div class="thumb">
-                      <a href="blog-details.html"><img src="assets/imgs/blog/blog-14.html" alt="blog image"></a>
-                    </div>
-                    <div class="content">
-                      <div class="meta">
-                        <span class="date"><i class="fa-regular fa-calendar"></i>24 Dec, 2024</span>
-                        <span class="author"><i class="fa-regular fa-user"></i>by admin</span>
-                      </div>
-                      <h2 class="title"><a href="blog-details.html">Best Practices for Security and Compliance</a>
-                      </h2>
-                      <p class="text">The core essence of IT solutions lies in their pivotal role in business
-                        transformation. These solutions serve as catalysts for operational optimization, streamlining
-                        complex processes, and expediting productivity. By harnessing cutting-edge technologies...</p>
-                      <a href="blog-details.html" class="rr-btn">
-                        <span class="btn-wrap">
-                          <span class="text-one">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                          <span class="text-two">Read Details <i class="fa-solid fa-angles-right"></i></span>
-                        </span>
-                      </a>
-                    </div>
-                  </article>
-                </div>
-                <div class="blog-list-footer">
-                  <div class="rr-pagination fade-anim">
-                    <a href="#">01</a>
-                    <a href="#">02</a>
-                    <a href="#">03</a>
-                    <a href="#">04</a>
-                    <a href="#"><i class="fa-solid fa-angles-right"></i></a>
-                  </div>
+                    </article>
+                    <?php endforeach;
+                  else: ?>
+                    <div class="alert alert-info">No blog posts found matching your criteria.</div>
+                  <?php endif; ?>
                 </div>
               </div>
+
+              <!-- Sidebar -->
               <div class="blog-sidebar-wrapper-box">
-                <div class="blog-sidebar-wrapper fade-anim">
+                <div class="blog-sidebar-wrapper">
                   <div class="blog-sidebar-box">
                     <h3 class="sidebar-title">Search Here</h3>
                     <div class="sidebar-search-box">
-                      <form action="#" class="sidebar-search-form">
+                      <form action="<?= BASE_URL ?>blog" method="GET" class="sidebar-search-form">
                         <div class="input-field">
-                          <input type="email" placeholder="Enter Keyword">
+                          <input type="text" name="search" placeholder="Enter Keyword" value="<?= htmlspecialchars($search) ?>">
                           <button type="submit" class="search-btn">
                             <i class="fa-solid fa-magnifying-glass"></i>
                           </button>
@@ -152,42 +129,20 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Recent Posts</h3>
                     <div class="sidebar-blog-wrapper-box">
                       <div class="sidebar-blog-wrapper">
+                        <?php 
+                        $stmt_recent = $pdo->prepare("SELECT * FROM blogs WHERE deleted_at IS NULL ORDER BY created_at DESC LIMIT 3");
+                        $stmt_recent->execute();
+                        $recent_blogs = $stmt_recent->fetchAll();
+                        foreach ($recent_blogs as $rblog): ?>
                         <article class="sidebar-blog">
                           <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/imgs/blog/blog-15.html" alt="blog image"></a>
+                            <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($rblog['slug']) ?>"><img src="<?= BASE_URL ?>assets/imgs/blog/<?= htmlspecialchars($rblog['featured_image']) ?>" alt="<?= htmlspecialchars($rblog['title']) ?>" style="width: 80px; height: 80px; object-fit: cover;"></a>
                           </div>
                           <div class="content">
-                            <div class="meta">
-                              <span class="author"><i class="fa-regular fa-user"></i>by David Smith</span>
-                            </div>
-                            <h2 class="title"><a href="blog-details.html">The Ultimate Guide to Choosing
-                                the Right IT Service Provider</a></h2>
+                            <h2 class="title"><a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($rblog['slug']) ?>"><?= htmlspecialchars($rblog['title']) ?></a></h2>
                           </div>
                         </article>
-                        <article class="sidebar-blog">
-                          <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/imgs/blog/blog-16.html" alt="blog image"></a>
-                          </div>
-                          <div class="content">
-                            <div class="meta">
-                              <span class="author"><i class="fa-regular fa-user"></i>by David Smith</span>
-                            </div>
-                            <h2 class="title"><a href="blog-details.html">Why Data Backup and Disaster
-                                Recovery Are Non-Negotiable</a></h2>
-                          </div>
-                        </article>
-                        <article class="sidebar-blog">
-                          <div class="thumb">
-                            <a href="blog-details.html"><img src="assets/imgs/blog/blog-17.html" alt="blog image"></a>
-                          </div>
-                          <div class="content">
-                            <div class="meta">
-                              <span class="author"><i class="fa-regular fa-user"></i>by David Smith</span>
-                            </div>
-                            <h2 class="title"><a href="blog-details.html">What Growing Companies Need
-                                to Know</a></h2>
-                          </div>
-                        </article>
+                        <?php endforeach; ?>
                       </div>
                     </div>
                   </div>
@@ -195,11 +150,11 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Categories</h3>
                     <div class="sidebar-category-box">
                       <ul class="sidebar-category-list">
-                        <li><a href="blog.html">IT Solution <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">SEO Marketing <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">Website Development <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">Cloud Solution <i class="fa-solid fa-arrow-right"></i></a></li>
-                        <li><a href="blog.html">Network Marketing <i class="fa-solid fa-arrow-right"></i></a></li>
+                        <?php 
+                        $stmt_cats = $pdo->query("SELECT category, COUNT(*) as count FROM blogs WHERE deleted_at IS NULL GROUP BY category");
+                        while($cat = $stmt_cats->fetch()): ?>
+                        <li><a href="<?= BASE_URL ?>blog?category=<?= urlencode($cat['category']) ?>"><?= htmlspecialchars($cat['category']) ?> <span class="float-end">(<?= $cat['count'] ?>)</span></a></li>
+                        <?php endwhile; ?>
                       </ul>
                     </div>
                   </div>
@@ -207,12 +162,11 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Gallery</h3>
                     <div class="sidebar-gallery-box">
                       <div class="sidebar-gallery-wrapper">
-                        <img src="assets/imgs/gallery/gallery-39.html" alt="image">
-                        <img src="assets/imgs/gallery/gallery-40.html" alt="image">
-                        <img src="assets/imgs/gallery/gallery-41.html" alt="image">
-                        <img src="assets/imgs/gallery/gallery-42.html" alt="image">
-                        <img src="assets/imgs/gallery/gallery-43.html" alt="image">
-                        <img src="assets/imgs/gallery/gallery-44.html" alt="image">
+                        <?php 
+                        $stmt_gal = $pdo->query("SELECT featured_image, slug FROM blogs WHERE deleted_at IS NULL ORDER BY created_at DESC LIMIT 6");
+                        while($gal = $stmt_gal->fetch()): ?>
+                        <a href="<?= BASE_URL ?>blog/<?= $gal['slug'] ?>"><img src="<?= BASE_URL ?>assets/imgs/blog/<?= htmlspecialchars($gal['featured_image']) ?>" alt="gallery image" style="width: 80px; height: 80px; object-fit: cover;"></a>
+                        <?php endwhile; ?>
                       </div>
                     </div>
                   </div>
@@ -220,14 +174,19 @@ include '../includes/header.php'; ?>
                     <h3 class="sidebar-title">Popular Tags</h3>
                     <div class="sidebar-tags-box">
                       <div class="sidebar-tags">
-                        <a href="blog.html" class="tag">Advice</a>
-                        <a href="blog.html" class="tag">Author</a>
-                        <a href="blog.html" class="tag">Consulting</a>
-                        <a href="blog.html" class="tag">Bizan</a>
-                        <a href="blog.html" class="tag">Family</a>
-                        <a href="blog.html" class="tag">Health</a>
-                        <a href="blog.html" class="tag">Judge</a>
-                        <a href="blog.html" class="tag">Solution</a>
+                        <?php 
+                        $stmt_tags = $pdo->query("SELECT tags FROM blogs WHERE deleted_at IS NULL");
+                        $all_tags = [];
+                        while($trow = $stmt_tags->fetch()) {
+                            $ts = explode(',', $trow['tags']);
+                            foreach($ts as $t) {
+                                $t = trim($t);
+                                if($t && !in_array($t, $all_tags)) $all_tags[] = $t;
+                            }
+                        }
+                        foreach(array_slice($all_tags, 0, 10) as $tag): ?>
+                        <a href="<?= BASE_URL ?>blog?tag=<?= urlencode($tag) ?>" class="tag"><?= htmlspecialchars($tag) ?></a>
+                        <?php endforeach; ?>
                       </div>
                     </div>
                   </div>
@@ -241,3 +200,44 @@ include '../includes/header.php'; ?>
       </main>
 
        <?php include '../includes/footer.php'; ?>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+      let mm = gsap.matchMedia();
+      
+      mm.add("(min-width: 992px)", () => {
+        const sidebar = document.querySelector('.blog-sidebar-wrapper');
+        const container = document.querySelector('.blog-list-area-inner');
+        
+        if (sidebar && container) {
+          ScrollTrigger.create({
+            trigger: sidebar,
+            start: "top 20px",
+            endTrigger: container,
+            // End pinning when the sidebar bottom hits the container bottom
+            end: () => `bottom ${sidebar.offsetHeight + 20}px`,
+            pin: true,
+            pinSpacing: false,
+            invalidateOnRefresh: true,
+            onUpdate: (self) => {
+              if (self.progress === 1) {
+                sidebar.style.zIndex = "1";
+              } else {
+                sidebar.style.zIndex = "5";
+              }
+            }
+          });
+          
+          // Aggressive refresh to ensure all dynamic content/images are loaded
+          window.addEventListener('load', () => {
+            ScrollTrigger.refresh();
+          });
+          setTimeout(() => {
+            ScrollTrigger.refresh();
+          }, 1000);
+        }
+      });
+    }
+  });
+</script>

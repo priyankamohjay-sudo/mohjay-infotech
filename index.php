@@ -28,14 +28,14 @@ include 'includes/header.php'; ?>
                             <span class="hero-subtitle">Driving Digital Advancement</span>
                           </div>
                           <div class="title-wrapper" data-animation="fadeInUp" data-delay=".6s">
-                            <h1 class="hero-title">Transforming Ideas into <span>IT Solutions</span></h1>
+                            <h1 class="hero-title">Code the Future <span>Empower People</span></h1>
                           </div>
                         </div>
                         <div class="text-wrapper" data-animation="fadeInUp" data-delay=".9s">
-                          <p class="text">Our software agency prioritizes lasting collaborations, helping clients achieve continuous growth and long-term business success.</p>
+                          <p class="text">As a reputable IT software company, we are dedicated to forming enduring alliances that support our clients long-term success.</p>
                         </div>
                         <div class="btn-wrapper" data-animation="fadeInUp" data-delay="1.2s">
-                          <a href="about.php" class="rr-btn">
+                          <a href="<?= BASE_URL ?>about" class="rr-btn">
                             <span class="btn-wrap">
                               <span class="text-one">Get Started Now</span>
                               <span class="text-two">Get Started Now</span>
@@ -59,15 +59,15 @@ include 'includes/header.php'; ?>
                             <span class="hero-subtitle">Powering the Future of Digital Innovation</span>
                           </div>
                           <div class="title-wrapper" data-animation="fadeInUp" data-delay=".6s">
-                            <h1 class="hero-title">Elevating Your Business <span>With Industry
-                                Experts</span></h1>
+                            <h1 class="hero-title">Powering Digital <span>Innovation
+                                </span></h1>
                           </div>
                         </div>
                         <div class="text-wrapper" data-animation="fadeInUp" data-delay=".9s">
-                          <p class="text">Our software development company fosters lasting relationships, helping clients achieve sustainable growth and long-term business performance.</p>
+                          <p class="text">In order to help clients achieve long-term business performance and sustainable growth, our software development company cultivates enduring relationships.</p>
                         </div>
                         <div class="btn-wrapper" data-animation="fadeInUp" data-delay="1.2s">
-                          <a href="contact.html" class="rr-btn">
+                          <a href="<?= BASE_URL ?>contact" class="rr-btn">
                             <span class="btn-wrap">
                               <span class="text-one">Get Started Now</span>
                               <span class="text-two">Get Started Now</span>
@@ -114,11 +114,11 @@ include 'includes/header.php'; ?>
                         Comapny</span><span class="end-shape"></span></span>
                   </div>
                   <div class="title-wrapper">
-                    <h2 class="section-title">Established Enterprises Ensuring Operational Excellence</h2>
+                    <h2 class="section-title">Delivering Operational Excellence for Established Enterprises</h2>
                   </div>
                 </div>
                 <div class="text-wrapper">
-                  <p class="text">Recognized as a leading software agency in India, we specialize in building innovative, bespoke solutions that match your exact requirements. From early-stage ventures, we deliver efficient, industry-spanning technology solutions that drive impact.</p>
+                  <p class="text">Well-Known Businesses Maintaining Operational Excellence Being a top software agency in India, we are experts at creating custom, cutting-edge solutions that precisely meet your needs. We provide effective, sector-spanning technology solutions that have an impact, starting with early-stage endeavors.</p>
                 </div>
                 <div class="features-wrapper-box">
                   <div class="features-wrapper">
@@ -128,7 +128,7 @@ include 'includes/header.php'; ?>
                       </div>
                       <div class="content">
                         <h3 class="title">Sustainable Growth Targets</h3>
-                        <p class="text">Architect and deploy tailored digital strategies that empower business performance, guaranteeing efficient integration, future-ready scalability, and alignment.</p>
+                        <p class="text">Create and implement customized digital strategies that enhance business performance while ensuring alignment, future-ready scalability, and effective integration.</p>
                       </div>
                     </div>
                     <div class="feature-box">
@@ -137,13 +137,13 @@ include 'includes/header.php'; ?>
                       </div>
                       <div class="content">
                         <h3 class="title">Assess Market Competition</h3>
-                        <p class="text">Capitalize on intelligent analytics and AI-driven intelligence to detect emerging opportunities, and build forward-looking strategies that fuel consistent business expansion.</p>
+                        <p class="text">Make use of AI-driven intelligence and intelligent analytics to identify new opportunities and develop forward-thinking plans that support steady business growth.</p>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="btn-wrapper">
-                  <a href="about.php" class="rr-btn">
+                  <a href="<?= BASE_URL ?>about" class="rr-btn">
                     <span class="btn-wrap">
                       <span class="text-one">About Us<i class="fa-solid fa-arrow-right"></i></span>
                       <span class="text-two">About Us<i class="fa-solid fa-arrow-right"></i></span>
@@ -157,85 +157,62 @@ include 'includes/header.php'; ?>
         </section>
         <!-- about area end -->
 
-        <!-- service area start -->
-        <section class="service-area">
-          <div class="service-area-bg">
-            <img src="assets/imgs/gallery/gallery-4.webp" alt="image">
-          </div>
+         <!-- cta-2 area start  -->
+        <section class="cta-2-area ">
           <div class="container rr-container-1410">
-            <div class="service-area-inner section-spacing">
-              <div class="service-header fade-anim">
+            <div class="cta-2-area-inner fade-anim">
+
+              <div class="cta-2-content">
                 <div class="section-title-wrapper">
+
                   <div class="subtitle-wrapper">
-                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Service We
-                        Offer</span><span class="end-shape"></span></span>
+                    <span class="section-subtitle">
+                      <span class="start-shape"></span>
+                      <span class="text">ACCESS OUR WEB PLATFORM</span>
+                      <span class="end-shape"></span>
+                    </span>
                   </div>
+
                   <div class="title-wrapper">
-                    <h2 class="section-title">Our Demanding Services</h2>
+                    <h2 class="section-title text-white">
+                      Open The Web Version And Get Started Instantly Across Our Platform
+                    </h2>
                   </div>
+
+                </div>
+
+                <div class="btn-wrapper">
+                  <!-- MAIN BUTTON -->
+                  <!-- <a href="#" class="rr-btn">
+                    <span class="btn-wrap">
+                      <span class="text-one"><i class="fa-solid fa-download"></i>Download Desktop Software</span>
+                      <span class="text-two"><i class="fa-solid fa-download"></i>Download Desktop Software</span>
+                    </span>
+                  </a> -->
+
+                  <!-- VERSION INFO -->
+               <a href="https://erp.mohjayinfotech.com/login" class="rr-btn" target="_blank">
+                <span class="btn-wrap">
+                  <span class="text-one">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Web Version
+                  </span>
+                  <span class="text-two">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Web Version
+                  </span>
+                </span>
+              </a>
+
                 </div>
               </div>
-              <div class="services-wrapper-box">
-                <div class="services-wrapper">
-                  <div class="service-box fade-anim">
-                    <div class="thumb">
-                      <div class="service-logo">
-                        <img src="assets/imgs/icon/icon-1.webp" alt="image">
-                      </div>
-                      <a class="service-btn" href="service-details.html">
-                        <span class="btn-text">Read More</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                      </a>
-                      <a href="service-details.html"> <img class="main-img" src="assets/imgs/service/service-1.webp"
-                          alt="image"></a>
-                    </div>
-                    <div class="content">
-                      <h3 class="title"><a href="service-details.html">Web Development</a></h3>
-                      <p class="text">Custom, responsive, scalable website solutions.</p>
-                    </div>
-                  </div>
-                  <div class="service-box fade-anim">
-                    <div class="thumb">
-                      <div class="service-logo">
-                        <img src="assets/imgs/icon/icon-2.webp" alt="image">
-                      </div>
-                      <a class="service-btn" href="service-details.html">
-                        <span class="btn-text">Read More</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                      </a>
-                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-2.webp"
-                          alt="image"></a>
-                    </div>
-                    <div class="content">
-                      <h3 class="title"><a href="service-details.html">Digital Marketing</a></h3>
-                      <p class="text">Targeted, data-driven, growth-focused digital marketing</p>
-                    </div>
-                  </div>
-                  <div class="service-box fade-anim">
-                    <div class="thumb">
-                      <div class="service-logo">
-                        <img src="assets/imgs/icon/icon-3.webp" alt="image">
-                      </div>
-                      <a class="service-btn" href="service-details.html">
-                        <span class="btn-text">Read More</span>
-                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                      </a>
-                      <a href="service-details.html"><img class="main-img" src="assets/imgs/service/service-3.webp"
-                          alt="image"></a>
 
-
-                    </div>
-                    <div class="content">
-                      <h3 class="title"><a href="service-details.html">App Development</a></h3>
-                      <p class="text">Innovative, user-friendly, high-performance mobile applications.</p>
-                    </div>
-                  </div>
-                </div>
+              <div class="cta-2-thumb">
+                <img class="img-reveal-anim" src="assets/imgs/gallery/gallery-17.webp" alt="software"/>
               </div>
+
             </div>
           </div>
         </section>
-        <!-- service area end -->
+        <!-- cta-2 area end  -->
 
           <!-- brand area start  -->
         <div class="brand-area">
@@ -350,7 +327,7 @@ include 'includes/header.php'; ?>
                         <div class="swiper-slide">
                           <div class="project-5-box">
                             <div class="thumb">
-                              <a href="project-details.html"
+                              <a href="https://miskills.in/" target="_blank"
                                 ><img
                                   src="assets/imgs/project/miskills-project.webp"
                                   alt="image"
@@ -359,14 +336,13 @@ include 'includes/header.php'; ?>
                             <div class="content-wrapper">
                               <div class="content">
                                 <h3 class="title">
-                                  <a href="project-details.html"
-                                    >Mi Skills</a
+                                  <a href="https://miskills.in/" target="_blank">Mi Skills</a
                                   >
                                 </h3>
                                 <span class="tag">Step Into Your Future Career</span>
                               </div>
                               <a
-                                href="project-details.html"
+                                href="https://miskills.in/" target="_blank"
                                 class="details-btn"
                               >
                                 <i class="fa-solid fa-eye"></i>
@@ -377,7 +353,7 @@ include 'includes/header.php'; ?>
                         <div class="swiper-slide">
                           <div class="project-5-box">
                             <div class="thumb">
-                              <a href="project-details.html"
+                              <a href="<?= BASE_URL ?>project/citizen"
                                 ><img
                                   src="assets/imgs/project/project-16.webp"
                                   alt="image"
@@ -386,14 +362,14 @@ include 'includes/header.php'; ?>
                             <div class="content-wrapper">
                               <div class="content">
                                 <h3 class="title">
-                                  <a href="project-details.html"
+                                  <a href="<?= BASE_URL ?>project/citizen"
                                     >Citizen</a
                                   >
                                 </h3>
                                 <span class="tag">Coming Soon</span>
                               </div>
                               <a
-                                href="project-details.html"
+                                href="<?= BASE_URL ?>project/citizen"
                                 class="details-btn"
                               >
                                 <i class="fa-solid fa-eye"></i>
@@ -486,6 +462,86 @@ include 'includes/header.php'; ?>
         </section>
         <!-- progress area end  -->
 
+          <!-- service area start -->
+        <section class="service-area">
+          <div class="service-area-bg">
+            <img src="assets/imgs/gallery/gallery-4.webp" alt="image">
+          </div>
+          <div class="container rr-container-1410">
+            <div class="service-area-inner section-spacing">
+              <div class="service-header fade-anim">
+                <div class="section-title-wrapper">
+                  <div class="subtitle-wrapper">
+                    <span class="section-subtitle"><span class="start-shape"></span><span class="text">Service We
+                        Offer</span><span class="end-shape"></span></span>
+                  </div>
+                  <div class="title-wrapper">
+                    <h2 class="section-title">Our Demanding Services</h2>
+                  </div>
+                </div>
+              </div>
+              <div class="services-wrapper-box">
+                <div class="services-wrapper">
+                  <div class="service-box fade-anim">
+                    <div class="thumb">
+                      <div class="service-logo">
+                        <img src="assets/imgs/icon/icon-1.webp" alt="image">
+                      </div>
+                      <a class="service-btn" href="services/web-development">
+                        <span class="btn-text">Read More</span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                      <a href="services/web-development"> <img class="main-img" src="assets/imgs/service/service-1.webp"
+                          alt="image"></a>
+                    </div>
+                    <div class="content">
+                      <h3 class="title"><a href="services/web-development">Web Development</a></h3>
+                      <p class="text">Custom, responsive, scalable website solutions.</p>
+                    </div>
+                  </div>
+                  <div class="service-box fade-anim">
+                    <div class="thumb">
+                      <div class="service-logo">
+                        <img src="assets/imgs/icon/icon-2.webp" alt="image">
+                      </div>
+                      <a class="service-btn" href="services/digital-marketing">
+                        <span class="btn-text">Read More</span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                      <a href="services/digital-marketing"><img class="main-img" src="assets/imgs/service/service-2.webp"
+                          alt="image"></a>
+                    </div>
+                    <div class="content">
+                      <h3 class="title"><a href="services/digital-marketing">Digital Marketing</a></h3>
+                      <p class="text">Targeted, data-driven, growth-focused digital marketing</p>
+                    </div>
+                  </div>
+                  <div class="service-box fade-anim">
+                    <div class="thumb">
+                      <div class="service-logo">
+                        <img src="assets/imgs/icon/icon-3.webp" alt="image">
+                      </div>
+                      <a class="service-btn" href="services/app-development">
+                        <span class="btn-text">Read More</span>
+                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
+                      </a>
+                      <a href="services/app-development"><img class="main-img" src="assets/imgs/service/service-3.webp"
+                          alt="image"></a>
+
+
+                    </div>
+                    <div class="content">
+                      <h3 class="title"><a href="services/app-development">App Development</a></h3>
+                      <p class="text">Innovative, user-friendly, high-performance mobile applications.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- service area end -->
+
         <!-- testimonial area start -->
         <section class="testimonial-area">
           <div class="testimonial-area-bg">
@@ -515,7 +571,7 @@ include 'includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-1.webp" alt="image">
+                            <img src="assets/imgs/client/3_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Ankit Jain</h3>
@@ -545,7 +601,7 @@ include 'includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-2.webp" alt="image">
+                            <img src="assets/imgs/client/6_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Kavita Nair</h3>
@@ -575,7 +631,7 @@ include 'includes/header.php'; ?>
                       <div class="content">
                         <div class="author">
                           <div class="avatar">
-                            <img src="assets/imgs/client/client-3.webp" alt="image">
+                            <img src="assets/imgs/client/1_high.webp" alt="image">
                           </div>
                           <div class="meta">
                             <h3 class="name">Aditi Rao</h3>
@@ -584,6 +640,98 @@ include 'includes/header.php'; ?>
                         </div>
                         <div class="text-wrapper">
                          <p class="text">“Mohjay Infotech delivered outstanding results for our website and app development. They enhanced performance, optimized features, and ensured everything works seamlessly across platforms. The improvements have strengthened our workflow and supported our business growth. Their team is knowledgeable, responsive, and committed to delivering high-quality work on time. We are very satisfied with their service and would gladly recommend them to businesses looking for dependable and professional technology partners.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/review-7.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Aman Verma</h3>
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“My internship at Mohjay Infotech was a great learning experience that helped me build strong technical skills and confidence. The team provided proper guidance and allowed me to work on real projects, which gave me practical industry exposure. I also attended live classes conducted directly by Mohjay through their online video sessions, where concepts were explained clearly with real-time interaction. Mohjay Infotech truly focuses on student growth and provides the right direction for starting a successful career.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/review-6.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Neha Gupta</h3>
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“I attended live classes conducted by Mohjay Infotech through their online sessions, and the experience was very helpful. The classes were well-structured and focused on practical learning. Mentors explained each concept clearly and ensured that every topic was easy to understand. It is a great platform for students who want to improve their skills with proper guidance and real-time learning.”</p>
+                        </div>
+                        <div class="icon-n-rating">
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                          <div class="icon">
+                            <img class="quote-icon" src="assets/imgs/icon/icon-4.webp" alt="Quote Icon">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="content">
+                        <div class="author">
+                          <div class="avatar">
+                            <img src="assets/imgs/client/review-5.webp" alt="image">
+                          </div>
+                          <div class="meta">
+                            <h3 class="name">Rohit Sharma</h3>
+                          </div>
+                        </div>
+                        <div class="text-wrapper">
+                          <p class="text">“I connected with Mohjay Infotech to improve my digital marketing skills, and the experience has been very positive. Their team guided me with proper strategies, tools, and practical knowledge that helped me understand how real marketing works. From SEO basics to social media growth, everything was explained clearly. Mohjay Infotech is a reliable place for students who want to learn and grow in the digital marketing field.”</p>
                         </div>
                         <div class="icon-n-rating">
                           <div class="rating">
@@ -609,7 +757,7 @@ include 'includes/header.php'; ?>
         <!-- testimonial area end -->
 
         <!-- process area start -->
-        <section class="process-area">
+        <section class="process-area bg-white">
           <div class="container rr-container-1410">
             <div class="process-area-inner section-spacing">
               <div class="process-header fade-anim">
@@ -699,7 +847,7 @@ include 'includes/header.php'; ?>
                   <p class="text">We help students, freshers, and aspiring professionals build real-world skills through practical training and live projects. Learn, build, and grow with industry-focused programs designed to make you job-ready.</p>
                 </div>
                 <div class="btn-wrapper">
-                  <a href="contact.html" class="rr-btn">
+                  <a href="<?= BASE_URL ?>contact" class="rr-btn">
                     <span class="btn-wrap">
                       <span class="text-one">Get Started</span>
                       <span class="text-two">Get Started</span>
@@ -752,7 +900,7 @@ include 'includes/header.php'; ?>
                     </p>
                   </div>
                   <div class="btn-wrapper">
-                    <a href="service.html" class="rr-btn">
+                    <a href="<?= BASE_URL ?>blog" class="rr-btn">
                       <span class="btn-wrap">
                         <span class="text-one"
                           >View More Blogs
@@ -768,22 +916,24 @@ include 'includes/header.php'; ?>
                 </div>
                 <div class="blog-3-wrapper-box">
                   <div class="blog-3-wrapper">
+                    <?php 
+                    $stmt_home_blogs = $pdo->prepare("SELECT * FROM blogs WHERE deleted_at IS NULL ORDER BY created_at DESC LIMIT 2");
+                    $stmt_home_blogs->execute();
+                    $home_blogs = $stmt_home_blogs->fetchAll();
+                    foreach ($home_blogs as $hblog): ?>
                     <article class="blog-3 fade-anim">
                       <div class="thumb">
-                        <a href="blog-details.html"
-                          ><img src="assets/imgs/blog/blog-7.webp" alt="blog image"/></a>
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($hblog['slug']) ?>"
+                          ><img src="<?= BASE_URL ?>assets/imgs/blog/<?= htmlspecialchars($hblog['featured_image']) ?>" alt="<?= htmlspecialchars($hblog['title']) ?>"/></a>
                       </div>
                       <div class="content">
-                        <div class="meta">
-                          
-                         
-                        </div>
+                        <div class="meta"></div>
                         <h2 class="title">
-                          <a href="blog-details.html"
-                            >Cross-Platform Apps: Shaping the Future of Mobile Development</a
+                          <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($hblog['slug']) ?>"
+                            ><?= htmlspecialchars($hblog['title']) ?></a
                           >
                         </h2>
-                        <a href="blog-details.html" class="rr-btn">
+                        <a href="<?= BASE_URL ?>blog/<?= htmlspecialchars($hblog['slug']) ?>" class="rr-btn">
                           <span class="btn-wrap">
                             <span class="text-one">Read More</span>
                             <span class="text-two">Read More</span>
@@ -791,27 +941,7 @@ include 'includes/header.php'; ?>
                         </a>
                       </div>
                     </article>
-                    <article class="blog-3 fade-anim">
-                      <div class="thumb">
-                        <a href="blog-details.html"><img src="assets/imgs/blog/blog-8.webp" alt="blog image"/></a>
-                      </div>
-                      <div class="content">
-                        <div class="meta">
-                         
-                        </div>
-                        <h2 class="title">
-                          <a href="blog-details.html"
-                            >Understanding the NIST Cybersecurity Framework: A Complete Guide</a
-                          >
-                        </h2>
-                        <a href="blog-details.html" class="rr-btn">
-                          <span class="btn-wrap">
-                            <span class="text-one">Read More</span>
-                            <span class="text-two">Read More</span>
-                          </span>
-                        </a>
-                      </div>
-                    </article>
+                    <?php endforeach; ?>
                   </div>
                 </div>
               </div>

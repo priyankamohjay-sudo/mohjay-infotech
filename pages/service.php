@@ -55,11 +55,11 @@ include '../includes/header.php'; ?>
          <div class="services-4-wrapper">
                   <div class="service-4-box fade-anim">
                     <div class="content">
-                      <h3 class="title"><a href="web-development.php">Web Development Service</a></h3>
+                      <h3 class="title"><a href="services/web-development">Web Development Service</a></h3>
                       <p class="text">Corporate websites to e-commerce platforms, we create high-performing digital experiences that strengthen your online presence and drive measurable results.</p>
                     </div>
                     <div class="thumb">
-                      <a href="web-development.php"> <img src="assets/imgs/service/service-7.webp" alt="image"></a>
+                      <a href="services/web-development"> <img src="assets/imgs/service/service-7.webp" alt="image"></a>
                     </div>
                     <ul class="feature-list">
                       <li><i class="fa-regular fa-shield-check"></i>Responsive & Mobile-First Design</li>
@@ -68,7 +68,7 @@ include '../includes/header.php'; ?>
                     </ul>
                     <p class="text fw-bold">Build a Website That Works for Your Business.</p>
                     <div class="btn-wrapper">
-                      <a href="web-development.php" class="rr-btn">
+                      <a href="services/web-development" class="rr-btn">
                         <span class="btn-wrap">
                           <span class="text-one">Read More <i class="fa-solid fa-arrow-right"></i></span>
                           <span class="text-two">Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -78,11 +78,11 @@ include '../includes/header.php'; ?>
                   </div>
                   <div class="service-4-box fade-anim">
                     <div class="content">
-                      <h3 class="title"><a href="digital-marketing.php">Digital Marketing Service</a></h3>
+                      <h3 class="title"><a href="services/digital-marketing">Digital Marketing Service</a></h3>
                       <p class="text">SEO to paid advertising, we help businesses grow with measurable and performance-focused campaigns.</p>
                     </div>
                     <div class="thumb">
-                      <a href="digital-marketing.php"> <img src="assets/imgs/service/service-8.webp" alt="image"></a>
+                      <a href="services/digital-marketing"> <img src="assets/imgs/service/service-8.webp" alt="image"></a>
                     </div>
                     <ul class="feature-list">
                       <li><i class="fa-regular fa-shield-check"></i>Search Engine Optimization (SEO)</li>
@@ -91,7 +91,7 @@ include '../includes/header.php'; ?>
                     </ul>
                     <p class="text fw-bold">Accelerate Your Growth with Result-Driven Digital Marketing.</p>
                     <div class="btn-wrapper">
-                      <a href="digital-marketing.php" class="rr-btn">
+                      <a href="services/digital-marketing" class="rr-btn">
                         <span class="btn-wrap">
                           <span class="text-one">Read More <i class="fa-solid fa-arrow-right"></i></span>
                           <span class="text-two">Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -101,11 +101,11 @@ include '../includes/header.php'; ?>
                   </div>
                   <div class="service-4-box fade-anim">
                     <div class="content">
-                      <h3 class="title"><a href="app-development.php">App Development Service</a></h3>
+                      <h3 class="title"><a href="services/app-development">App Development Service</a></h3>
                       <p class="text">We design and develop powerful, user-friendly mobile applications that help businesses connect, engage, and grow. From concept to deployment, our apps are built for performance, security, and seamless user experience.</p>
                     </div>
                     <div class="thumb">
-                      <a href="app-development.php"> <img src="assets/imgs/service/service-9.webp" alt="image"></a>
+                      <a href="services/app-development"> <img src="assets/imgs/service/service-9.webp" alt="image"></a>
                     </div>
                     <ul class="feature-list">
                       <li><i class="fa-regular fa-shield-check"></i>iOS & Android App Development</li>
@@ -114,7 +114,7 @@ include '../includes/header.php'; ?>
                     </ul>
                     <p class="text fw-bold">Transform Your Ideas into Impactful Mobile Experiences.</p>
                     <div class="btn-wrapper">
-                      <a href="app-development.php" class="rr-btn">
+                      <a href="services/app-development" class="rr-btn">
                         <span class="btn-wrap">
                           <span class="text-one">Read More <i class="fa-solid fa-arrow-right"></i></span>
                           <span class="text-two">Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -124,11 +124,11 @@ include '../includes/header.php'; ?>
                   </div>
                   <div class="service-4-box fade-anim">
                     <div class="content">
-                      <h3 class="title"><a href="social-media-optimization.php">Search Engine Optimization</a></h3>
+                      <h3 class="title"><a href="services/social-media-optimization">Search Engine Optimization</a></h3>
                       <p class="text">Our strategic SEO approach focuses on improving visibility, driving targeted traffic, and increasing long-term growth.</p>
                     </div>
                     <div class="thumb">
-                      <a href="social-media-optimization.php"> <img src="assets/imgs/service/service-10.webp" alt="image"></a>
+                      <a href="services/social-media-optimization"> <img src="assets/imgs/service/service-10.webp" alt="image"></a>
                     </div>
                     <ul class="feature-list">
                       <li><i class="fa-regular fa-shield-check"></i>Keyword Research & On-Page Optimization</li>
@@ -137,7 +137,7 @@ include '../includes/header.php'; ?>
                     </ul>
                     <p class="text fw-bold">Improve Rankings. Increase Traffic. Grow Organically.</p>
                     <div class="btn-wrapper">
-                      <a href="social-media-optimization.php" class="rr-btn">
+                      <a href="services/social-media-optimization" class="rr-btn">
                         <span class="btn-wrap">
                           <span class="text-one">Read More <i class="fa-solid fa-arrow-right"></i></span>
                           <span class="text-two">Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -147,11 +147,11 @@ include '../includes/header.php'; ?>
                   </div>
                   <div class="service-4-box fade-anim">
                     <div class="content">
-                      <h3 class="title"><a href="graphic-designing.php">Graphic Designing Service</a></h3>
+                      <h3 class="title"><a href="services/graphic-designing">Graphic Designing Service</a></h3>
                       <p class="text">We create visually compelling designs that communicate your brand message effectively. From digital creatives to branding materials, our designs are crafted to capture attention and leave a lasting impression.</p>
                     </div>
                     <div class="thumb">
-                      <a href="graphic-designing.php"> <img src="assets/imgs/service/service-11.webp" alt="image"></a>
+                      <a href="services/graphic-designing"> <img src="assets/imgs/service/service-11.webp" alt="image"></a>
                     </div>
                     <ul class="feature-list">
                       <li><i class="fa-regular fa-shield-check"></i>Logo & Brand Identity Design</li>
@@ -160,7 +160,7 @@ include '../includes/header.php'; ?>
                     </ul>
                     <p class="text fw-bold">Designs That Speak, Brands That Stand Out.</p>
                     <div class="btn-wrapper">
-                      <a href="graphic-designing.php" class="rr-btn">
+                      <a href="services/graphic-designing" class="rr-btn">
                         <span class="btn-wrap">
                           <span class="text-one">Read More <i class="fa-solid fa-arrow-right"></i></span>
                           <span class="text-two">Read More <i class="fa-solid fa-arrow-right"></i></span>
@@ -170,11 +170,11 @@ include '../includes/header.php'; ?>
                   </div>
                   <div class="service-4-box fade-anim">
                     <div class="content">
-                      <h3 class="title"><a href="social-media-marketing.php">Social Media Marketing</a></h3>
+                      <h3 class="title"><a href="services/social-media-marketing">Social Media Marketing</a></h3>
                       <p class="text">We help brands build strong digital presence and meaningful audience engagement across social platforms. Our strategic campaigns focus on increasing visibility, driving traffic, and generating high-quality leads.</p>
                     </div>
                     <div class="thumb">
-                      <a href="social-media-marketing.php"> <img src="assets/imgs/service/service-12.webp" alt="image"></a>
+                      <a href="services/social-media-marketing"> <img src="assets/imgs/service/service-12.webp" alt="image"></a>
                     </div>
                     <ul class="feature-list">
                       <li><i class="fa-regular fa-shield-check"></i>Content Creation & Brand Positioning</li>
@@ -183,7 +183,7 @@ include '../includes/header.php'; ?>
                     </ul>
                     <p class="text fw-bold">Engage. Influence. Convert.</p>
                     <div class="btn-wrapper">
-                      <a href="social-media-marketing.php" class="rr-btn">
+                      <a href="services/social-media-marketing" class="rr-btn">
                         <span class="btn-wrap">
                           <span class="text-one">Read More <i class="fa-solid fa-arrow-right"></i></span>
                           <span class="text-two">Read More <i class="fa-solid fa-arrow-right"></i></span>
