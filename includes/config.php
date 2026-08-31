@@ -1,5 +1,8 @@
 <?php
 
+// Toggle Maintenance Mode (true = enabled, false = disabled)
+define('MAINTENANCE_MODE', true);
+
 // Include composer autoloader
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -40,6 +43,44 @@ function log_error($message) {
     $ip = $_SERVER['REMOTE_ADDR'] ?? 'unknown';
     $formatted_message = "[$timestamp] [IP: $ip] $message" . PHP_EOL;
     file_put_contents($log_file, $formatted_message, FILE_APPEND);
+}
+
+// Maintenance Mode Check
+if (defined('MAINTENANCE_MODE') && MAINTENANCE_MODE) {
+    // Exclude admin panel files from being blocked (allows admin access during maintenance)
+    $current_script = $_SERVER['SCRIPT_NAME'] ?? '';
+    $is_admin = (strpos($current_script, '/admin/') !== false);
+    
+    if (!$is_admin) {
+        header('HTTP/1.1 503 Service Temporarily Unavailable');
+        header('Status: 503 Service Temporarily Unavailable');
+        header('Retry-After: 3600');
+
+        // Check if it is an AJAX or JSON request
+        $is_json = (
+            (isset($_SERVER['HTTP_ACCEPT']) && strpos($_SERVER['HTTP_ACCEPT'], 'application/json') !== false) || 
+            (isset($_SERVER['CONTENT_TYPE']) && strpos($_SERVER['CONTENT_TYPE'], 'application/json') !== false) ||
+            (isset($_SERVER['HTTP_X_REQUESTED_WITH']) && strcasecmp($_SERVER['HTTP_X_REQUESTED_WITH'], 'xmlhttprequest') === 0)
+        );
+
+        if ($is_json) {
+            header('Content-Type: application/json');
+            echo json_encode([
+                'status' => 'maintenance',
+                'message' => 'The website is currently undergoing scheduled maintenance. Please try again later.'
+            ]);
+            exit;
+        }
+
+        // Display maintenance page
+        $maintenance_file = dirname(__DIR__) . '/maintenance.php';
+        if (file_exists($maintenance_file)) {
+            require_once $maintenance_file;
+        } else {
+            echo '<h1>Under Maintenance</h1><p>Our website is temporarily offline for scheduled maintenance. Please check back later.</p>';
+        }
+        exit;
+    }
 }
 
 // Include database connection
